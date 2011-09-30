@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\bin\NHibernate.Burrow.TestWeb.UnitTest.dll" total="14" failures="14" not-run="0" date="2011-03-12" time="03:01:07">
+  <environment nunit-version="2.2.8.0" clr-version="2.0.50727.3615" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="D:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow" machine-name="VINCENT" user="VincentZhang" user-domain="VINCENT" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="D:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\bin\NHibernate.Burrow.TestWeb.UnitTest.dll" success="False" time="60.141" asserts="0">
+    <results>
+      <test-suite name="NHibernate" success="False" time="60.141" asserts="0">
+        <results>
+          <test-suite name="NHibernate.Burrow" success="False" time="60.141" asserts="0">
+            <results>
+              <test-suite name="NHibernate.Burrow.TestWeb" success="False" time="60.141" asserts="0">
+                <results>
+                  <test-suite name="NHibernate.Burrow.TestWeb.UnitTest" success="False" time="60.141" asserts="0">
+                    <results>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture" success="False" time="28.578" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture.CommitInBusinessTransactionTest" executed="True" success="False" time="8.797" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture.CommitInLongDBTransactionTest" executed="True" success="False" time="4.031" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture.CommitInNonAtmoicTest" executed="True" success="False" time="3.953" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture.CancelTest" executed="True" success="False" time="4.016" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture.LazyLoadInConversationTest" executed="True" success="False" time="3.859" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.ConversationStatesFixture.SpanByUrlTest" executed="True" success="False" time="3.922" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.CustomerErrorHandlingFixture" success="False" time="3.922" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.CustomerErrorHandlingFixture.Test" executed="True" success="False" time="3.922" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.FrameFixture" success="False" time="3.984" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.FrameFixture.Test" executed="True" success="False" time="3.984" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.GridViewEventsFixture" success="False" time="3.922" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.GridViewEventsFixture.Test" executed="True" success="False" time="3.922" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.IgnoreStatefulFieldTest" success="False" time="3.953" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.IgnoreStatefulFieldTest.Test" executed="True" success="False" time="3.953" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.MasterPageFixture" success="False" time="3.938" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.MasterPageFixture.Test" executed="True" success="False" time="3.938" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.PropagationFixture" success="False" time="3.953" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.PropagationFixture.Test" executed="True" success="False" time="3.953" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.RedirectionFixture" success="False" time="3.938" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.RedirectionFixture.Test" executed="True" success="False" time="3.938" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                      <test-suite name="NHibernate.Burrow.TestWeb.UnitTest.StatefulFieldInDynamicallyLoadControlsTest" success="False" time="3.938" asserts="0">
+                        <results>
+                          <test-case name="NHibernate.Burrow.TestWeb.UnitTest.StatefulFieldInDynamicallyLoadControlsTest.Test" executed="True" success="False" time="3.938" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ComponentModel.Win32Exception : The system cannot find the file specified]]></message>
+                              <stack-trace><![CDATA[   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at NHibernate.Burrow.TestWeb.UnitTest.TestBase.SetUp() in d:\SourceCode\OpenSource\NHContrib\src\NHibernate.Burrow\src\NHibernate.Burrow.TestWeb.UnitTest\TestBase.cs:line 58
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

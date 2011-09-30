@@ -1,0 +1,77 @@
+2011-03-13 00:23:23,828 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbName(tbName)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallName(lName)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbNumber(tbNumber)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallNumber(lNumber)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnSave(btnSave)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnRefresh(btnRefresh)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnCreate(btnCreate)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnDelete(btnDelete)
+2011-03-13 00:23:23,875 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.PlaceHolderNHibernate.Burrow.WebUtil.GlobalPlaceHolder(NHibernate.Burrow.WebUtil.GlobalPlaceHolder)
+2011-03-13 00:23:42,203 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Injecting values for StatefulFields
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbName(tbName)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallName(lName)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbNumber(tbNumber)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallNumber(lNumber)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnSave(btnSave)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnRefresh(btnRefresh)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnCreate(btnCreate)
+2011-03-13 00:23:42,218 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnDelete(btnDelete)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - NHibernate.Burrow.WebUtil.Attributes.EntityFieldDeletionSafe "me"'s valueSystem.Object[] is retrieved from control __Page
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbName(tbName)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallName(lName)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbNumber(tbNumber)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallNumber(lNumber)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnSave(btnSave)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnRefresh(btnRefresh)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnCreate(btnCreate)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnDelete(btnDelete)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.PlaceHolderNHibernate.Burrow.WebUtil.GlobalPlaceHolder(NHibernate.Burrow.WebUtil.GlobalPlaceHolder)
+2011-03-13 00:23:42,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - SaveStates:state.Key:me,value:/wEUKwACAgEZKX1OSGliZXJuYXRlLkJ1cnJvdy5UZXN0Lk1vY2tFbnRpdGllcy5Nb2NrRW50aXR5LCBOSGliZXJuYXRlLkJ1cnJvdy5UZXN0LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbA==
+2011-03-13 00:23:52,156 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - StateBag:__Page,keys[2]:me,key.value:/wEUKwACAgEZKX1OSGliZXJuYXRlLkJ1cnJvdy5UZXN0Lk1vY2tFbnRpdGllcy5Nb2NrRW50aXR5LCBOSGliZXJuYXRlLkJ1cnJvdy5UZXN0LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbA==
+2011-03-13 00:23:52,156 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Injecting values for StatefulFields
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - NHibernate.Burrow.WebUtil.Attributes.EntityFieldDeletionSafe "me"'s value 1 has been restored in control __Page
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbName(tbName)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallName(lName)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbNumber(tbNumber)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallNumber(lNumber)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnSave(btnSave)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnRefresh(btnRefresh)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnCreate(btnCreate)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnDelete(btnDelete)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - NHibernate.Burrow.WebUtil.Attributes.EntityFieldDeletionSafe "me"'s valueSystem.Object[] is retrieved from control __Page
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbName(tbName)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallName(lName)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbNumber(tbNumber)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallNumber(lNumber)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnSave(btnSave)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnRefresh(btnRefresh)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnCreate(btnCreate)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnDelete(btnDelete)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.PlaceHolderNHibernate.Burrow.WebUtil.GlobalPlaceHolder(NHibernate.Burrow.WebUtil.GlobalPlaceHolder)
+2011-03-13 00:23:52,296 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - SaveStates:state.Key:me,value:/wEUKwACAgEZKX1OSGliZXJuYXRlLkJ1cnJvdy5UZXN0Lk1vY2tFbnRpdGllcy5Nb2NrRW50aXR5LCBOSGliZXJuYXRlLkJ1cnJvdy5UZXN0LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbA==
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - StateBag:__Page,keys[2]:me,key.value:/wEUKwACAgEZKX1OSGliZXJuYXRlLkJ1cnJvdy5UZXN0Lk1vY2tFbnRpdGllcy5Nb2NrRW50aXR5LCBOSGliZXJuYXRlLkJ1cnJvdy5UZXN0LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbA==
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Injecting values for StatefulFields
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - NHibernate.Burrow.WebUtil.Attributes.EntityFieldDeletionSafe "me"'s value 1 has been restored in control __Page
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbName(tbName)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallName(lName)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.TextBoxtbNumber(tbNumber)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.LiterallNumber(lNumber)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnSave(btnSave)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnRefresh(btnRefresh)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnCreate(btnCreate)
+2011-03-13 00:23:56,593 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.ButtonbtnDelete(btnDelete)
