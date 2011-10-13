@@ -42,7 +42,7 @@ namespace NHibernate.Burrow.TestWeb.UnitTest
             if (!IsWebStarted)
             {
                 // If not start it
-                string command = Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "WebDev.WebServer.EXE");
+                string command = @"C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE";
 
                 string rootPhyPath = Environment.CurrentDirectory.Remove( Environment.CurrentDirectory.IndexOf(@".UnitTest")) ;
                     
