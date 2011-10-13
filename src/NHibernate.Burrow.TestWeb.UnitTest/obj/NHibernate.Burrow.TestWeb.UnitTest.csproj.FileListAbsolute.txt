@@ -25,3 +25,12 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\obj\Debug\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\obj\Debug\NHibernate.Burrow.TestWeb.UnitTest.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\obj\Debug\NHibernate.Burrow.TestWeb.UnitTest.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\bin\Release\NHibernate.Burrow.TestWeb.UnitTest.dll.config
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\bin\Release\NHibernate.Burrow.TestWeb.UnitTest.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\bin\Release\NHibernate.Burrow.TestWeb.UnitTest.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\bin\Release\Interop.SHDocVw.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\bin\Release\nunit.framework.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\bin\Release\WatiN.Core.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\obj\Release\NHibernate.Burrow.TestWeb.UnitTest.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest\obj\Release\NHibernate.Burrow.TestWeb.UnitTest.pdb

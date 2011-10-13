@@ -4,13 +4,102 @@
         <name>NHibernate.Burrow.AppBlock</name>
     </assembly>
     <members>
-        <member name="T:NHibernate.Burrow.AppBlock.DynQuery.From">
+        <member name="T:NHibernate.Burrow.AppBlock.Serialization.Cloner">
             <summary>
-            The class that represent the "from" clause of a HQL/SQL.
+            Helper to clone objects using Serialization.
             </summary>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Serialization.Cloner.Clone(System.Object)">
+            <summary>
+            Clone a object via Binary Serializing/Deserializing.
+            The object to clone must have the attribute [Serializable]
+            <example>
+            Here it's an example to make a simple object clone:
+            <code>
+            Foo foo = new Foo();
+            Foo clonedFoo = (Foo)Cloner.Clone(foo);  
+            </code>
+            Then the class Foo in order to work must implement [Serializable]
+            <code>
+            [Serializable]
+            public class Foo
+            {
+             ...
+            } 
+            </code>
+            </example>
+            <seealso cref="T:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter"/>
+            </summary>
+            <param name="obj">Object to clone</param>
+            <returns>Clone object</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Serialization.Cloner.Clone(System.Object,System.Runtime.Serialization.IFormatter)">
+            <summary>
+            Clone a object with via Serializing/Deserializing
+            using a implementation of IFormatter. 
+            <seealso cref="T:System.Runtime.Serialization.IFormatter"/> 
+            </summary>
+            <param name="obj">Object to clone</param>
+            <param name="formatter">IFormatter implementation in order to Serialize/Deserialize</param>
+            <returns>Clone object</returns>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1">
+            <summary>
+            Interface for paginable results.
+            </summary>
+            <typeparam name="T">The type of DAO.</typeparam>
             <remarks>
-            The syntax is cheked when the HQL/SQL will be parsed.
+            The interface was inspired from some where on the NET, but now I can't found it anymore.
+            Even if this interface is not the same, if somebody else found it, please let me know.
             </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1.GetSession">
+            <summary>
+            Session getter.
+            </summary>
+            <returns>The <see cref="T:NHibernate.ISession"/>.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1.ListAll">
+            <summary>
+            All results without paging.
+            </summary>
+            <returns>The list of all instances.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1.GetPage(System.Int32,System.Int32)">
+            <summary>
+            Page result getter.
+            </summary>
+            <param name="pageSize">The page's elements quantity.</param>
+            <param name="pageNumber">The page number.</param>
+            <returns>The page's elements list.</returns>
+            <remarks>The max size of the list is <paramref name="pageSize"/>.</remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.GetSession">
+            <summary>
+            Session getter.
+            </summary>
+            <returns>The <see cref="T:NHibernate.ISession"/>.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.ListAll">
+            <summary>
+            All results without paging.
+            </summary>
+            <returns>The list of all instances.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.GetPage(System.Int32,System.Int32)">
+            <summary>
+            Page result getter.
+            </summary>
+            <param name="pageSize">The page's elements quantity.</param>
+            <param name="pageNumber">The page number.</param>
+            <returns>The page's elements list.</returns>
+            <remarks>The max size of the list is <paramref name="pageSize"/>.</remarks>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.Criteria">
+            <summary>
+            Take care <see cref="T:NHibernate.Criterion.DetachedCriteria"/> is not <see cref="T:NHibernate.Criterion.DetachedCriteria"/>.
+            The official 1.2.x DetachedCriteria don't ha methods for pagination.
+            </summary>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.DynQuery.IDynClause">
             <summary>
@@ -32,26 +121,71 @@
             The clause has some meber or not?
             </summary>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.From.#ctor(System.String)">
-            <summary>
-            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.From"/>.
-            </summary>
-            <param name="partialClause">The "from" clause, of the query, without the "from" word.</param>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.From.Clause">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Where.Clause">
             <summary>
             The query clause.
             </summary>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.From.Expression">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Where.Expression">
             <summary>
             The query part.
             </summary>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.From.HasMembers">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Where.HasMembers">
             <summary>
             The clause has some meber or not?
             </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer">
+            <summary>
+            Result transformer that allows to transform a result to 
+            a user specified class which will be populated via setter  
+            methods or fields matching the alias names. 
+            </summary>
+            <example>
+            <code>
+            IList resultWithAliasedBean = s.CreateQuery(select f.Name, f.Description from Foo f)
+            			.SetResultTransformer(new PositionalToBeanResultTransformer(typeof (NoFoo), new string[] {"_name", "_description"}))
+            			.List();
+            
+            NoFoo dto = (NoFoo)resultWithAliasedBean[0];
+            </code>
+            </example>
+            <remarks>
+            If you have a <see cref="T:NHibernate.ICriteria"/> or a <see cref="T:NHibernate.IQuery"/> with aliases you can use
+            <see cref="T:NHibernate.Transform.AliasToBeanResultTransformer"/> class.
+            </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer.#ctor(System.Type,System.String[])">
+            <summary>
+            Initializes a new instance of the PositionalToBeanResultTransformer class.
+            </summary>
+            <param name="resultClass">The return <see cref="N:NHibernate.Type"/>.</param>
+            <param name="positionalAliases">Alias for each position of the query.</param>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IWithId">
+            <summary>
+            Class with an Integer Id that can identify persistant instances.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.IWithId.Id">
+            <summary>
+            the integer Id that can identify persistant instances.
+            </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableRowsCounterQuery`1">
+            <summary>
+            Generic implementation of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1"/> and <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IRowsCounter"/> 
+            based on <see cref="T:NHibernate.Impl.DetachedQuery"/>.
+            </summary>
+            <typeparam name="T">The type of DAO.</typeparam>
+            <seealso cref="T:NHibernate.Impl.DetachedQuery"/>
+            <remarks>
+            Use this class only if you are secure that the DetachedQuery is based on a HQL that can be trasformed
+            to it's row count.
+            An HQL is supported if contain only 'from' clause and/or 'where' clause.
+            Any other clause throw an exception.
+            </remarks>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.Pagination.IRowsCounter">
             <summary>
@@ -64,6 +198,20 @@
             </summary>
             <param name="session">The <see cref="T:NHibernate.ISession"/>.</param>
             <returns>The row count.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableRowsCounterQuery`1.GetRowsCount(NHibernate.ISession)">
+            <summary>
+            Get the row count.
+            </summary>
+            <param name="session">The <see cref="T:NHibernate.ISession"/>.</param>
+            <returns>The row count.</returns>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1">
+            <summary>
+            Interface for pages provider.
+            </summary>
+            <typeparam name="T">The type of each row of the page.</typeparam>
+            <seealso cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginator"/>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.Pagination.IPaginator">
             <summary>
@@ -105,6 +253,63 @@
             True if has a next page; false otherwise.
             </summary>
         </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetPage(System.Int32)">
+            <summary>
+            Get the list of objects for a given page number.
+            </summary>
+            <param name="pageNumber">The page number.</param>
+            <returns>The list of objects.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetFirstPage">
+            <summary>
+            Get the list of objects of the first page.
+            </summary>
+            <returns>The list of objects.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetLastPage">
+            <summary>
+            Get the list of objects of the last page.
+            </summary>
+            <returns>The list of objects.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetNextPage">
+            <summary>
+            Get the list of objects of the next page.
+            </summary>
+            <returns>The list of objects.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetPreviousPage">
+            <summary>
+            Get the list of objects of the previous page.
+            </summary>
+            <returns>The list of objects.</returns>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetCurrentPage">
+            <summary>
+            Get the list of objects of the current page.
+            </summary>
+            <returns>The list of objects.</returns>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.PageSize">
+            <summary>
+            Number of visible objects of each page.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.RowsCount">
+            <summary>
+            The total rows count.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.HasPages">
+            <summary>
+            Get True if the paginator has query results. False in other case.
+            </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.Pagination.NamedQueryRowsCounter">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:NHibernate.Burrow.AppBlock.Pagination.AbstractRowsCounter">
             <summary>
             
@@ -131,67 +336,144 @@
             <param name="origin"></param>
             <returns></returns>
         </member>
-        <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1">
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.NamedQueryRowsCounter.#ctor(System.String)">
             <summary>
-            Generic implementation of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1"/> based on <see cref="T:NHibernate.IDetachedQuery"/>.
+            
             </summary>
-            <typeparam name="T">The type of DAO.</typeparam>
-            <seealso cref="T:NHibernate.IDetachedQuery"/>
-            <seealso cref="T:NHibernate.Impl.DetachedQuery"/>
-            <seealso cref="T:NHibernate.Impl.DetachedNamedQuery"/>
+            <param name="queryRowsCount"></param>
         </member>
-        <member name="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1">
+        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase">
             <summary>
-            Interface for paginable results.
+            A base class that has an integer Identity that can be used to identify the persistant object, and a business key <see cref="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.BusinessKey"/> for calculating equality
             </summary>
-            <typeparam name="T">The type of DAO.</typeparam>
             <remarks>
-            The interface was inspired from some where on the NET, but now I can't found it anymore.
-            Even if this interface is not the same, if somebody else found it, please let me know.
+            The purpose of inheriting this class is to inherit its Equals() and GetHashCode()
+            which were properly overriden for the has-Id characteristic.
+            The Equals() and GetHashCode() methods have the following behavior: 
+            the two objects are Equal and have the same HashCode when and only when
+             1) they are of the same type and 2) the have the same business key 
+            This class also offers a default meaningful ToString() method
             </remarks>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1.GetSession">
+        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IDeletable">
             <summary>
-            Session getter.
+            an interface for entities that has Deletion logic in itself
             </summary>
-            <returns>The <see cref="T:NHibernate.ISession"/>.</returns>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1.ListAll">
+        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IWithIdNBizKey">
             <summary>
-            All results without paging.
+            interface for object that has business Key
             </summary>
-            <returns>The list of all instances.</returns>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1.GetPage(System.Int32,System.Int32)">
+        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.IWithIdNBizKey.BusinessKey">
             <summary>
-            Page result getter.
+            A businesskey is a property that can uniquely identify the the entity from others of the same type.
             </summary>
-            <param name="pageSize">The page's elements quantity.</param>
-            <param name="pageNumber">The page number.</param>
-            <returns>The page's elements list.</returns>
-            <remarks>The max size of the list is <paramref name="pageSize"/>.</remarks>
+            <remarks>
+            It's somewhat similar to concept of primary key in relational database
+            </remarks>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1.#ctor(NHibernate.ISession,NHibernate.IDetachedQuery)">
+        <member name="F:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.BIZKEYSEP">
             <summary>
-            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1"/>.
+            Recommend to use this as the seperator of the composite business key
             </summary>
-            <param name="session">The session (may be the same session of the DAO).</param>
-            <param name="detachedQuery">The detached query.</param>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Where.Clause">
+        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.CompareTo(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+            <remarks>
+            User BusinessKey to Compare 
+            This method is set as virtual for ORM framework to dynamically create proxy
+            </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.BusinessKey">
+            <summary>
+            A BusinessKey (business key) is a property, or some combinatioin of properties, that is unique for each instance with the same database identity.
+            Essenstially it's the natural key you'd use if you weren't using a surrogate key. 
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.Id">
+            <summary>
+            The database identity integer of the class or Surrogate key
+            </summary>
+            <remarks> 
+            This method is set as virtual for ORM framework to dynamically create proxy
+            </remarks>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.DynQuery.Select">
+            <summary>
+            The class that represent the "select" clause of a HQL/SQL.
+            </summary>
+            <remarks>
+            The syntax is cheked when the HQL/SQL will be parsed.
+            </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.Select.#ctor(System.String)">
+            <summary>
+            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.Select"/>.
+            </summary>
+            <param name="partialClause">
+            The "select" clause, of the query, without the "select" word.
+            </param>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="partialClause"/> is null or empty.</exception>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.Select.Distinct(System.String)">
+            <summary>
+            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.Select"/>.
+            </summary>
+            <param name="partialClause">
+            The "select" clause, of the query, without the "select distinct" words.
+            </param>
+            <returns>A new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.Select"/>.</returns>
+            <exception cref="T:System.ArgumentNullException">If <paramref name="partialClause"/> is null or empty.</exception>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Select.Clause">
             <summary>
             The query clause.
             </summary>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Where.Expression">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Select.Expression">
             <summary>
             The query part.
             </summary>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Where.HasMembers">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Select.HasMembers">
             <summary>
             The clause has some meber or not?
             </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.LogicalExpression.Clause">
+            <summary>
+            The query complete clause.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.LogicalExpression.Expression">
+            <summary>
+            The query part.
+            </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1">
+            <summary>
+            Generic implementation of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1"/> based on <see cref="T:NHibernate.Criterion.DetachedCriteria"/>.
+            </summary>
+            <typeparam name="T">The type of DAO.</typeparam>
+            <seealso cref="T:NHibernate.Criterion.DetachedCriteria"/>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1.#ctor(NHibernate.ISession,NHibernate.Criterion.DetachedCriteria)">
+            <summary>
+            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1"/>.
+            </summary>
+            <param name="session">The session (may be the same session of the DAO).</param>
+            <param name="detachedCriteria">The detached criteria.</param>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.DynQuery.OrderBy">
             <summary>
@@ -333,256 +615,163 @@
             The strings are not mutables.
             </summary>
         </member>
-        <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableRowsCounterQuery`1">
+        <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1">
             <summary>
-            Generic implementation of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1"/> and <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IRowsCounter"/> 
-            based on <see cref="T:NHibernate.Impl.DetachedQuery"/>.
+            Generic implementation of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1"/> based on <see cref="T:NHibernate.IDetachedQuery"/>.
             </summary>
             <typeparam name="T">The type of DAO.</typeparam>
+            <seealso cref="T:NHibernate.IDetachedQuery"/>
             <seealso cref="T:NHibernate.Impl.DetachedQuery"/>
-            <remarks>
-            Use this class only if you are secure that the DetachedQuery is based on a HQL that can be trasformed
-            to it's row count.
-            An HQL is supported if contain only 'from' clause and/or 'where' clause.
-            Any other clause throw an exception.
-            </remarks>
+            <seealso cref="T:NHibernate.Impl.DetachedNamedQuery"/>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableRowsCounterQuery`1.GetRowsCount(NHibernate.ISession)">
+        <member name="M:NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1.#ctor(NHibernate.ISession,NHibernate.IDetachedQuery)">
             <summary>
-            Get the row count.
-            </summary>
-            <param name="session">The <see cref="T:NHibernate.ISession"/>.</param>
-            <returns>The row count.</returns>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.Pagination.NamedQueryRowsCounter">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.NamedQueryRowsCounter.#ctor(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="queryRowsCount"></param>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1">
-            <summary>
-            Generic implementation of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginable`1"/> based on <see cref="T:NHibernate.Criterion.DetachedCriteria"/>.
-            </summary>
-            <typeparam name="T">The type of DAO.</typeparam>
-            <seealso cref="T:NHibernate.Criterion.DetachedCriteria"/>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.GetSession">
-            <summary>
-            Session getter.
-            </summary>
-            <returns>The <see cref="T:NHibernate.ISession"/>.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.ListAll">
-            <summary>
-            All results without paging.
-            </summary>
-            <returns>The list of all instances.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.GetPage(System.Int32,System.Int32)">
-            <summary>
-            Page result getter.
-            </summary>
-            <param name="pageSize">The page's elements quantity.</param>
-            <param name="pageNumber">The page number.</param>
-            <returns>The page's elements list.</returns>
-            <remarks>The max size of the list is <paramref name="pageSize"/>.</remarks>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.AbstractPaginableCriteria`1.Criteria">
-            <summary>
-            Take care <see cref="T:NHibernate.Criterion.DetachedCriteria"/> is not <see cref="T:NHibernate.Criterion.DetachedCriteria"/>.
-            The official 1.2.x DetachedCriteria don't ha methods for pagination.
-            </summary>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1.#ctor(NHibernate.ISession,NHibernate.Criterion.DetachedCriteria)">
-            <summary>
-            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1"/>.
+            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1"/>.
             </summary>
             <param name="session">The session (may be the same session of the DAO).</param>
-            <param name="detachedCriteria">The detached criteria.</param>
+            <param name="detachedQuery">The detached query.</param>
         </member>
-        <member name="T:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1">
+        <member name="T:NHibernate.Burrow.AppBlock.DynQuery.From">
             <summary>
-            Interface for pages provider.
-            </summary>
-            <typeparam name="T">The type of each row of the page.</typeparam>
-            <seealso cref="T:NHibernate.Burrow.AppBlock.Pagination.IPaginator"/>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetPage(System.Int32)">
-            <summary>
-            Get the list of objects for a given page number.
-            </summary>
-            <param name="pageNumber">The page number.</param>
-            <returns>The list of objects.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetFirstPage">
-            <summary>
-            Get the list of objects of the first page.
-            </summary>
-            <returns>The list of objects.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetLastPage">
-            <summary>
-            Get the list of objects of the last page.
-            </summary>
-            <returns>The list of objects.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetNextPage">
-            <summary>
-            Get the list of objects of the next page.
-            </summary>
-            <returns>The list of objects.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetPreviousPage">
-            <summary>
-            Get the list of objects of the previous page.
-            </summary>
-            <returns>The list of objects.</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.GetCurrentPage">
-            <summary>
-            Get the list of objects of the current page.
-            </summary>
-            <returns>The list of objects.</returns>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.PageSize">
-            <summary>
-            Number of visible objects of each page.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.RowsCount">
-            <summary>
-            The total rows count.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1.HasPages">
-            <summary>
-            Get True if the paginator has query results. False in other case.
-            </summary>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase">
-            <summary>
-            A base class that has an integer Identity that can be used to identify the persistant object, and a business key <see cref="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.BusinessKey"/> for calculating equality
-            </summary>
-            <remarks>
-            The purpose of inheriting this class is to inherit its Equals() and GetHashCode()
-            which were properly overriden for the has-Id characteristic.
-            The Equals() and GetHashCode() methods have the following behavior: 
-            the two objects are Equal and have the same HashCode when and only when
-             1) they are of the same type and 2) the have the same business key 
-            This class also offers a default meaningful ToString() method
-            </remarks>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IDeletable">
-            <summary>
-            an interface for entities that has Deletion logic in itself
-            </summary>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IWithIdNBizKey">
-            <summary>
-            interface for object that has business Key
-            </summary>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.IWithId">
-            <summary>
-            Class with an Integer Id that can identify persistant instances.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.IWithId.Id">
-            <summary>
-            the integer Id that can identify persistant instances.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.IWithIdNBizKey.BusinessKey">
-            <summary>
-            A businesskey is a property that can uniquely identify the the entity from others of the same type.
-            </summary>
-            <remarks>
-            It's somewhat similar to concept of primary key in relational database
-            </remarks>
-        </member>
-        <member name="F:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.BIZKEYSEP">
-            <summary>
-            Recommend to use this as the seperator of the composite business key
-            </summary>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.CompareTo(System.Object)">
-            <summary>
-            
-            </summary>
-            <param name="obj"></param>
-            <returns></returns>
-            <remarks>
-            User BusinessKey to Compare 
-            This method is set as virtual for ORM framework to dynamically create proxy
-            </remarks>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.ToString">
-            <summary>
-            
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.BusinessKey">
-            <summary>
-            A BusinessKey (business key) is a property, or some combinatioin of properties, that is unique for each instance with the same database identity.
-            Essenstially it's the natural key you'd use if you weren't using a surrogate key. 
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWithIdNBizKeyBase.Id">
-            <summary>
-            The database identity integer of the class or Surrogate key
-            </summary>
-            <remarks> 
-            This method is set as virtual for ORM framework to dynamically create proxy
-            </remarks>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.DynQuery.Select">
-            <summary>
-            The class that represent the "select" clause of a HQL/SQL.
+            The class that represent the "from" clause of a HQL/SQL.
             </summary>
             <remarks>
             The syntax is cheked when the HQL/SQL will be parsed.
             </remarks>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.Select.#ctor(System.String)">
+        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.From.#ctor(System.String)">
             <summary>
-            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.Select"/>.
+            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.From"/>.
             </summary>
-            <param name="partialClause">
-            The "select" clause, of the query, without the "select" word.
-            </param>
-            <exception cref="T:System.ArgumentNullException">If <paramref name="partialClause"/> is null or empty.</exception>
+            <param name="partialClause">The "from" clause, of the query, without the "from" word.</param>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.Select.Distinct(System.String)">
-            <summary>
-            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.Select"/>.
-            </summary>
-            <param name="partialClause">
-            The "select" clause, of the query, without the "select distinct" words.
-            </param>
-            <returns>A new instance of <see cref="T:NHibernate.Burrow.AppBlock.DynQuery.Select"/>.</returns>
-            <exception cref="T:System.ArgumentNullException">If <paramref name="partialClause"/> is null or empty.</exception>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Select.Clause">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.From.Clause">
             <summary>
             The query clause.
             </summary>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Select.Expression">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.From.Expression">
             <summary>
             The query part.
             </summary>
         </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.Select.HasMembers">
+        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.From.HasMembers">
             <summary>
             The clause has some meber or not?
             </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.Pagination.BasePaginator">
+            <summary>
+            General purpose paginator.
+            </summary>
+            <remarks>
+            It can be useful if you think to hold the state of pagination in some kind of cache.
+            </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.#ctor(System.Int32)">
+            <summary>
+            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.BasePaginator"/>.
+            </summary>
+            <param name="lastPageNumber">The las available page.</param>
+            <remarks>
+            The <see cref="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.CurrentPageNumber"/> is set to the first available page.
+            </remarks>
+            <exception cref="T:System.ArgumentOutOfRangeException">If <paramref name="lastPageNumber"/> is less than zero.</exception>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.GotoPageNumber(System.Int32)">
+            <summary>
+            Move the curret page to a given page number.
+            </summary>
+            <param name="pageNumber">The page number.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">When the <paramref name="pageNumber"/> is great
+            then <see cref="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.LastPageNumber"/>.
+            </exception>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.CurrentPageNumber">
+            <summary>
+            The number of the current page.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.LastPageNumber">
+            <summary>
+            The number of the last page.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.NextPageNumber">
+            <summary>
+            The number of the next page.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.PreviousPageNumber">
+            <summary>
+            The number of the previous page.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.FirstPageNumber">
+            <summary>
+            The number of the first page.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.HasPrevious">
+            <summary>
+            True if has a previous page; false otherwise.
+            </summary>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.HasNext">
+            <summary>
+            True if has a next page; false otherwise.
+            </summary>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase">
+            <summary>
+            A base class that use its inital hashcode as its Identity
+            </summary>
+            <remarks>
+            It can be used as a base class for those classes withe whom you canot define a business key easily 
+            For this object to work, you should mapped the HashId property in the hbm file
+            If you are sure that you use a one session per request pattern you can use entity without business key
+            <example>
+            <![CDATA[
+            <property name="HashId" />
+            ]]>
+            </example>
+            
+            </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <remarks>
+            overriden to use the HashId
+            This method is kept as virtual for ORM framework to dynamically create proxy
+            But it should never be overriden by developer
+            </remarks>
+        </member>
+        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase.BusinessKey">
+            <summary>
+            
+            </summary>
+            <remarks>
+            return the HashId
+            </remarks>
+        </member>
+        <member name="T:NHibernate.Burrow.AppBlock.SoftDelete.SoftDeleteEventListener">
+            <summary>
+            Allows for entities to be "SoftDeleted" by implementing ISoftDelete and registering this event listener. 
+            </summary>
+            <example>
+            <code>
+            Configuration cfg = new Configuration().Configure();
+            cfg.EventListeners.DeleteEventListeners = new IDeleteEventListener[] { new SoftDeleteEventListener() };
+            </code>
+            </example>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.Pagination.QueryRowsCounter">
             <summary>
@@ -625,99 +814,6 @@
             Take care to the query; it can't contain any other clause than "from" and "where".
             Set the parameters and it's values, of <paramref name="query"/> befor call this method.
             </remarks>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer">
-            <summary>
-            Result transformer that allows to transform a result to 
-            a user specified class which will be populated via setter  
-            methods or fields matching the alias names. 
-            </summary>
-            <example>
-            <code>
-            IList resultWithAliasedBean = s.CreateQuery(select f.Name, f.Description from Foo f)
-            			.SetResultTransformer(new PositionalToBeanResultTransformer(typeof (NoFoo), new string[] {"_name", "_description"}))
-            			.List();
-            
-            NoFoo dto = (NoFoo)resultWithAliasedBean[0];
-            </code>
-            </example>
-            <remarks>
-            If you have a <see cref="T:NHibernate.ICriteria"/> or a <see cref="T:NHibernate.IQuery"/> with aliases you can use
-            <see cref="T:NHibernate.Transform.AliasToBeanResultTransformer"/> class.
-            </remarks>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer.#ctor(System.Type,System.String[])">
-            <summary>
-            Initializes a new instance of the PositionalToBeanResultTransformer class.
-            </summary>
-            <param name="resultClass">The return <see cref="N:NHibernate.Type"/>.</param>
-            <param name="positionalAliases">Alias for each position of the query.</param>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase">
-            <summary>
-            A base class that use its inital hashcode as its Identity
-            </summary>
-            <remarks>
-            It can be used as a base class for those classes withe whom you canot define a business key easily 
-            For this object to work, you should mapped the HashId property in the hbm file
-            If you are sure that you use a one session per request pattern you can use entity without business key
-            <example>
-            <![CDATA[
-            <property name="HashId" />
-            ]]>
-            </example>
-            
-            </remarks>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase.#ctor">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase.GetHashCode">
-            <summary>
-            
-            </summary>
-            <returns></returns>
-            <remarks>
-            overriden to use the HashId
-            This method is kept as virtual for ORM framework to dynamically create proxy
-            But it should never be overriden by developer
-            </remarks>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.EntityBases.EntityWHashIdBase.BusinessKey">
-            <summary>
-            
-            </summary>
-            <remarks>
-            return the HashId
-            </remarks>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.LogicalExpression.Clause">
-            <summary>
-            The query complete clause.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.DynQuery.LogicalExpression.Expression">
-            <summary>
-            The query part.
-            </summary>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.DetachedDynQuery.GetExecutableQuery(NHibernate.ISession)">
-            <summary>
-            Get an executable instance of <see cref="T:NHibernate.IQuery"/>, to actually run the query.
-            </summary>
-        </member>
-        <member name="T:NHibernate.Burrow.AppBlock.SoftDelete.SoftDeleteEventListener">
-            <summary>
-            Allows for entities to be "SoftDeleted" by implementing ISoftDelete and registering this event listener. 
-            </summary>
-            <example>
-            <code>
-            Configuration cfg = new Configuration().Configure();
-            cfg.EventListeners.DeleteEventListeners = new IDeleteEventListener[] { new SoftDeleteEventListener() };
-            </code>
-            </example>
         </member>
         <member name="T:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1">
             <summary>
@@ -1021,68 +1117,6 @@
             <seealso cref="T:NHibernate.Burrow.AppBlock.Pagination.BasePaginator"/>
             <seealso cref="T:NHibernate.Burrow.AppBlock.Pagination.IPageProvider`1"/>
         </member>
-        <member name="T:NHibernate.Burrow.AppBlock.Pagination.BasePaginator">
-            <summary>
-            General purpose paginator.
-            </summary>
-            <remarks>
-            It can be useful if you think to hold the state of pagination in some kind of cache.
-            </remarks>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.#ctor(System.Int32)">
-            <summary>
-            Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.BasePaginator"/>.
-            </summary>
-            <param name="lastPageNumber">The las available page.</param>
-            <remarks>
-            The <see cref="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.CurrentPageNumber"/> is set to the first available page.
-            </remarks>
-            <exception cref="T:System.ArgumentOutOfRangeException">If <paramref name="lastPageNumber"/> is less than zero.</exception>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.GotoPageNumber(System.Int32)">
-            <summary>
-            Move the curret page to a given page number.
-            </summary>
-            <param name="pageNumber">The page number.</param>
-            <exception cref="T:System.ArgumentOutOfRangeException">When the <paramref name="pageNumber"/> is great
-            then <see cref="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.LastPageNumber"/>.
-            </exception>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.CurrentPageNumber">
-            <summary>
-            The number of the current page.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.LastPageNumber">
-            <summary>
-            The number of the last page.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.NextPageNumber">
-            <summary>
-            The number of the next page.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.PreviousPageNumber">
-            <summary>
-            The number of the previous page.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.FirstPageNumber">
-            <summary>
-            The number of the first page.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.HasPrevious">
-            <summary>
-            True if has a previous page; false otherwise.
-            </summary>
-        </member>
-        <member name="P:NHibernate.Burrow.AppBlock.Pagination.BasePaginator.HasNext">
-            <summary>
-            True if has a next page; false otherwise.
-            </summary>
-        </member>
         <member name="M:NHibernate.Burrow.AppBlock.Pagination.Paginator`1.#ctor(System.Int32,NHibernate.Burrow.AppBlock.Pagination.IPaginable{`0})">
             <summary>
             Create a new instance of <see cref="T:NHibernate.Burrow.AppBlock.Pagination.Paginator`1"/>.
@@ -1218,44 +1252,10 @@
             The number of the last page if available; otherwise null.
             </summary>
         </member>
-        <member name="T:NHibernate.Burrow.AppBlock.Serialization.Cloner">
+        <member name="M:NHibernate.Burrow.AppBlock.DynQuery.DetachedDynQuery.GetExecutableQuery(NHibernate.ISession)">
             <summary>
-            Helper to clone objects using Serialization.
+            Get an executable instance of <see cref="T:NHibernate.IQuery"/>, to actually run the query.
             </summary>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Serialization.Cloner.Clone(System.Object)">
-            <summary>
-            Clone a object via Binary Serializing/Deserializing.
-            The object to clone must have the attribute [Serializable]
-            <example>
-            Here it's an example to make a simple object clone:
-            <code>
-            Foo foo = new Foo();
-            Foo clonedFoo = (Foo)Cloner.Clone(foo);  
-            </code>
-            Then the class Foo in order to work must implement [Serializable]
-            <code>
-            [Serializable]
-            public class Foo
-            {
-             ...
-            } 
-            </code>
-            </example>
-            <seealso cref="T:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter"/>
-            </summary>
-            <param name="obj">Object to clone</param>
-            <returns>Clone object</returns>
-        </member>
-        <member name="M:NHibernate.Burrow.AppBlock.Serialization.Cloner.Clone(System.Object,System.Runtime.Serialization.IFormatter)">
-            <summary>
-            Clone a object with via Serializing/Deserializing
-            using a implementation of IFormatter. 
-            <seealso cref="T:System.Runtime.Serialization.IFormatter"/> 
-            </summary>
-            <param name="obj">Object to clone</param>
-            <param name="formatter">IFormatter implementation in order to Serialize/Deserialize</param>
-            <returns>Clone object</returns>
         </member>
     </members>
 </doc>

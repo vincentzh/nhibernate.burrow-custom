@@ -2,11 +2,11 @@ NAnt 0.86 (Build 0.86.2898.0; beta1; 12/8/2007)
 Copyright (C) 2001-2007 Gerry Shaw
 http://nant.sourceforge.net
 
-Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/default.build
+Buildfile: file:///D:/SourceCode/OpenSource/GitStuff/nhibernate.burrow-custom/default.build
 Target framework: Microsoft .NET Framework 2.0
 Target(s) specified: clean build 
 
-   [script] Scanning assembly "9p4fbjef" for extensions.
+   [script] Scanning assembly "x8smm9kh" for extensions.
 
 set-project-configuration:
 
@@ -22,21 +22,20 @@ init:
 
 clean:
 
-   [delete] Deleting directory 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1'.
 
 prepare-build-directory:
 
-    [mkdir] Creating directory 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0'.
+    [mkdir] Creating directory 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0'.
 
 copy-referenced-assemblies:
 
-     [copy] Copying 5 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0'.
-     [copy] Copying 20 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0'.
+     [copy] Copying 5 files to 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0'.
+     [copy] Copying 20 files to 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0'.
 
 build:
 
-     [nant] D:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow\default.build build
-            Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/src/NHibernate.Burrow/default.build
+     [nant] D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\default.build build
+            Buildfile: file:///D:/SourceCode/OpenSource/GitStuff/nhibernate.burrow-custom/src/NHibernate.Burrow/default.build
             Target framework: Microsoft .NET Framework 2.0
             Target(s) specified: build 
             
@@ -58,28 +57,29 @@ build:
             
             common.generate-assemblyinfo:
             
+              [asminfo] Generated file 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\AssemblyInfo.cs'.
             
             generate-assemblyinfo:
             
             
             common.compile-dll:
             
-                  [csc] Compiling 56 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.dll'.
-                  [csc] d:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow\Util\EntityLoader.cs(53,10): warning CS0168: The variable 'e' is declared but never used
-                  [csc] d:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(138,48): warning CS1580: Invalid type for parameter '1' in XML comment cref attribute: 'Type'
-                  [csc] d:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(138,48): warning CS1574: XML comment on 'NHibernate.Burrow.BurrowFramework.GetSession(string)' has cref attribute 'GetSession(Type)' that could not be resolved
-                  [csc] d:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(165,48): warning CS1580: Invalid type for parameter '1' in XML comment cref attribute: 'Type'
-                  [csc] d:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(165,48): warning CS1574: XML comment on 'NHibernate.Burrow.BurrowFramework.GetSessionFactory(string)' has cref attribute 'GetSessionFactory(Type)' that could not be resolved
+                  [csc] Compiling 56 files to 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.dll'.
+                  [csc] d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\Util\EntityLoader.cs(53,10): warning CS0168: The variable 'e' is declared but never used
+                  [csc] d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(138,48): warning CS1580: Invalid type for parameter '1' in XML comment cref attribute: 'Type'
+                  [csc] d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(138,48): warning CS1574: XML comment on 'NHibernate.Burrow.BurrowFramework.GetSession(string)' has cref attribute 'GetSession(Type)' that could not be resolved
+                  [csc] d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(165,48): warning CS1580: Invalid type for parameter '1' in XML comment cref attribute: 'Type'
+                  [csc] d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\BurrowFramework.cs(165,48): warning CS1574: XML comment on 'NHibernate.Burrow.BurrowFramework.GetSessionFactory(string)' has cref attribute 'GetSessionFactory(Type)' that could not be resolved
             
             build:
             
             
             BUILD SUCCEEDED
             
-            Total time: 1.7 seconds.
+            Total time: 2.4 seconds.
             
-     [nant] D:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\default.build build
-            Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/src/NHibernate.Burrow.AppBlock/default.build
+     [nant] D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\default.build build
+            Buildfile: file:///D:/SourceCode/OpenSource/GitStuff/nhibernate.burrow-custom/src/NHibernate.Burrow.AppBlock/default.build
             Target framework: Microsoft .NET Framework 2.0
             Target(s) specified: build 
             
@@ -101,181 +101,11 @@ build:
             
             common.generate-assemblyinfo:
             
+              [asminfo] Generated file 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\AssemblyInfo.cs'.
             
             generate-assemblyinfo:
             
             
             common.compile-dll:
             
-                  [csc] Compiling 37 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.AppBlock.dll'.
-            
-            build:
-            
-            
-            BUILD SUCCEEDED
-            
-            Total time: 0.8 seconds.
-            
-     [nant] D:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\default.build build
-            Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/src/NHibernate.Burrow.TestUtil/default.build
-            Target framework: Microsoft .NET Framework 2.0
-            Target(s) specified: build 
-            
-            
-            set-project-configuration:
-            
-            
-            set-release-project-configuration:
-            
-            
-            common.init:
-            
-            
-            init:
-            
-            
-            common.set-assembly-attribute-values:
-            
-            
-            common.generate-assemblyinfo:
-            
-            
-            generate-assemblyinfo:
-            
-            
-            common.compile-dll:
-            
-                  [csc] Compiling 7 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.TestUtil.dll'.
-            
-            build:
-            
-            
-            BUILD SUCCEEDED
-            
-            Total time: 0.7 seconds.
-            
-     [nant] D:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\default.build build
-            Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/src/NHibernate.Burrow.WebUtil/default.build
-            Target framework: Microsoft .NET Framework 2.0
-            Target(s) specified: build 
-            
-            
-            set-project-configuration:
-            
-            
-            set-release-project-configuration:
-            
-            
-            common.init:
-            
-            
-            init:
-            
-            
-            common.set-assembly-attribute-values:
-            
-            
-            common.generate-assemblyinfo:
-            
-            
-            generate-assemblyinfo:
-            
-            
-            common.compile-dll:
-            
-                  [csc] Compiling 26 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.WebUtil.dll'.
-            
-            build:
-            
-            
-            BUILD SUCCEEDED
-            
-            Total time: 0.8 seconds.
-            
-     [nant] D:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\NHibernate.Burrow.Test.build build
-            Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/src/NHibernate.Burrow.Test/NHibernate.Burrow.Test.build
-            Target framework: Microsoft .NET Framework 2.0
-            Target(s) specified: build 
-            
-            
-            set-project-configuration:
-            
-            
-            set-release-project-configuration:
-            
-            
-            common.init:
-            
-            
-            init:
-            
-            
-            common.set-assembly-attribute-values:
-            
-            
-            common.generate-assemblyinfo:
-            
-            
-            generate-assemblyinfo:
-            
-            
-            common.compile-tests:
-            
-                  [csc] Compiling 19 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.Test.dll'.
-                 [copy] Copying 1 file to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.Test.dll.config'.
-            
-            build:
-            
-                 [copy] Copying 1 file to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\BurrowTest.cfg.xml'.
-                 [copy] Copying 1 file to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\MultiDB\FirstPU.cfg.xml'.
-                 [copy] Copying 1 file to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\MultiDB\SecondPU.cfg.xml'.
-            
-            BUILD SUCCEEDED
-            
-            Total time: 0.8 seconds.
-            
-     [nant] D:\SourceCode\MercurialSource\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\NHibernate.Burrow.AppBlock.Test.build build
-            Buildfile: file:///D:/SourceCode/MercurialSource/nhibernate.burrow-custom/src/NHibernate.Burrow.AppBlock.Test/NHibernate.Burrow.AppBlock.Test.build
-            Target framework: Microsoft .NET Framework 2.0
-            Target(s) specified: build 
-            
-            
-            set-project-configuration:
-            
-            
-            set-release-project-configuration:
-            
-            
-            common.init:
-            
-            
-            init:
-            
-            
-            common.set-assembly-attribute-values:
-            
-            
-            common.generate-assemblyinfo:
-            
-            
-            generate-assemblyinfo:
-            
-            
-            common.compile-tests:
-            
-                  [csc] Compiling 24 files to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.AppBlock.Test.dll'.
-                 [copy] Copying 1 file to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.AppBlock.Test.dll.config'.
-            
-            build:
-            
-                 [copy] Copying 1 file to 'D:\SourceCode\MercurialSource\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\hibernate.cfg.xml'.
-            
-            BUILD SUCCEEDED
-            
-            Total time: 0.9 seconds.
-            
-
-BUILD SUCCEEDED
-
-Total time: 7.3 seconds.
-
+                  [csc] Compiling 37 files to 'D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\build\NHibernate.Burrow-1.1.0.Alpha1\bin\net-2.0\NHibernate.Burrow.AppBlock.dll'.

@@ -8,7 +8,7 @@
     <property name="Number" />
     <bag name="StringList" table="tblStringList" lazy="true" >
       <key />
-      <element type="String" />
+      <element type="String" column="stringlist" />
     </bag>
   </class>
 </hibernate-mapping>

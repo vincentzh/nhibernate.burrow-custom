@@ -57,3 +57,17 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\debug\NHibernate.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\debug\NHibernate.Burrow.pdb
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Debug\NHibernate.Burrow.WebUtil.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.Burrow.WebUtil.XML
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.Burrow.WebUtil.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.Burrow.WebUtil.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\Iesi.Collections.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\log4net.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.Burrow.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\log4net.xml
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\Iesi.Collections.xml
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.xml
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\NHibernate.Burrow.xml
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Release\NHibernate.Burrow.WebUtil.dll
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Release\NHibernate.Burrow.WebUtil.pdb
