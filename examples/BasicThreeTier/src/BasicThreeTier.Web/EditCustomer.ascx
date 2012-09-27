@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="EditCustomer.ascx.cs"
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="EditCustomer.ascx.cs"
     Inherits="EditCustomer" %>
 <%@ Register Assembly="wwDataBinder" Namespace="MsdnMag.Web.Controls" TagPrefix="ww" %>
 <h2>Edit Customer</h2>

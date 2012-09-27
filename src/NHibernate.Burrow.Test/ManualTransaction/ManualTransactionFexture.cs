@@ -1,4 +1,4 @@
-using NHibernate.Burrow.Test.MockEntities;
+﻿using NHibernate.Burrow.Test.MockEntities;
 using NHibernate.Burrow.Util;
 using NUnit.Framework;
 

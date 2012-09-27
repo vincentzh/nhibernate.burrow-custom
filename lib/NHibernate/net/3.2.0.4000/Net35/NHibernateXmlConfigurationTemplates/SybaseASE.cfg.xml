@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 
 This template was written to work with NHibernate.Test.
 Copy the template to your NHibernate.Test project folder and rename it hibernate.cfg.xml. Change it 

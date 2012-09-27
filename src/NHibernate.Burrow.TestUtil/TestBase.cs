@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using log4net;
 using log4net.Config;
 using NHibernate.Burrow.TestUtil.Attributes;

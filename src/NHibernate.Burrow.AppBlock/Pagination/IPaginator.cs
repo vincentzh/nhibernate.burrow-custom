@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.AppBlock.Pagination
+﻿namespace NHibernate.Burrow.AppBlock.Pagination
 {
     /// <summary>
     /// Classic basic interface for any type of general purpose paginator.

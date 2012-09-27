@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.Impl
+﻿namespace NHibernate.Burrow.Impl
 {
     internal interface ITransaction
     {

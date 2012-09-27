@@ -1,4 +1,4 @@
-using NHibernate.Burrow.AppBlock.Serialization;
+﻿using NHibernate.Burrow.AppBlock.Serialization;
 using NUnit.Framework;
 
 namespace NHibernate.Burrow.AppBlock.Test.Serialization

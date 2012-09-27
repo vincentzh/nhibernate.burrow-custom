@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Iesi.Collections;
 using log4net;
 using NHibernate.Burrow.AppBlock.SoftDelete;

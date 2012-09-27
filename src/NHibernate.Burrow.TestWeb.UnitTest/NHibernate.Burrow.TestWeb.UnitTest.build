@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <project name="NHibernate.Burrow.TestWeb.UnitTest" default="build" xmlns="http://nant.sf.net/release/0.85-rc3/nant.xsd">
 	<property name="root.dir" value="../.." /> 
 	<property name="testWeb.bin.dir" value="${root.dir}/src/NHibernate.Burrow.TestWeb/Bin" />

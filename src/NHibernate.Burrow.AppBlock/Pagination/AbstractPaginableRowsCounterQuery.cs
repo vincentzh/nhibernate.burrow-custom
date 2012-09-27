@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.AppBlock.Pagination
+﻿namespace NHibernate.Burrow.AppBlock.Pagination
 {
     public abstract class AbstractPaginableRowsCounterQuery<T> : AbstractPaginableQuery<T>, IRowsCounter
     {

@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow
+﻿namespace NHibernate.Burrow
 {
     /// <summary>
     /// implement this and set the type in the <see cref="IPersistenceUnitCfg.InterceptorFactory"/> so that Burrow will use <see cref="Create"/> when creating the managed Session

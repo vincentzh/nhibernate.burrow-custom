@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.Exceptions;
 using NHibernate.Burrow.Util;
 using NUnit.Framework;

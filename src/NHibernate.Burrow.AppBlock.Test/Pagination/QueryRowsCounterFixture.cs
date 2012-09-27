@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using NHibernate.Burrow.AppBlock.Pagination;
 using NHibernate.Impl;
 using NUnit.Framework;

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using BasicThreeTier.Core.Dao;
 using BasicThreeTier.Core.Domain;
 using NUnit.Framework;

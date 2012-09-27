@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.AppBlock.Pagination;
 using NHibernate.Criterion;
 using NHibernate.Engine;

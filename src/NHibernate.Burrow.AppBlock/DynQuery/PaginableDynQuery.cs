@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.AppBlock.Pagination;
 
 namespace NHibernate.Burrow.AppBlock.DynQuery

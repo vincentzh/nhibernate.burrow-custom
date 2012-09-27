@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using NHibernate.Burrow.AppBlock.GenericImpl;
 using NHibernate.Burrow.AppBlock.Pagination;
 using NHibernate.Criterion;

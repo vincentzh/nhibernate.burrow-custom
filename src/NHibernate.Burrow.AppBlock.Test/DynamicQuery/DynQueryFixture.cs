@@ -1,4 +1,4 @@
-using NHibernate.Burrow.AppBlock.DynQuery;
+﻿using NHibernate.Burrow.AppBlock.DynQuery;
 using NUnit.Framework;
 
 namespace NHibernate.Burrow.AppBlock.Test.DynamicQuery

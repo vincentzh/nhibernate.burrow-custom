@@ -1,4 +1,4 @@
-using NHibernate.Burrow.AppBlock.DynQuery;
+﻿using NHibernate.Burrow.AppBlock.DynQuery;
 using NHibernate.Impl;
 using NUnit.Framework;
 

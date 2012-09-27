@@ -1,4 +1,4 @@
-using NHibernate.Burrow;
+﻿using NHibernate.Burrow;
 using NHibernate.Burrow.Util;
 
 /// <summary>

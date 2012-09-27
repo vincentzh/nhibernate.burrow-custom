@@ -1,4 +1,4 @@
-using NHibernate.Burrow.Exceptions;
+﻿using NHibernate.Burrow.Exceptions;
 
 namespace NHibernate.Burrow.Impl {
 	/// <summary>

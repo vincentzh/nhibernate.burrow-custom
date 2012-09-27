@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.WebUtil.Exceptions
+﻿namespace NHibernate.Burrow.WebUtil.Exceptions
 {
     public class DuplicatedGlobalHolderException : BurrowWebUtilException
     {

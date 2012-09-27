@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.AppBlock.DynQuery
+﻿namespace NHibernate.Burrow.AppBlock.DynQuery
 {
     public interface IQueryPart
     {

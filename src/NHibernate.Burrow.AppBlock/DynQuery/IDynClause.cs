@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.AppBlock.DynQuery
+﻿namespace NHibernate.Burrow.AppBlock.DynQuery
 {
     /// <summary>
     /// Interface for Dynamic query clause.

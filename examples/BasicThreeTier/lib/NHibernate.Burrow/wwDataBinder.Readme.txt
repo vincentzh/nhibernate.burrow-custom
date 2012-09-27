@@ -1,2 +1,2 @@
-By Rick Strahl
+﻿By Rick Strahl
 For detail go to http://msdn.microsoft.com/en-us/magazine/cc163505.aspx

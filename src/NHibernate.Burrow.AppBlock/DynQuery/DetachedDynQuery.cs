@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Impl;
 
 namespace NHibernate.Burrow.AppBlock.DynQuery

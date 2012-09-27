@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.Exceptions
+﻿namespace NHibernate.Burrow.Exceptions
 {
     public class ConversationAlreadyCancelledException : BurrowException
     {

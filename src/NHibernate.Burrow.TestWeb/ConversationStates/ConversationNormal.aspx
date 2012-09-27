@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ConversationNormal.aspx.cs" Inherits="ConversationTest" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ConversationNormal.aspx.cs" Inherits="ConversationTest" %>
 
 <%@ Register Src="Controls/ConversationStates.ascx" TagName="ConversationStates"
     TagPrefix="uc1" %>

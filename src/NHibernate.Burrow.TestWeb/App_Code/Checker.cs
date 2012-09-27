@@ -1,4 +1,4 @@
-using NHibernate.Burrow;
+﻿using NHibernate.Burrow;
 
 /// <summary>
 /// Summary description for Checker

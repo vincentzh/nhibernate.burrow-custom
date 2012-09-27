@@ -1,4 +1,4 @@
-using NHibernate.Burrow.AppBlock.GenericImpl;
+﻿using NHibernate.Burrow.AppBlock.GenericImpl;
 using NHibernate.Burrow.AppBlock.Transform;
 
 namespace NHibernate.Burrow.AppBlock.Test.Pagination

@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Propagation_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Propagation_Default" %>
 
 <%@ Register Assembly="NHibernate.Burrow.WebUtil" Namespace="NHibernate.Burrow.WebUtil.Controls"
     TagPrefix="cc1" %>

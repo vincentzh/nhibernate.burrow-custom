@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.Util;
 
 namespace NHibernate.Burrow.WebUtil.Attributes

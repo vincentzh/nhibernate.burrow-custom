@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="result.aspx.cs" Inherits="Redirection_result" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="result.aspx.cs" Inherits="Redirection_result" %>
 
 <%@ Register Src="../GenControl/SuccessMessage.ascx" TagName="SuccessMessage" TagPrefix="uc1" %>
 

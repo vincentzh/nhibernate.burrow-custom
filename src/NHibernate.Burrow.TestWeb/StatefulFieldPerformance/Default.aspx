@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="StatefulFieldPerformance_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="StatefulFieldPerformance_Default" %>
 
 <%@ Register Src="WebUserControl.ascx" TagName="WebUserControl" TagPrefix="uc1" %>
 

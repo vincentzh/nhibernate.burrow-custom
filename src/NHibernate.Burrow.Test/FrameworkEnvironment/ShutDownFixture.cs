@@ -1,4 +1,4 @@
-using NHibernate.Burrow.Exceptions;
+﻿using NHibernate.Burrow.Exceptions;
 using NUnit.Framework;
 
 namespace NHibernate.Burrow.Test.FrameworkEnvironment

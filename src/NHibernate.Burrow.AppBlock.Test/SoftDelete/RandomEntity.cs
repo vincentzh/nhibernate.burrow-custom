@@ -1,4 +1,4 @@
-using NHibernate.Burrow.AppBlock.SoftDelete;
+﻿using NHibernate.Burrow.AppBlock.SoftDelete;
 using System;
 
 namespace NHibernate.Burrow.AppBlock.Test.SoftDelete

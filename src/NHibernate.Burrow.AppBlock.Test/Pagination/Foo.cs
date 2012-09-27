@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.AppBlock.Test.Pagination
+﻿namespace NHibernate.Burrow.AppBlock.Test.Pagination
 {
     public class Foo
     {

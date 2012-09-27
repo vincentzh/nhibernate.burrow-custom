@@ -1,4 +1,4 @@
-2009-07-24 11:51:45,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
+﻿2009-07-24 11:51:45,375 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
 2009-07-24 11:51:45,421 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
 2009-07-24 11:51:45,421 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
 2009-07-24 11:51:45,421 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlGenericControlIframe4(Iframe4)

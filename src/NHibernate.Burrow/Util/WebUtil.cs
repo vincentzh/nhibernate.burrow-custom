@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Web.UI;
 using NHibernate.Burrow.Exceptions;
 using NHibernate.Burrow.Impl;

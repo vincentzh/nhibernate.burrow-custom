@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ConversationBreaker.ascx.cs" Inherits="Controls_ConversationBreaker" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ConversationBreaker.ascx.cs" Inherits="Controls_ConversationBreaker" %>
     <script language="javascript" type="text/javascript">
     function checkCerrar()
     {

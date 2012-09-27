@@ -1,4 +1,4 @@
-using System.Collections.Specialized;
+﻿using System.Collections.Specialized;
 using NHibernate.Burrow.Configuration;
 using NHibernate.Burrow.DataContainers;
 using NHibernate.Burrow.Exceptions;

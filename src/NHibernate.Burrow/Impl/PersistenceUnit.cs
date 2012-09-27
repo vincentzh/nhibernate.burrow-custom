@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.Util;
 using NHibernate.Tool.hbm2ddl;
 

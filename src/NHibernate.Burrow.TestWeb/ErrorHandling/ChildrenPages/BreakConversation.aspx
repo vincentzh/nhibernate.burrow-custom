@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="BreakConversation.aspx.cs" Inherits="ErrorHandling_BreakConversation" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="BreakConversation.aspx.cs" Inherits="ErrorHandling_BreakConversation" %>
 
 <%@ Register Src="../Controls/ConversationBreaker.ascx" TagName="ConversationBreaker"
     TagPrefix="uc1" %>

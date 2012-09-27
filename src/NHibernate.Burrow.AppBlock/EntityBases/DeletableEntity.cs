@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.AppBlock.DAOBases;
 
 namespace NHibernate.Burrow.AppBlock.EntityBases

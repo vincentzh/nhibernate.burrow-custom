@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using NHibernate.Burrow.AppBlock.Transform;
 using NUnit.Framework;
 

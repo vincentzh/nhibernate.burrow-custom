@@ -1,4 +1,4 @@
-2009-11-11 13:48:18,066 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
+﻿2009-11-11 13:48:18,066 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - Retrieving values of StatefulFields
 2009-11-11 13:48:18,097 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlHead(ctl00)
 2009-11-11 13:48:18,097 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.HtmlControls.HtmlFormform1(form1)
 2009-11-11 13:48:18,097 [4] DEBUG NHibernate.Burrow.WebUtil [(null)] <(null)> - inspecting System.Web.UI.WebControls.PlaceHolderphStrategies(ConversationStates1$phStrategies)

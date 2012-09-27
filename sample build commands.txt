@@ -1,4 +1,4 @@
-## 
+﻿## 
 ##	This file contains sample commands to build NHibernate.Burrow using the build files.
 ##	It should be run from the nhibernate directory that contains this file.
 ##	

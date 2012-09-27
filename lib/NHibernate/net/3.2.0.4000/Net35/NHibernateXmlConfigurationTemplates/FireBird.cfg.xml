@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--
 To work with FireBird you must add the assembly binding for FirebirdClient ADO.NET 2.0 DataProvider
 to your App.config.

@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.Impl
+﻿namespace NHibernate.Burrow.Impl
 {
     /// <summary>
     /// a transaction manager that does no transaction management

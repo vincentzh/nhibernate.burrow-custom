@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="BreakConversationAjax.aspx.cs"
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="BreakConversationAjax.aspx.cs"
     Inherits="BreakConversationAjax" %>
 
 <%@ Register Src="../Controls/ConversationBreaker.ascx" TagName="ConversationBreaker"

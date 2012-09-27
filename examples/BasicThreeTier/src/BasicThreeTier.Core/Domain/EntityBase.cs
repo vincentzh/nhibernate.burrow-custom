@@ -1,4 +1,4 @@
-namespace BasicThreeTier.Core.Domain
+﻿namespace BasicThreeTier.Core.Domain
 {
     /// <summary> 
     /// the base class for entities

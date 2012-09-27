@@ -1,2 +1,2 @@
-NAnt clean build test
+﻿NAnt clean build test
 PAUSE

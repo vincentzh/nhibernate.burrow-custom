@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace NHibernate.Burrow.AppBlock.Test.Serialization
 {

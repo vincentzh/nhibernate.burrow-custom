@@ -1,4 +1,4 @@
-#region WatiN Copyright (C) 2006-2007 Jeroen van Menen
+﻿#region WatiN Copyright (C) 2006-2007 Jeroen van Menen
 
 //Copyright 2006-2007 Jeroen van Menen
 //

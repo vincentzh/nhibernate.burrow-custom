@@ -1,1 +1,1 @@
-Based on NHibernate.Burrow 1.0.0.Beta2
+﻿Based on NHibernate.Burrow 1.0.0.Beta2

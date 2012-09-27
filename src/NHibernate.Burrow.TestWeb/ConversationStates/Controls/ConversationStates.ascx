@@ -1,4 +1,4 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ConversationStates.ascx.cs" Inherits="Controls_ConversationStates" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ConversationStates.ascx.cs" Inherits="Controls_ConversationStates" %>
             <asp:PlaceHolder ID="phStrategies" runat="server">
                     <asp:RadioButton ID="rbBusniess" runat="server" GroupName="TSRB" Text="Business Transaction" Checked="true" />
                     <asp:RadioButton ID="rbLongDB" runat="server" GroupName="TSRB"  Text="Long DB Transaction" />

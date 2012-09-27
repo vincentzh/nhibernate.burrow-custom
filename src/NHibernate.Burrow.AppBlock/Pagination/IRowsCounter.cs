@@ -1,4 +1,4 @@
-namespace NHibernate.Burrow.AppBlock.Pagination
+﻿namespace NHibernate.Burrow.AppBlock.Pagination
 {
     /// <summary>
     /// Interface for the row counter provider.

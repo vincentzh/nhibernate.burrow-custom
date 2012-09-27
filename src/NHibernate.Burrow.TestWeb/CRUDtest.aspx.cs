@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Web.UI;
 using NHibernate.Burrow.Test.MockEntities;
 using NHibernate.Burrow.WebUtil.Attributes;

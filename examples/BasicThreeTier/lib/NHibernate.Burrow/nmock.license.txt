@@ -1,4 +1,4 @@
-NMock is open-source and released under the BSD license.
+﻿NMock is open-source and released under the BSD license.
 
 Copyright (c) 2002, Joe Walnes, Chris Stevenson, Owen Rogers
 All rights reserved.

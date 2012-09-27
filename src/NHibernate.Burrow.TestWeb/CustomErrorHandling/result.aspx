@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="result.aspx.cs" Inherits="CustomerErrorHandling_result" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="result.aspx.cs" Inherits="CustomerErrorHandling_result" %>
 
 <%@ Register Src="../GenControl/SuccessMessage.ascx" TagName="SuccessMessage" TagPrefix="uc1" %>
 

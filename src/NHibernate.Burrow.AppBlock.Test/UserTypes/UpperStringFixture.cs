@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using NUnit.Framework;
 
 namespace NHibernate.Burrow.AppBlock.Test.UserTypes

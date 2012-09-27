@@ -1,4 +1,4 @@
-using NHibernate.Burrow.Util;
+﻿using NHibernate.Burrow.Util;
 
 namespace NHibernate.Burrow.Impl
 {
