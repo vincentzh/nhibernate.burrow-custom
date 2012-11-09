@@ -1,6 +1,8 @@
 .svn
 bin
 obj
+BurrowState
+logs
 *.resharper.user
 *.suo
 BurrowState
