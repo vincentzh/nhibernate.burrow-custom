@@ -41,7 +41,6 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\bin\Debug\NHibernate.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\bin\Debug\NHibernate.Burrow.pdb
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\obj\Debug\NHibernate.Burrow.AppBlock.dll
-D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.AppBlock.XML
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.AppBlock.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.AppBlock.pdb
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\bin\Release\Iesi.Collections.dll

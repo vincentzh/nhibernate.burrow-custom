@@ -1,15 +1,11 @@
-﻿using System;
+using System;
 
-namespace NHibernate.Burrow.AppBlock.EntityBases
-{
+namespace NHibernate.Burrow.AppBlock.EntityBases{
     /// <summary>
-    /// Class with an Integer Id that can identify persistant instances.
+    /// 
     /// </summary>
-    public interface IWithId
-    {
-        /// <summary>
-        /// the integer Id that can identify persistant instances.
-        /// </summary>
-        Int32 Id { get; }
+    /// <typeparam name="T">Set the type of Id</typeparam>
+    public interface IWithId<T>:IEntity{
+        T Id { get; set; }
     }
 }

@@ -102,11 +102,8 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.Burrow.TestUtil.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\nunit.framework.dll
-D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.Burrow.AppBlock.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\log4net.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\Iesi.Collections.xml
-D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.Burrow.AppBlock.pdb
-D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.Burrow.AppBlock.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.Burrow.TestUtil.pdb
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\NHibernate.Burrow.TestUtil.xml
@@ -116,3 +113,4 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\obj\Release\NHibernate.Burrow.Test.MultiDB.MockEntity2.hbm.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\obj\Release\NHibernate.Burrow.Test.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\obj\Release\NHibernate.Burrow.Test.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\bin\release\nunit.framework.xml

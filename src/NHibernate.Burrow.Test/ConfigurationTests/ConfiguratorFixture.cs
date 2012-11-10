@@ -67,7 +67,6 @@ namespace NHibernate.Burrow.Test.ConfigurationTests
         {
            if(puCfg.Name ==  MockPersistenceUnitCfg.MockPUName )
            {
-                
                configuration.SetProperty("connection.provider", "NHibernate.Connection.DriverConnectionProvider");
                configuration.SetProperty("connection.driver_class", "NHibernate.Driver.SqlClientDriver");
                configuration.SetProperty("connection.connection_string", "Server=(local);initial catalog=NHibernateBurrow;Integrated Security=SSPI");

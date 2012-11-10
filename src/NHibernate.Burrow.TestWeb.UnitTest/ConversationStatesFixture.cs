@@ -17,9 +17,7 @@
 #endregion Copyright
 
 using NUnit.Framework;
-using WatiN.Core;
-using WatiN.Core.Interfaces;
-using WatiN.Core.UnitTests;
+
 
 namespace NHibernate.Burrow.TestWeb.UnitTest
 {
@@ -55,7 +53,7 @@ namespace NHibernate.Burrow.TestWeb.UnitTest
             IE.Button("ConversationStates1_btnUpdate").Click();
             AssertText("MockEntity In Conversation: 1");
             IE.Button("ConversationStates1_btnCommit").Click();
-            AssertText("Congratulations test passed! ");
+            AssertText("Congratulations test passed!");
             AssertText("MockEntity In Conversation: NULL");
             AssertText("MockEntity in DB: 1");
         }

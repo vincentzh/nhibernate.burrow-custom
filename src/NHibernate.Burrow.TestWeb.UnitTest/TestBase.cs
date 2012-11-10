@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Web;
 using NUnit.Framework;
 using WatiN.Core; 
 
@@ -14,7 +15,7 @@ namespace NHibernate.Burrow.TestWeb.UnitTest
     public class TestBase
     {
 
-        private const string devServerPort = "12345";
+        private const string devServerPort = "2612";
         private IE ie;
         private string rootUrl;
         private static Process cmdProcess;
@@ -32,22 +33,23 @@ namespace NHibernate.Burrow.TestWeb.UnitTest
         public void SetUp()
         {
             bool IsWebStarted;
-            rootUrl = string.Format("http://localhost:{0}/", devServerPort);
+            rootUrl = string.Format("http://localhost:{0}", devServerPort);
           
                 // Check if Dev WebServer runs
-                ie = new IE(rootUrl);
-                IsWebStarted = ie.ContainsText("Directory Listing -- /");
+            string startPath = rootUrl + "/Default.aspx";
+            ie = new IE(startPath, true);
+                IsWebStarted = ie.ContainsText("Started");
             
 
             if (!IsWebStarted)
             {
                 // If not start it
-                string command = @"C:\Program Files\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.EXE";
+                string command = @"C:\Program Files (x86)\IIS Express\iisexpress.exe";
 
                 string rootPhyPath = Environment.CurrentDirectory.Remove( Environment.CurrentDirectory.IndexOf(@".UnitTest")) ;
                     
                     //Environment.CurrentDirectory.Substring(0,Environment.CurrentDirectory.LastIndexOf('\\'));
-                string commandArgs = string.Format(" /path:\"{0}\" /port:{1} /vapth:\"/{2}\"", rootPhyPath, devServerPort, rootpath);
+                string commandArgs = string.Format(" /path:\"{0}\" /port:{1}", rootPhyPath, devServerPort);
 
                 cmdProcess = new Process();
                 cmdProcess.StartInfo.Arguments = commandArgs;
@@ -61,7 +63,7 @@ namespace NHibernate.Burrow.TestWeb.UnitTest
                 // .. and try one more time to see if the server is up
                 ie.GoTo(rootUrl);
             }
-            Assert.IsTrue(ie.ContainsText("Directory Listing -- /"));
+            Assert.IsTrue(ie.ProcessID>0);
 
             // Give some time to crank up
             Thread.Sleep(1000);
@@ -77,7 +79,7 @@ namespace NHibernate.Burrow.TestWeb.UnitTest
         {
             if (path.IndexOf(".aspx") < 0)
                 path = path + "/Default.aspx";
-            ie.GoTo(rootUrl + path);
+            ie.GoTo(rootUrl+"/"+path);
         }
 
         

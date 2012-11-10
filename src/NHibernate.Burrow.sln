@@ -1,5 +1,6 @@
-﻿Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow", "NHibernate.Burrow\NHibernate.Burrow.csproj", "{3ED19982-3C23-4B7D-BE81-D40846A6CB16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.Test", "NHibernate.Burrow.Test\NHibernate.Burrow.Test.csproj", "{D2954D0B-C830-417B-A0D4-70AD81043B71}"
@@ -13,9 +14,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.TestUtil"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.AppBlock", "NHibernate.Burrow.AppBlock\NHibernate.Burrow.AppBlock.csproj", "{EBD9BE3A-D540-4705-B3C7-BA577D1691AE}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NHibernate.Burrow.TestWeb", "NHibernate.Burrow.TestWeb\", "{18403445-C779-482B-82A3-D6982CA7E5E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.AppBlock.Test", "NHibernate.Burrow.AppBlock.Test\NHibernate.Burrow.AppBlock.Test.csproj", "{9B9C74DF-1F3E-46E6-A294-42E1A4CD380F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.TestWeb.UnitTest", "NHibernate.Burrow.TestWeb.UnitTest\NHibernate.Burrow.TestWeb.UnitTest.csproj", "{A21E3169-C842-49B3-A100-4EA6E12DFD9A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localhost:2612", "{6155B3FE-C382-4EB8-AF52-7841D5BA0226}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFramework = "3.5"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{3DBB9568-5688-4442-8ECA-BD216E807C8D}|NHibernate.Burrow.WebUtil.dll;{D2954D0B-C830-417B-A0D4-70AD81043B71}|NHibernate.Burrow.Test.dll;{3ED19982-3C23-4B7D-BE81-D40846A6CB16}|NHibernate.Burrow.dll;{EBD9BE3A-D540-4705-B3C7-BA577D1691AE}|NHibernate.Burrow.AppBlock.dll;{32112377-D3FC-4A1C-8C90-BBDFF166ED3B}|NHibernate.Burrow.TestUtil.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/NHibernate.Burrow.TestWeb"
 		Debug.AspNetCompiler.PhysicalPath = "NHibernate.Burrow.TestWeb\"
@@ -31,13 +37,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NHibernate.Burrow.TestWeb",
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2612"
+		SlnRelativePath = "NHibernate.Burrow.TestWeb\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.AppBlock.Test", "NHibernate.Burrow.AppBlock.Test\NHibernate.Burrow.AppBlock.Test.csproj", "{9B9C74DF-1F3E-46E6-A294-42E1A4CD380F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.TestWeb.UnitTest", "NHibernate.Burrow.TestWeb.UnitTest\NHibernate.Burrow.TestWeb.UnitTest.csproj", "{A21E3169-C842-49B3-A100-4EA6E12DFD9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,16 +101,6 @@ Global
 		{EBD9BE3A-D540-4705-B3C7-BA577D1691AE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBD9BE3A-D540-4705-B3C7-BA577D1691AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EBD9BE3A-D540-4705-B3C7-BA577D1691AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Debug|.NET.ActiveCfg = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Debug|.NET.Build.0 = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Debug|Any CPU.ActiveCfg = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Debug|Mixed Platforms.Build.0 = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Release|.NET.ActiveCfg = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Release|.NET.Build.0 = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Release|Any CPU.ActiveCfg = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
-		{18403445-C779-482B-82A3-D6982CA7E5E4}.Release|Mixed Platforms.Build.0 = Debug|.NET
 		{9B9C74DF-1F3E-46E6-A294-42E1A4CD380F}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{9B9C74DF-1F3E-46E6-A294-42E1A4CD380F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B9C74DF-1F3E-46E6-A294-42E1A4CD380F}.Debug|Any CPU.Build.0 = Debug|Any CPU
@@ -129,6 +121,16 @@ Global
 		{A21E3169-C842-49B3-A100-4EA6E12DFD9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A21E3169-C842-49B3-A100-4EA6E12DFD9A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A21E3169-C842-49B3-A100-4EA6E12DFD9A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6155B3FE-C382-4EB8-AF52-7841D5BA0226}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

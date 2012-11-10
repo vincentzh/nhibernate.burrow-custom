@@ -51,7 +51,6 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Debug\NHibernate.Burrow.pdb
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\obj\Debug\NHibernate.Burrow.TestUtil.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\obj\Debug\NHibernate.Burrow.TestUtil.pdb
-D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Release\NHibernate.Burrow.TestUtil.XML
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Release\NHibernate.Burrow.TestUtil.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Release\NHibernate.Burrow.TestUtil.pdb
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Release\Iesi.Collections.dll
@@ -69,3 +68,5 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\obj\Release\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\obj\Release\NHibernate.Burrow.TestUtil.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\obj\Release\NHibernate.Burrow.TestUtil.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Release\NHibernate.Burrow.TestUtil.XML
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil\bin\Release\nunit.framework.xml

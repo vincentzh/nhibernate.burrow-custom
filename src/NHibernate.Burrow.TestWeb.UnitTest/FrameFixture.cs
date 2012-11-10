@@ -17,10 +17,7 @@
 #endregion Copyright
 
 using NUnit.Framework;
-using NUnit.Framework.SyntaxHelpers;
-using WatiN.Core;
-using WatiN.Core.Interfaces;
-using WatiN.Core.UnitTests;
+
 
 namespace NHibernate.Burrow.TestWeb.UnitTest
 {

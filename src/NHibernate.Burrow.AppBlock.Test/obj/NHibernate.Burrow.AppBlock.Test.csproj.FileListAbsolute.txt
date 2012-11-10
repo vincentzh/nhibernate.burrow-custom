@@ -105,3 +105,4 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\obj\Release\NHibernate.Burrow.AppBlock.Test.SoftDelete.RandomEntity.hbm.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\obj\Release\NHibernate.Burrow.AppBlock.Test.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\obj\Release\NHibernate.Burrow.AppBlock.Test.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\bin\Release\nunit.framework.xml

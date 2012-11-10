@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using NHibernate.Burrow.AppBlock.EntityBases;
 using NHibernate.Burrow.Util;
 using NUnit.Framework;
 
@@ -62,14 +61,7 @@ namespace NHibernate.Burrow.TestUtil
             o = GetSession(o.GetType()).Get(o.GetType(), GetEntityId(o));
             if (o != null)
             {
-                if (o is IDeletable)
-                {
-                    ((IDeletable) o).Delete();
-                }
-                else
-                {
                     GetSession(o.GetType()).Delete(o);
-                }
             }
         }
 
