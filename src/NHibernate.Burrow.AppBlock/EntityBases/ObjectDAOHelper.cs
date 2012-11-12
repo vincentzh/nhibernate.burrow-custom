@@ -36,7 +36,11 @@ namespace NHibernate.Burrow.AppBlock.EntityBases
                 PreDeleted(this, new EventArgs());
 
             if (!obj.IsTransient)
+            {
+                if(GenericDao==null)
+                    throw new NullReferenceException("GenericDAO property is Null");
                 GenericDao.Delete(obj);
+            }
             return true;
         }
 
@@ -44,20 +48,32 @@ namespace NHibernate.Burrow.AppBlock.EntityBases
         {
             if (isDeleted)
                 throw new Exception("Can not saveorUpdate once deleted");
-            GenericDao.SaveOrUpdate(obj);
+            {
+                if (GenericDao == null)
+                    throw new NullReferenceException("GenericDAO property is Null");
+                GenericDao.SaveOrUpdate(obj);
+            }
         }
 
         public void Save()
         {
             if (isDeleted)
                 throw new Exception("Can not saveorUpdate once deleted");
-            GenericDao.Save(obj);
+            {
+                if (GenericDao == null)
+                    throw new NullReferenceException("GenericDAO property is Null");
+                GenericDao.Save(obj);
+            }
         }
 
         public void Refresh()
         {
             if (!obj.IsTransient && !IsDeleted)
+            {
+                if (GenericDao == null)
+                    throw new NullReferenceException("GenericDAO property is Null");
                 GenericDao.Refresh(obj);
+            }
         }
     }
 }

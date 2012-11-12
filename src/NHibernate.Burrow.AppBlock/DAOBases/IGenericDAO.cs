@@ -55,32 +55,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
         /// </remarks>
         object Save(ReturnT t);
 
-        /// <summary>
-        /// Finds all entities of the type
-        /// </summary>
-        /// <returns></returns>
-        IList<ReturnT> FindAll();
-
-        /// <summary>
-        /// Find all entities of the type with paging and sorting
-        /// </summary>
-        /// <param name="startRow">the index of the first record to return</param>
-        /// <param name="pageSize">the number of the records to return</param>
-        /// <param name="sortExpression">the expression for sorting
-        /// <example> Name DESC </example>
-        /// <example> Year ASC </example>
-        /// this parameter can be IsEmptyOrNull when sorting is not needed
-        /// </param>
-        /// <returns></returns>
-        IList<ReturnT> FindAll(int startRow, int pageSize, string sortExpression);
-
-        /// <summary>
-        /// Counts all entities of the type
-        /// </summary>
-        /// <returns></returns>
-        int CountAll();
-
-        IList<ReturnT> FindByExample(ReturnT exampleInstance, params string[] propertiesToExclude);
+      
 
         ///<summary>
         /// This will fire a NHibernate Session Flush
