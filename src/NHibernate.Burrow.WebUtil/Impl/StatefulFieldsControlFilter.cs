@@ -43,11 +43,11 @@ namespace NHibernate.Burrow.WebUtil.Impl {
 			get { return instance; }
 		}
 
-		private ISet<Type> FilteredTypes {
+		private Iesi.Collections.Generic.ISet<Type> FilteredTypes {
 			get { return filteredTypes; }
 		}
 
-		private ISet<Type> AllowedTypes {
+		private Iesi.Collections.Generic.ISet<Type> AllowedTypes {
 			get { return allowedTypes; }
 		}
 
