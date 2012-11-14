@@ -36,6 +36,7 @@ namespace NHibernate.Burrow.AppBlock.Test.SoftDelete
                     RandomEntity ne = session.Get<RandomEntity>(id);
                     session.Delete(ne);
                     transaction.Commit();
+                  
                 }
                 session.Clear();
                 using (ITransaction transaction = session.BeginTransaction())

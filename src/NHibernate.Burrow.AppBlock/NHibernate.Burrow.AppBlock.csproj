@@ -62,13 +62,11 @@
       <HintPath>..\packages\NHibernate.3.3.2.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="DAOBases\GenericDAO.cs" />
     <Compile Include="DAOBases\IGenericDAO.cs" />
     <Compile Include="DynQuery\DetachedDynQuery.cs" />
@@ -82,10 +80,14 @@
     <Compile Include="DynQuery\Where.cs" />
     <Compile Include="EntityBases\BizTransactionEntityDAOBase.cs" />
     <Compile Include="EntityBases\IBizTransactionEntity.cs" />
+    <Compile Include="EntityBases\IBusinessKey.cs" />
     <Compile Include="EntityBases\IEntity.cs" />
+    <Compile Include="EntityBases\IntegerIdNBizKeyBase.cs" />
     <Compile Include="EntityBases\IPersistantObj.cs" />
+    <Compile Include="EntityBases\ITransient.cs" />
     <Compile Include="EntityBases\IWithId.cs" />
     <Compile Include="EntityBases\ObjectDAOHelper.cs" />
+    <Compile Include="EntityBases\ObjectWHashIdBase.cs" />
     <Compile Include="EntityBases\ObjWithIdNBizKeyBase.cs" />
     <Compile Include="EntityBases\PersistantObj.cs" />
     <Compile Include="GenericImpl\PaginableCriteria.cs" />

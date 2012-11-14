@@ -43,6 +43,7 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
             if (DateTime.Now > lastClearOutDatedTime + timeout){
                 lastClearOutDatedTime = DateTime.Now;
                 lock (lockObj){
+                    
                     foreach (ReturnT t in FindTimedOutOnes())
                         t.Delete();
                 }

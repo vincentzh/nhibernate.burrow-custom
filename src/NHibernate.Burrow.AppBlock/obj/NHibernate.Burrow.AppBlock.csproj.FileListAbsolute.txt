@@ -54,3 +54,17 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\obj\Release\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\obj\Release\NHibernate.Burrow.AppBlock.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\obj\Release\NHibernate.Burrow.AppBlock.pdb
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.AppBlock.XML
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.AppBlock.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.AppBlock.pdb
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\Iesi.Collections.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\log4net.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.Burrow.xml
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\log4net.xml
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\NHibernate.xml
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\bin\Release\Iesi.Collections.xml
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\obj\Release\NHibernate.Burrow.AppBlock.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow.AppBlock\obj\Release\NHibernate.Burrow.AppBlock.pdb

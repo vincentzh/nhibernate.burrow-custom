@@ -12,7 +12,7 @@ namespace NHibernate.Burrow.WebUtil.Impl {
 	internal class StatefulFieldsControlFilter {
 		private static readonly StatefulFieldsControlFilter instance = new StatefulFieldsControlFilter();
 
-		private readonly HashedSet<Type> allowedTypes = new HashedSet<Type>(new Type[] {
+		private readonly HashedSet<Type> allowedTypes = new HashedSet<Type>( new Type[] {
 		                                                                               	typeof (HtmlForm),
 		                                                                               	typeof (HtmlTable),
 		                                                                               	typeof (HtmlTableCell),
@@ -60,9 +60,6 @@ namespace NHibernate.Burrow.WebUtil.Impl {
 				return false;
 			if (control is UserControl || control is Page)
 			{
-                if (control is IStatefulFieldsControl)
-                    if( ((IStatefulFieldsControl) control).IgnoreStatefulFields) 
-                        return false;
 			    return Attribute.GetCustomAttribute(control.GetType(), typeof (IgnoreStatefulFields)) == null;
 			}
 			Type t = control.GetType();

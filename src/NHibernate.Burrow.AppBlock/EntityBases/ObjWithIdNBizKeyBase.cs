@@ -12,7 +12,8 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
     ///  1) they are of the same type and 2) the have the same business key 
     /// This class also offers a default meaningful ToString() method
     /// </remarks>
-    public abstract class ObjWithIdNBizKeyBase<T> : IWithId<T>, IEquatable<ObjWithIdNBizKeyBase<T>>{
+    public abstract class ObjWithIdNBizKeyBase<T> : IWithId<T>, IEntity, IBusinessKey, IEquatable<IBusinessKey>
+    {
         /// <summary>
         /// Recommend to use this as the seperator of the composite business key
         /// </summary>
@@ -22,10 +23,11 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
 
         #region IEquatable<ObjWithIdNBizKeyBase<T>> Members
 
-        public virtual bool Equals(ObjWithIdNBizKeyBase<T> objWithIdNBizKeyBase){
-            if (objWithIdNBizKeyBase == null)
+        public virtual bool Equals(IBusinessKey objWithBizKey)
+        {
+            if (objWithBizKey == null)
                 return false;
-            return Equals(BusinessKey, objWithIdNBizKeyBase.BusinessKey);
+            return Equals(BusinessKey, objWithBizKey.BusinessKey);
         }
 
         #endregion
@@ -44,12 +46,10 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
         /// <remarks> 
         /// This method is set as virtual for ORM framework to dynamically create proxy
         /// </remarks>
-        public virtual T Id{
-            get { return id; }
-            set { id = value; }
-        }
 
-        public abstract bool IsTransient { get; }
+        public abstract T Id { get; set; }
+
+        
 
         #endregion
 
@@ -65,15 +65,15 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
         public virtual int CompareTo(object obj){
             if (obj == null)
                 throw new ArgumentNullException();
-            if (!(obj is ObjWithIdNBizKeyBase<T>))
+            if (!(obj is IBusinessKey))
                 throw new ArgumentException("Object must be of type ObjWithIdNBizKeyBase");
-            return BusinessKey.CompareTo(((ObjWithIdNBizKeyBase<T>) obj).BusinessKey);
+            return BusinessKey.CompareTo(((IBusinessKey)obj).BusinessKey);
         }
 
         public override bool Equals(object obj){
             if (ReferenceEquals(this, obj))
                 return true;
-            return Equals(obj as ObjWithIdNBizKeyBase<T>);
+            return Equals(obj as IBusinessKey);
         }
 
         public override int GetHashCode(){

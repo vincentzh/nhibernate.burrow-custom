@@ -23,8 +23,9 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
         public PersistantObj(){
             dao = new ObjectDAOHelper<PersistantObj<T>>(this);
             dao.PreDeleted += OnPreDeleted;
+            
         }
-
+        public abstract bool IsTransient { get; }
         /// <summary>
         /// will be called when this object is going to be deleted;
         /// </summary>

@@ -5,7 +5,7 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
     /// 
     /// </summary>
     /// <typeparam name="T">Set the type of Id</typeparam>
-    public interface IWithId<T>:IEntity{
+    public interface IWithId<T>{
         T Id { get; set; }
     }
 }

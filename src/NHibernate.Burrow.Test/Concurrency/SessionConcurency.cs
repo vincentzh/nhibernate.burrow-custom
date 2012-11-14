@@ -11,7 +11,7 @@ namespace NHibernate.Burrow.Test.Concurrency
         public static ISet<int> sesss = new HashedSet<int>();
         public static int error = 0;
         public static int threadPerformed = 0;
-    	private static bool loudly = false;
+    	private static bool loudly = true;
 
     	public class ThreadTestProcessor
         {

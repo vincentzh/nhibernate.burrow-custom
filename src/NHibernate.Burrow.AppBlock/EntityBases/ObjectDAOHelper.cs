@@ -3,7 +3,7 @@ using NHibernate.Burrow.AppBlock.DAOBases;
 
 namespace NHibernate.Burrow.AppBlock.EntityBases
 {
-    public class ObjectDAOHelper<T> where T : IEntity
+    public class ObjectDAOHelper<T> where T : IBusinessKey, ITransient, IEntity
     {
         private readonly T obj;
         private bool isDeleted;

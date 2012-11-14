@@ -19,9 +19,8 @@ using System.Security;
 [assembly: AssemblyCompanyAttribute("NHibernate.org")]
 [assembly: AssemblyProductAttribute("NHibernate.Burrow.Test")]
 [assembly: AssemblyCopyrightAttribute("Licensed under LGPL.")]
-[assembly: AssemblyVersionAttribute("1.1.0.1001")]
-[assembly: AssemblyInformationalVersionAttribute("1.1.0.1001")]
-[assembly: AssemblyFileVersionAttribute("1.1.0.1001")]
+[assembly: AssemblyVersionAttribute("4.0.0.1001")]
+[assembly: AssemblyInformationalVersionAttribute("4.0.0.1001")]
+[assembly: AssemblyFileVersionAttribute("4.0.0.1001")]
 [assembly: AssemblyDelaySignAttribute(false)]
-[assembly: AllowPartiallyTrustedCallersAttribute()]
 

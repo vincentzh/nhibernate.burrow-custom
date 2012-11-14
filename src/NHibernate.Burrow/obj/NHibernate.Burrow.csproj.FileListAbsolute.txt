@@ -70,3 +70,11 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\bin\Release\NHibernate.xml
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\obj\Release\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow\obj\Release\NHibernate.Burrow.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\bin\Release\NHibernate.Burrow.XML
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\bin\Release\NHibernate.Burrow.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\bin\Release\log4net.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\bin\Release\NHibernate.dll
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\bin\Release\log4net.xml
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\bin\Release\NHibernate.xml
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\obj\Release\ResolveAssemblyReference.cache
+D:\SourceCode\WorkSource\NHibernate.Burrow-Custom\src\NHibernate.Burrow\obj\Release\NHibernate.Burrow.dll

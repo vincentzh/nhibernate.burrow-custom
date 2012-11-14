@@ -1,1 +1,0 @@
-NAnt -D:project.config=release clean build >output-release-build.log

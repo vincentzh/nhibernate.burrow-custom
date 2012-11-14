@@ -9,7 +9,8 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
     /// Some transaction Entity can be temporarily saved in the Database to support business transaction which span over seperate requests.
     /// This is a very simple solution to support business transaction without true transaction management support. 
     /// </remarks>
-    public interface IBizTransactionEntity:IEntity{
+    public interface IBizTransactionEntity : IEntity
+    {
         /// <summary>
         /// Gets if the related Biz transaction is successfully commit. 
         /// </summary>
