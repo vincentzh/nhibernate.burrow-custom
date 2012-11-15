@@ -3,7 +3,7 @@ bin
 obj
 BurrowState
 logs
-.user
-.suo
+*.user
+*.suo
 BurrowState
 logs
