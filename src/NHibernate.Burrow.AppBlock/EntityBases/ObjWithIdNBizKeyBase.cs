@@ -19,8 +19,6 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
         /// </summary>
         protected const string BIZKEYSEP = "<!--BIZKEYSEP-->";
 
-        private T id;
-
         #region IEquatable<ObjWithIdNBizKeyBase<T>> Members
 
         public virtual bool Equals(IBusinessKey objWithBizKey)

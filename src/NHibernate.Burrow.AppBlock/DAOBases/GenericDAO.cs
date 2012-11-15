@@ -76,18 +76,18 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
         get { return _NHEntityType.Name; }
     }
 
-    /// <summary>
-    /// Gets the Nhibernate Session 
-    /// </summary>
-    protected ISession Session
-    {
-        get { return new BurrowFramework().GetSession(_NHEntityType); }
-    }
-
-    protected IStatelessSession StatelessSession
-    {
-        get { return new BurrowFramework().GetSessionFactory(_NHEntityType).OpenStatelessSession(); }
-    }
+        /// <summary>
+        /// Gets the Nhibernate Session 
+        /// </summary>
+        //protected ISession Session
+        //{
+        //    get { return new BurrowFramework().GetSession(_NHEntityType); }
+        //}
+    public ISession Session { get; set; }
+    //protected IStatelessSession StatelessSession
+    //{
+    //    get { return new BurrowFramework().GetSessionFactory(_NHEntityType).OpenStatelessSession(); }
+    //}
 
     /// <summary>
     /// Parse the NHibernate.Expression.Order from the string sortExpression
