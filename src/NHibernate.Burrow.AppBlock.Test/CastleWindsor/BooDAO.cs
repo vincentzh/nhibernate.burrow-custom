@@ -8,5 +8,6 @@ namespace NHibernate.Burrow.AppBlock.Test.CastleWindsor
 {
     public class BooDAO:GenericDAO<Boo>
     {
+        public Boo1DAO DAO { get; set; }
     }
 }

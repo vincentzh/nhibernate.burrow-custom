@@ -83,7 +83,6 @@
     <Compile Include="EntityBases\IBusinessKey.cs" />
     <Compile Include="EntityBases\IEntity.cs" />
     <Compile Include="EntityBases\IntegerIdNBizKeyBase.cs" />
-    <Compile Include="EntityBases\IPersistantObj.cs" />
     <Compile Include="EntityBases\ITransient.cs" />
     <Compile Include="EntityBases\IWithId.cs" />
     <Compile Include="EntityBases\ObjectDAOHelper.cs" />
@@ -105,7 +104,6 @@
     <Compile Include="Pagination\NamedQueryRowsCounter.cs" />
     <Compile Include="Pagination\Paginator.cs" />
     <Compile Include="Pagination\QueryRowsCounter.cs" />
-    <Compile Include="RepositoryBases\Repository.cs" />
     <Compile Include="Serialization\Cloner.cs" />
     <Compile Include="SoftDelete\ISoftDelete.cs" />
     <Compile Include="SoftDelete\SoftDeleteEventListener.cs" />

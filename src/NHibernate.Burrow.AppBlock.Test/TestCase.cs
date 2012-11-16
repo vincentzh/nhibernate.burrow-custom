@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Reflection;
-using Castle.MicroKernel.Registration;
-using Castle.Windsor;
-using NHibernate.Burrow.AppBlock.EntityBases;
-using NHibernate.Burrow.AppBlock.Test.CastleWindsor;
 using log4net;
 using log4net.Config;
 using NHibernate.Engine;
@@ -26,12 +22,12 @@ namespace NHibernate.Burrow.AppBlock.Test
         private DebugConnectionProvider connectionProvider;
         private ISession lastOpenedSession;
         protected ISessionFactory sessions;
-      
+
         static TestCase()
         {
             XmlConfigurator.Configure();
         }
-      
+
         /// <summary>
         /// Mapping files used in the TestCase
         /// </summary>

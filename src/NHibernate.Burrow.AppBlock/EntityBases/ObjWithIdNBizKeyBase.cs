@@ -12,12 +12,13 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
     ///  1) they are of the same type and 2) the have the same business key 
     /// This class also offers a default meaningful ToString() method
     /// </remarks>
-    public abstract class ObjWithIdNBizKeyBase<T> : IWithId<T>, IEntity, IBusinessKey, IEquatable<IBusinessKey>
+    public abstract class ObjWithIdNBizKeyBase<T> : IWithId<T>, IEntity,ITransient, IBusinessKey, IEquatable<IBusinessKey>
     {
         /// <summary>
         /// Recommend to use this as the seperator of the composite business key
         /// </summary>
         protected const string BIZKEYSEP = "<!--BIZKEYSEP-->";
+
 
         #region IEquatable<ObjWithIdNBizKeyBase<T>> Members
 
@@ -87,5 +88,7 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
                 GetType() + " #" + Id + "( BusinessKey:" +
                 BusinessKey.ToString().Replace(BIZKEYSEP, " ") + ")";
         }
+
+        public virtual bool IsTransient () { return Id == null || Id.Equals(default(T)); } 
     }
 }

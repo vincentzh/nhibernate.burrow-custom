@@ -10,7 +10,7 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
     /// <summary>
     /// Targeted to be the standard PersistantObj
     /// </summary>
-    public abstract class PersistantObj<T> : ObjWithIdNBizKeyBase<T>, IPersistantObj<T>{
+    public abstract class PersistantObj<T> : ObjWithIdNBizKeyBase<T>{
         /// <summary>
         /// a helper for inheritance to perform DAO functions
         /// </summary>
@@ -25,7 +25,6 @@ namespace NHibernate.Burrow.AppBlock.EntityBases{
             dao.PreDeleted += OnPreDeleted;
             
         }
-        public abstract bool IsTransient { get; }
         /// <summary>
         /// will be called when this object is going to be deleted;
         /// </summary>

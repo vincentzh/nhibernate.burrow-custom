@@ -2,6 +2,8 @@
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 using NHibernate.Burrow.AppBlock.DAOBases;
+using NHibernate.Burrow.AppBlock.EntityBases;
+using NHibernate.Burrow.Facilities;
 using NUnit.Framework;
 
 namespace NHibernate.Burrow.AppBlock.Test.CastleWindsor
@@ -17,10 +19,14 @@ namespace NHibernate.Burrow.AppBlock.Test.CastleWindsor
 
         public IWindsorContainer BootstrapContainer()
         {
-            return new WindsorContainer().Register(
-                AllTypes.FromThisAssembly().BasedOn(typeof (GenericDAO<>)).WithService.DefaultInterfaces())
-                .Register(
-                    Component.For<ISession>().Instance(OpenSession()));
+            var container = new WindsorContainer();
+            container.AddFacility<DAOFacility>(facility =>
+                                                   {
+                                                       facility.IsWeb = false;
+                                                       facility.AssemblyNamed = MappingsAssembly;
+                                                   });
+             container.Register(Component.For<ISession>().Instance(OpenSession()));
+            return container;
         }
 
         protected override void OnSetUp()
@@ -38,6 +44,9 @@ namespace NHibernate.Burrow.AppBlock.Test.CastleWindsor
                 using (ITransaction transaction = session.BeginTransaction())
                 {
                     var boo = new Boo();
+                   
+                    Assert.IsNotNull(container.Resolve<BooDAO>());
+                    Assert.IsNotNull(container.Resolve<BooDAO>().DAO);
                     boo.Name = "Boo";
                     container.Resolve<BooDAO>().Save(boo);
                     transaction.Commit();

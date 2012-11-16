@@ -11,9 +11,10 @@ namespace NHibernate.Burrow.AppBlock.EntityBases
         public ObjectDAOHelper(T obj)
         {
             this.obj = obj;
+            GenericDao=new GenericDAO<T>(obj.GetType());
         }
 
-        public IGenericDAO<T> GenericDao { get; set; }
+        protected IGenericDAO<T> GenericDao { get; set; }
 
         public bool IsDeleted
         {
@@ -35,7 +36,7 @@ namespace NHibernate.Burrow.AppBlock.EntityBases
             if (PreDeleted != null)
                 PreDeleted(this, new EventArgs());
 
-            if (!obj.IsTransient)
+            if (!obj.IsTransient())
             {
                 if(GenericDao==null)
                     throw new NullReferenceException("GenericDAO property is Null");
@@ -68,7 +69,7 @@ namespace NHibernate.Burrow.AppBlock.EntityBases
 
         public void Refresh()
         {
-            if (!obj.IsTransient && !IsDeleted)
+            if (!obj.IsTransient() && !IsDeleted)
             {
                 if (GenericDao == null)
                     throw new NullReferenceException("GenericDAO property is Null");

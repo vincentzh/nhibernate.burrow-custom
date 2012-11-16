@@ -11,6 +11,5 @@ namespace NHibernate.Burrow.AppBlock.Test.CastleWindsor
     {
         public override int Id { get; set; }
         public string Name { get; set; }
-       
     }
 }
