@@ -264,6 +264,17 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
         return retVal;
     }
 
+        /// <summary>
+        /// Create a Criteria with StatelessSession and without order
+        /// </summary>
+        /// <returns></returns>
+    protected ICriteria StatelessCreateCriteria()
+    {
+        ICriteria retval = StatelessSession.CreateCriteria(_NHEntityType);
+        if(DefaultCacheable)
+         retval.SetCacheable(DefaultCacheable).SetCacheRegion(DefaultCacheRegion);
+        return retval;
+    }
     /// <summary>
     /// Create a Criteria instance of the Type
     /// </summary>
