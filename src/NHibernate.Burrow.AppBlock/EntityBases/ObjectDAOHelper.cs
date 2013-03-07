@@ -3,6 +3,7 @@ using NHibernate.Burrow.AppBlock.DAOBases;
 
 namespace NHibernate.Burrow.AppBlock.EntityBases
 {
+    [Obsolete]
     public class ObjectDAOHelper<T> where T : IBusinessKey, ITransient, IEntity
     {
         private readonly T obj;
