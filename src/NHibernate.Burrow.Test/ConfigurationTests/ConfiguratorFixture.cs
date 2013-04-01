@@ -2,7 +2,6 @@
 using NHibernate.Burrow.Test.MockEntities;
 using NHibernate.Cfg;
 using NHibernate.Engine;
-using NHibernate.Envers.Configuration.Attributes;
 using NUnit.Framework;
 
 namespace NHibernate.Burrow.Test.ConfigurationTests
@@ -75,7 +74,7 @@ namespace NHibernate.Burrow.Test.ConfigurationTests
                configuration.SetProperty("dialect", "NHibernate.Dialect.MsSql2005Dialect");
 
                configuration.SetProperty("adonet.batch_size", testAdoBatchSize.ToString());
-               configuration.IntegrateWithEnvers(new AttributeConfiguration());
+              
          
            }
         }
