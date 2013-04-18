@@ -137,7 +137,7 @@ namespace NHibernate.Burrow.WebUtil.Impl
 			DirectoryInfo tempFileFolder = new DirectoryInfo( page.Server.MapPath(WebUtilHTTPModule.BorrowStateFilePath));
 			if (!tempFileFolder.Exists)
 				tempFileFolder.Create();
-			ThreadPool.QueueUserWorkItem(delegate { File.WriteAllText(GetSpeicalBorrowStateFilePath(guid), tempfile); });
+			File.WriteAllText(GetSpeicalBorrowStateFilePath(guid), tempfile);
 			GlobalPlaceHolder.AddPostBackField(Prefix, guid);
 
 		}
