@@ -71,3 +71,4 @@ D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Release\ResolveAssemblyReference.cache
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Release\NHibernate.Burrow.WebUtil.dll
 D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\obj\Release\NHibernate.Burrow.WebUtil.pdb
+D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\bin\Release\System.Web.Extensions.dll
