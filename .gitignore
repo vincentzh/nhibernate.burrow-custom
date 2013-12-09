@@ -7,3 +7,4 @@ logs
 *.suo
 BurrowState
 logs
+OutputDll

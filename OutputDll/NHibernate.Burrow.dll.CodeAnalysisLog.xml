@@ -1,0 +1,1164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Namespaces>
+  <Namespace Name="NHibernate.Burrow.DataContainers">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.DataContainers' with another namespace.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="NHibernate.Burrow.Impl">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Impl' with another namespace.</Issue>
+    </Message>
+    <Message Id="Impl" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Impl' in namespace name 'NHibernate.Burrow.Impl'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="NHibernate.Burrow.Util">
+   <Messages>
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+     <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Util' with another namespace.</Issue>
+    </Message>
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.Util'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="D:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\OutputDll\NHibernate.Burrow.dll">
+   <Modules>
+    <Module Name="nhibernate.burrow.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.dll' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+       <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="NHibernate.Burrow">
+       <Types>
+        <Type Name="BurrowFramework" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BurrowEnvironment" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'BurrowFramework.BurrowEnvironment' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CloseWorkSpace()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'BurrowFramework.CloseWorkSpace()' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CurrentConversation" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'BurrowFramework.CurrentConversation' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitWorkSpace()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'BurrowFramework.InitWorkSpace()' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitWorkSpace(System.Boolean,System.Collections.Specialized.NameValueCollection,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error">In member 'BurrowFramework.InitWorkSpace(bool, NameValueCollection, string)', the compound word 'WorkSpace' in parameter name 'currentWorkSpaceName' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error">In member 'BurrowFramework.InitWorkSpace(bool, NameValueCollection, string)', the compound word 'WorkSpace' in parameter name 'ignoreUnclosedWorkSpace' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'BurrowFramework.InitWorkSpace(bool, NameValueCollection, string)' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitWorkSpace(System.Guid)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'BurrowFramework.InitWorkSpace(Guid)' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WorkSpaceIsReady" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'BurrowFramework.WorkSpaceIsReady' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'BurrowFramework.WorkSpaceIsReady' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConversationalData`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ConversationUnvailableException()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'ConversationalData&lt;T&gt;.ConversationUnvailableException()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IBurrowConfig" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Configurator" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Configurator' in member name 'IBurrowConfig.Configurator' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConversationTimeOut" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="TimeOut" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'TimeOut' in member name 'IBurrowConfig.ConversationTimeOut' exists as a discrete term. If your usage is intended to be single word, case it as 'Timeout' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CustomConfigurator" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Configurator' in member name 'IBurrowConfig.CustomConfigurator' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PersistenceUnitCfgs" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Cfgs" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Cfgs' in member name 'IBurrowConfig.PersistenceUnitCfgs' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WorkSpaceNameSniffer" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'IBurrowConfig.WorkSpaceNameSniffer' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IConfigurator" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidOverloadsInComVisibleInterfaces" Category="Microsoft.Interoperability" CheckId="CA1402" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="CriticalWarning">ComVisible(true) interface 'IConfigurator' defines overloaded methods. Give each method a unique name or make the type ComVisible(false).</Issue>
+          </Message>
+          <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Configurator' in type name 'IConfigurator'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Config(NHibernate.Burrow.IBurrowConfig)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IConfigurator.Config(IBurrowConfig)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Config(NHibernate.Burrow.IPersistenceUnitCfg,NHibernate.Cfg.Configuration)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IConfigurator.Config(IPersistenceUnitCfg, Configuration)', correct the spelling of 'Cfg' in parameter name 'nhCfg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IConfigurator.Config(IPersistenceUnitCfg, Configuration)', correct the spelling of 'Cfg' in parameter name 'puCfg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="pu" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IConfigurator.Config(IPersistenceUnitCfg, Configuration)', correct the spelling of 'pu' in parameter name 'puCfg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IConversation" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="AvoidOverloadsInComVisibleInterfaces" Category="Microsoft.Interoperability" CheckId="CA1402" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="CriticalWarning">ComVisible(true) interface 'IConversation' defines overloaded methods. Give each method a unique name or make the type ComVisible(false).</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#SpanWithCookie(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="workSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error">In member 'IConversation.SpanWithCookie(string)', the compound word 'workSpace' in parameter name 'workSpaceName' exists as a discrete term. If your usage is intended to be single word, case it as 'workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SpanWithCookie(System.String,NHibernate.Burrow.TransactionStrategy)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error">In member 'IConversation.SpanWithCookie(string, TransactionStrategy)', the compound word 'WorkSpace' in parameter name 'inWorkSpaceName' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WorkSpaceName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in member name 'IConversation.WorkSpaceName' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IConversationExpirationChecker" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CleanUpTimeSpan" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="UpTime" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'UpTime' in member name 'IConversationExpirationChecker.CleanUpTimeSpan' exists as a discrete term. If your usage is intended to be single word, case it as 'Uptime' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsConversationExpired(NHibernate.Burrow.IConversation)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IConversationExpirationChecker.IsConversationExpired(IConversation)', consider providing a more meaningful name than parameter name 'c'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IFrameworkEnvironment" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ReConfig(NHibernate.Burrow.IConfigurator)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Re" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'Re' in member name 'IFrameworkEnvironment.ReConfig(IConfigurator)' by changing it to 'RE'.</Issue>
+            </Message>
+            <Message Id="configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IFrameworkEnvironment.ReConfig(IConfigurator)', correct the spelling of 'configurator' in parameter name 'configurator' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ShutDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ShutDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'ShutDown' in member name 'IFrameworkEnvironment.ShutDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Shutdown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IInterceptorFactory" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create(NHibernate.Cfg.Configuration)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IInterceptorFactory.Create(Configuration)', correct the spelling of 'cfg' in parameter name 'cfg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IPersistenceUnitCfg" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Cfg' in type name 'IPersistenceUnitCfg'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TransactionStrategy" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#BusinessTransaction" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="25" Level="Error">Remove the read-only designation from 'TransactionStrategy.BusinessTransaction' or change the field to one that is an immutable reference type. If the reference type 'TransactionStrategy' is, in fact, immutable, exclude this message.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LongDBTransaction" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="25" Level="Error">Remove the read-only designation from 'TransactionStrategy.LongDBTransaction' or change the field to one that is an immutable reference type. If the reference type 'TransactionStrategy' is, in fact, immutable, exclude this message.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="NHibernate.Burrow.Configuration">
+       <Types>
+        <Type Name="NHibernateBurrowCfgSection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'NHibernateBurrowCfgSection' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'ConfigurationSection', 'ConfigurationElement'</Issue>
+          </Message>
+          <Message Id="Cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Cfg' in type name 'NHibernateBurrowCfgSection'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PersistenceUnitElement" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PersistenceUnitElement' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'ConfigurationElement'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PersistenceUnitElementCollection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="CollectionsShouldImplementGenericInterface" Category="Microsoft.Design" CheckId="CA1010" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="90" Level="Error">'PersistenceUnitElementCollection' appears to be a non-generic, strongly typed collection. Add an implementation to the instance of ICollection&lt;T&gt; where T is the underlying element type of 'PersistenceUnitElementCollection'.</Issue>
+          </Message>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'PersistenceUnitElementCollection' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'ConfigurationElementCollection', 'ConfigurationElement'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Util" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#CheckCanChangeCfg()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'Util.CheckCanChangeCfg()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="NHibernate.Burrow.DataContainers">
+       <Types>
+        <Type Name="GuidDataContainer" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ContainsKey(System.Guid)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="gid" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'GuidDataContainer.ContainsKey(Guid)', correct the spelling of 'gid' in parameter name 'gid' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateSlot(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'GuidDataContainer.CreateSlot(object)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Remove(System.Guid)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="gid" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'GuidDataContainer.Remove(Guid)', correct the spelling of 'gid' in parameter name 'gid' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Set(System.Guid,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'GuidDataContainer.Set(Guid, object)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TryGet`1(System.Guid,!!0&amp;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'GuidDataContainer.TryGet&lt;T&gt;(Guid, out T)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LocalSafe`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#callContextDictionary" Kind="Property" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'LocalSafe&lt;T&gt;.callContextDictionary' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="NHibernate.Burrow.Exceptions">
+       <Types>
+        <Type Name="BurrowException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'BurrowException': protected BurrowException(SerializationInfo, StreamingContext).</Issue>
+          </Message>
+          <Message TypeName="TypesShouldNotExtendCertainBaseTypes" Category="Microsoft.Design" CheckId="CA1058" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="System.ApplicationException" Certainty="75" Level="Error">Change the base type of 'BurrowException' so that it no longer extends 'ApplicationException'. This base exception type does not provide any additional value for framework classes. Extend 'System.Exception' or an existing unsealed exception type instead. Do not create a new exception base type unless there is specific value in enabling the creation of a catch handler for an entire class of exceptions.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ChangeConfigWhenRunningException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ChangeConfigWhenRunningException': protected ChangeConfigWhenRunningException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ChangeConfigWhenRunningException': public ChangeConfigWhenRunningException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'ChangeConfigWhenRunningException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConversationAlreadyCancelledException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ConversationAlreadyCancelledException': protected ConversationAlreadyCancelledException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ConversationAlreadyCancelledException': public ConversationAlreadyCancelledException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'ConversationAlreadyCancelledException' as this type implements ISerializable.</Issue>
+          </Message>
+          <Message Id="Cancelled" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="95" Level="Error">Replace the term 'Cancelled' in type name 'ConversationAlreadyCancelledException' with the preferred alternate 'Canceled'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConversationUnavailableException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ConversationUnavailableException': protected ConversationUnavailableException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ConversationUnavailableException': public ConversationUnavailableException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConversationUninitializedException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ConversationUninitializedException': protected ConversationUninitializedException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'ConversationUninitializedException': public ConversationUninitializedException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DomainContextUninitializedException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'DomainContextUninitializedException': protected DomainContextUninitializedException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'DomainContextUninitializedException': public DomainContextUninitializedException(String, Exception).</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FrameworkAlreadyShutDownException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="ShutDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'ShutDown' in type name 'FrameworkAlreadyShutDownException' exists as a discrete term. If your usage is intended to be single word, case it as 'Shutdown'.</Issue>
+          </Message>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'FrameworkAlreadyShutDownException': protected FrameworkAlreadyShutDownException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'FrameworkAlreadyShutDownException': public FrameworkAlreadyShutDownException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'FrameworkAlreadyShutDownException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GeneralException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'GeneralException': protected GeneralException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'GeneralException': public GeneralException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'GeneralException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="IllegalFlushModeException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'IllegalFlushModeException': protected IllegalFlushModeException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'IllegalFlushModeException': public IllegalFlushModeException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'IllegalFlushModeException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="IncorrectConversationSpanStatusException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'IncorrectConversationSpanStatusException': protected IncorrectConversationSpanStatusException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'IncorrectConversationSpanStatusException': public IncorrectConversationSpanStatusException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'IncorrectConversationSpanStatusException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="IncorrectTransactionStatusException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'IncorrectTransactionStatusException': protected IncorrectTransactionStatusException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'IncorrectTransactionStatusException': public IncorrectTransactionStatusException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'IncorrectTransactionStatusException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="NoSuitableContructorException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Contructor" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Contructor' in type name 'NoSuitableContructorException'.</Issue>
+          </Message>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NoSuitableContructorException': protected NoSuitableContructorException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'NoSuitableContructorException': public NoSuitableContructorException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'NoSuitableContructorException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PersistenceUnitsNotReadyException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'PersistenceUnitsNotReadyException': protected PersistenceUnitsNotReadyException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'PersistenceUnitsNotReadyException': public PersistenceUnitsNotReadyException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'PersistenceUnitsNotReadyException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="PropertyNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'PropertyNotFoundException': protected PropertyNotFoundException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'PropertyNotFoundException': public PropertyNotFoundException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'PropertyNotFoundException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TypeNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'TypeNotFoundException': protected TypeNotFoundException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'TypeNotFoundException': public TypeNotFoundException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'TypeNotFoundException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UnableToGetPersistenceUnitException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'UnableToGetPersistenceUnitException': protected UnableToGetPersistenceUnitException(SerializationInfo, StreamingContext).</Issue>
+           <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'UnableToGetPersistenceUnitException': public UnableToGetPersistenceUnitException(String, Exception).</Issue>
+          </Message>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Add [Serializable] to 'UnableToGetPersistenceUnitException' as this type implements ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="NHibernate.Burrow.Impl">
+       <Types>
+        <Type Name="ConversationExpirationCheckerByTimeout" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ConversationCleanupFrequency" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">Correct the spelling of the unrecognized token 'ConversationCleanupFrequency' in the literal '"ConversationCleanupFrequency must be greater than 1"'.</Issue>
+            </Message>
+            <Message Id="ConversationTimeOut" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">Correct the spelling of the unrecognized token 'ConversationTimeOut' in the literal '"ConversationTimeOut must be greater than 1"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConversationExpirationCheckerFactory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Create(NHibernate.Burrow.IBurrowConfig)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'ConversationExpirationCheckerFactory.Create(IBurrowConfig)', correct the spelling of 'cfg' in parameter name 'cfg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'ConversationExpirationCheckerFactory.Create(IBurrowConfig)', validate parameter 'cfg' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConversationPool" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#CheckGuid(System.Guid)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'ConversationPool.CheckGuid(Guid)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConversationWithManagedTransactionImpl" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#TransactionManager" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_TransactionManager()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+             <Messages>
+              <Message Id="BurrowFramework" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning">Correct the spelling of the unrecognized token 'BurrowFramework' in the literal '"Manual transaction management is not supported in Atomic Conversation. To use ma..."'.</Issue>
+              </Message>
+              <Message Id="InitWorkSpaceWithManualTransaction" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning">Correct the spelling of the unrecognized token 'InitWorkSpaceWithManualTransaction' in the literal '"Manual transaction management is not supported in Atomic Conversation. To use ma..."'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PersistenceUnit" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Instance(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">'PersistenceUnit.Instance(Type)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SpanStrategy" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#GetOnly" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'SpanStrategy.GetOnly' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TransactionImpl" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Commit()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError">Modify 'TransactionImpl.Commit()' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Rollback()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError">Modify 'TransactionImpl.Rollback()' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+             <Issue Certainty="95" Level="CriticalError">Modify 'TransactionImpl.Rollback()' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VoidTransaction" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">'VoidTransaction' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="WorkSpace" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Append(System.Text.StringBuilder,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'WorkSpace.Append(StringBuilder, string, string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConversationId" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_ConversationId()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning">'WorkSpace.ConversationId.get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="NHibernate.Burrow.Util">
+       <Types>
+        <Type Name="EntityLoader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Get(System.Type,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EntityLoader.Get(Type, object)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'EntityLoader.Get(Type, object)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetId(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EntityLoader.GetId(object)', consider providing a more meaningful name than parameter name 'o'.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'EntityLoader.GetId(object)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Load(System.Type,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'EntityLoader.Load(Type, object)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'EntityLoader.Load(Type, object)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="InstanceLoader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Because type 'InstanceLoader' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Load(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'InstanceLoader.Load(Type)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="NonBreaking">
+             <Issue Name="NoArguments" Certainty="95" Level="CriticalError">Call the 'ArgumentNullException' constructor that contains a message and/or paramName parameter.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Loadable(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'InstanceLoader.Loadable(Type)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'InstanceLoader.Loadable(Type)', validate parameter 't' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadByConstrutor(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Construtor" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Construtor' in member name 'InstanceLoader.LoadByConstrutor(Type)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'InstanceLoader.LoadByConstrutor(Type)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'InstanceLoader.LoadByConstrutor(Type)', validate parameter 't' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LoadByInstanceProperty(System.Type)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'InstanceLoader.LoadByInstanceProperty(Type)', consider providing a more meaningful name than parameter name 't'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning">In externally visible method 'InstanceLoader.LoadByInstanceProperty(Type)', validate parameter 't' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SchemaUtil" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in type name 'SchemaUtil'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CreateSchemas(System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'SchemaUtil.CreateSchemas(bool, bool)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DropSchemas(System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'SchemaUtil.DropSchemas(bool, bool)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateSchema(System.Boolean,System.Boolean,NHibernate.Cfg.Configuration)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'SchemaUtil.UpdateSchema(bool, bool, Configuration)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WebUtil" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in type name 'WebUtil'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#GetPostBackFields()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="BackFields" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'BackFields' in member name 'WebUtil.GetPostBackFields()' exists as a discrete term. If your usage is intended to be single word, case it as 'Backfields' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning">Change 'WebUtil.GetPostBackFields()' to a property if appropriate.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#WrapUrlWithConversationInfo(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">The 'this' parameter (or 'Me' in Visual Basic) of 'WebUtil.WrapUrlWithConversationInfo(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
+            </Message>
+            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Certainty="60" Level="Error">Change the type of parameter 'originalUrl' of method 'WebUtil.WrapUrlWithConversationInfo(string)' from string to System.Uri, or provide an overload of 'WebUtil.WrapUrlWithConversationInfo(string)', that allows 'originalUrl' to be passed as a System.Uri object.</Issue>
+            </Message>
+            <Message TypeName="UriReturnValuesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1055" Status="Active" Created="2013-04-30 06:10:41Z" FixCategory="Breaking">
+             <Issue Certainty="60" Level="Error">Change the return type of 'WebUtil.WrapUrlWithConversationInfo(string)' from string to System.Uri.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020">
+   <Name>Avoid namespaces with few types</Name>
+   <Description>A namespace should generally have more than five types.</Description>
+   <Resolution Name="Default">Consider merging the types defined in '{0}' with another namespace.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182130(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidOverloadsInComVisibleInterfaces" Category="Microsoft.Interoperability" CheckId="CA1402">
+   <Name>Avoid overloads in COM visible interfaces</Name>
+   <Description>Interfaces that are visible to COM should not define overloads, as they will be renamed and cannot be implemented by Visual Basic 6 clients. COM interfaces cannot contain overloaded methods.</Description>
+   <Resolution Name="Default">ComVisible(true) interface {0} defines overloaded methods. Give each method a unique name or make the type ComVisible(false).</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182197(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">CriticalWarning</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812">
+   <Name>Avoid uninstantiated internal classes</Name>
+   <Description>An internal class was detected that is apparently never instantiated. This rule does not attempt to detect late-bound creation and will generate false positives if instances of a type are only created in this way (for example, by means of Activator.CreateInstance or by passing the type as an argument to a TypeConverter constructor).</Description>
+   <Resolution Name="Default">{0} is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182265(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Avoid unused private fields</Name>
+   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245042(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="CollectionsShouldImplementGenericInterface" Category="Microsoft.Design" CheckId="CA1010">
+   <Name>Collections should implement generic interface</Name>
+   <Description>Non-generic strongly typed collections should implement one of the generic collection interfaces. This will allow better integration of the collection with generic API.</Description>
+   <Resolution Name="Default">{0} appears to be a non-generic, strongly typed collection. Add an implementation to the instance of {1}&lt;T&gt; where T is the underlying element type of {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182132(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>COM visible type base types should be COM visible</Name>
+   <Description>COM visible types should have an object hierarchy that is uniformly COM visible.</Description>
+   <Resolution Name="Default">{0} is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberParameterShouldBeDiscreteTerm">In member {0}, the compound word '{1}' in parameter name {2} exists as a discrete term. If your usage is intended to be single word, case it as '{3}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberShouldBeDiscreteTerm">The compound word '{0}' in member name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}' or strip the first token entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="TypeShouldBeDiscreteTerm">The compound word '{0}' in type name {1} exists as a discrete term. If your usage is intended to be single word, case it as '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>Do not catch general exception types</Name>
+   <Description>You should not catch Exception or SystemException. Catching generic exception types can hide run-time problems from the library user, and can complicate debugging. You should catch only those exceptions that you can handle gracefully.</Description>
+   <Resolution Name="Default">Modify {0} to catch a more specific exception than {1} or rethrow the exception.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182137(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104">
+   <Name>Do not declare read only mutable reference types</Name>
+   <Description>A read-only declaration for a mutable reference type does not prevent the field's instance data from being modified. For example, a read-only StringBuilder field declaration does not make sense, since the data encapsulated by the StringBuilder can be modified using the read-only reference.</Description>
+   <Resolution Name="Default">Remove the read-only designation from {0} or change the field to one that is an immutable reference type. If the reference type {1} is, in fact, immutable, exclude this message.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182302(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="25">Error</MessageLevel>
+   <File Name="securityrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032">
+   <Name>Implement standard exception constructors</Name>
+   <Description>Multiple constructors are required to correctly implement a custom exception. Missing constructors can make your exception unusable in certain scenarios. For example, the serialization constructor is required for handling exceptions in XML Web services.</Description>
+   <Resolution Name="MissingConstructor">Add the following constructor to {0}: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182151(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208">
+   <Name>Instantiate argument exceptions correctly</Name>
+   <Description>String arguments passed to constructors of ArgumentException and its derived types should be correct. Types derived from ArgumentException have inconsistent constructor overloads with respect to the message and paramName parameters as compared to ArgumentException.</Description>
+   <Resolution Name="NoArguments">Call the {0} constructor that contains a message and/or paramName parameter.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182347(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017">
+   <Name>Mark assemblies with ComVisibleAttribute</Name>
+   <Description>The System.Runtime.InteropServices.ComVisible attribute indicates whether COM clients can use the library. Good design dictates that developers explicitly indicate COM visibility. The default value for this attribute is 'true'. However, the best design is to mark the assembly ComVisible false, and then mark types, interfaces, and individual members as ComVisible true, as appropriate.</Description>
+   <Resolution Name="NoAttribute">Because {0} exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182157(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError, Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>Mark ISerializable types with SerializableAttribute</Name>
+   <Description>The System.Runtime.Serialization.ISerializable interface allows the type to customize its serialization, while the Serializable attribute enables the runtime to recognize the type as being serializable.</Description>
+   <Resolution Name="Default">Add [Serializable] to {0} as this type implements ISerializable.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822">
+   <Name>Mark members as static</Name>
+   <Description>Methods which do not access instance data or call instance methods can be marked as static (Shared in Visual Basic). After doing so, the compiler will emit non-virtual call sites to these members which will prevent a check at runtime for each call that ensures the current object pointer is non-null. This can result in a measurable performance gain for performance-sensitive code. In some cases, the failure to access the current object instance represents a correctness issue.</Description>
+   <Resolution Name="Default">The 'this' parameter (or 'Me' in Visual Basic) of {0} is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245046(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>Specify StringComparison</Name>
+   <Description>If an overload exists that takes a StringComparison argument, it should always be called in favor of an overload that does not.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+   <Name>Static holder types should not have constructors</Name>
+   <Description>Instances of types that define only static members do not need to be created. Many compilers will automatically add a public default constructor if no constructor is specified. To prevent this, adding an empty private constructor may be required.</Description>
+   <Resolution Name="Default">Because type {0} contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182169(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesShouldNotExtendCertainBaseTypes" Category="Microsoft.Design" CheckId="CA1058">
+   <Name>Types should not extend certain base types</Name>
+   <Description>It is best not to extend some base types or to prefer extending better alternatives to those base types.</Description>
+   <Resolution Name="System.ApplicationException">Change the base type of {0} so that it no longer extends {1}. This base exception type does not provide any additional value for framework classes. Extend 'System.Exception' or an existing unsealed exception type instead. Do not create a new exception base type unless there is specific value in enabling the creation of a catch handler for an entire class of exceptions.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182171(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054">
+   <Name>URI parameters should not be strings</Name>
+   <Description>If a parameter name contains "uri" or "url" or "urn", and it's typed as string, the parameter type should be changed to System.Uri, unless there is an overload method where the same parameter is typed as System.Uri.</Description>
+   <Resolution Name="Default">Change the type of parameter {0} of method {1} from string to System.Uri, or provide an overload of {1}, that allows {0} to be passed as a System.Uri object.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182174(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="UriReturnValuesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1055">
+   <Name>URI return values should not be strings</Name>
+   <Description>If a function name contains "uri" or "url" or "urn" and the return type is string, the return type should be changed to System.Uri.</Description>
+   <Resolution Name="Default">Change the return type of {0} from string to System.Uri.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182176(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726">
+   <Name>Use preferred terms</Name>
+   <Description>Use preferred terms over deprecated alternates.</Description>
+   <Resolution Name="Type">Replace the term '{0}' in type name {1} with the preferred alternate '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182258(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024">
+   <Name>Use properties where appropriate</Name>
+   <Description>Properties should be used instead of Get/Set methods in most situations. Methods are preferable to properties in the following situations: the operation is a conversion, is expensive or has an observable side-effect; the order of execution is important; calling the member twice in succession creates different results; a member is static but returns a mutable value; or the member returns an array.</Description>
+   <Resolution Name="Default">Change {0} to a property if appropriate.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182181(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+ <Exceptions>
+  <Exception Keyword="CA0068" Kind="Engine" TreatAsWarning="True">
+   <Type>Microsoft.FxCop.Sdk.FxCopException</Type>
+   <ExceptionMessage>Debug information could not be found for target assembly 'NHibernate.Burrow.dll'. For best analysis results, include the .pdb file with debug information for 'NHibernate.Burrow.dll' in the same directory as the target assembly.</ExceptionMessage>
+  </Exception>
+ </Exceptions>
+</FxCopReport>
