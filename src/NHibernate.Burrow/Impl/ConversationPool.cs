@@ -60,9 +60,7 @@ namespace NHibernate.Burrow.Impl
                 {
                     throw new ConversationUnavailableException("Conversation (" + key
                                                                +
-                                                               ") does not exsits in the pool, it may already expired. "
-                                                               +
-                                                               ". Do not try to recover a conversation after an exception occurred.");
+                                                               ") does not exsits in the pool, it may already expired. Do not try to recover a conversation after an exception occurred.");
                 }
             }
         }
