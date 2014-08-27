@@ -4,55 +4,55 @@
  <Namespaces>
   <Namespace Name="NHibernate.Burrow.AppBlock.DAOBases">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.DAOBases' with another namespace.</Issue>
     </Message>
-    <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'DAO' in namespace name 'NHibernate.Burrow.AppBlock.DAOBases' by changing it to 'Dao'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.DynQuery">
    <Messages>
-    <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dyn' in namespace name 'NHibernate.Burrow.AppBlock.DynQuery'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.GenericImpl">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.GenericImpl' with another namespace.</Issue>
     </Message>
-    <Message Id="Impl" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message Id="Impl" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Impl' in namespace name 'NHibernate.Burrow.AppBlock.GenericImpl'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Serialization">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Serialization' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.SoftDelete">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.SoftDelete' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Transform">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Transform' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.UserTypes">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.UserTypes' with another namespace.</Issue>
     </Message>
    </Messages>
@@ -63,10 +63,10 @@
    <Modules>
     <Module Name="nhibernate.burrow.appblock.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.AppBlock.dll' with a strong name key.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.AppBlock.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -75,101 +75,101 @@
        <Types>
         <Type Name="GenericDAO`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'DAO' in type name 'GenericDAO&lt;ReturnT&gt;' by changing it to 'Dao'.</Issue>
           </Message>
-          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
            <Issue Name="TypeTypeParameter" Certainty="95" Level="Error">On type 'GenericDAO&lt;ReturnT&gt;', prefix generic type parameter name 'ReturnT' with 'T'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Count(NHibernate.ICriteria)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="391">In method 'GenericDAO&lt;ReturnT&gt;.Count(ICriteria)', consider providing a more meaningful name than parameter name 'c'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="391">In externally visible method 'GenericDAO&lt;ReturnT&gt;.Count(ICriteria)', validate parameter 'c' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CreateCriteria(NHibernate.Criterion.Order,System.Collections.Generic.IEnumerable`1&lt;NHibernate.Criterion.ICriterion&gt;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="odr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="odr" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="237">In method 'GenericDAO&lt;ReturnT&gt;.CreateCriteria(Order, IEnumerable&lt;ICriterion&gt;)', correct the spelling of 'odr' in parameter name 'odr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CreateQuery(System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.ToLower" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="System.String.ToLower" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="182">Because the behavior of 'string.ToLower()' could vary based on the current user's locale settings, replace this call in 'GenericDAO&lt;ReturnT&gt;.CreateQuery(string)' with a call to 'string.ToLower(CultureInfo)'. If the result of 'string.ToLower(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="183">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'GenericDAO&lt;ReturnT&gt;.CreateQuery(string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="183">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'GenericDAO&lt;ReturnT&gt;.CreateQuery(string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="185">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'GenericDAO&lt;ReturnT&gt;.CreateQuery(string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="185">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'GenericDAO&lt;ReturnT&gt;.CreateQuery(string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="181">In externally visible method 'GenericDAO&lt;ReturnT&gt;.CreateQuery(string)', validate parameter 'queryString' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Find(NHibernate.Criterion.ICriterion[])" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="295">In method 'GenericDAO&lt;ReturnT&gt;.Find(params ICriterion[])', correct the spelling of 'crit' in parameter name 'crit' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Find(System.Int32,System.Int32,NHibernate.ICriteria)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="307">In method 'GenericDAO&lt;ReturnT&gt;.Find(int, int, ICriteria)', consider providing a more meaningful name than parameter name 'c'.</Issue>
             </Message>
-            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="307">In externally visible method 'GenericDAO&lt;ReturnT&gt;.Find(int, int, ICriteria)', validate parameter 'c' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Find(System.Int32,System.Int32,System.String,NHibernate.Criterion.ICriterion[])" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="346">In method 'GenericDAO&lt;ReturnT&gt;.Find(int, int, string, params ICriterion[])', correct the spelling of 'crit' in parameter name 'crit' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Find(System.Int32,System.Int32,System.String,NHibernate.ICriteria)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="c" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="324">In method 'GenericDAO&lt;ReturnT&gt;.Find(int, int, string, ICriteria)', consider providing a more meaningful name than parameter name 'c'.</Issue>
             </Message>
-            <Message Id="3" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="3" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="327">In externally visible method 'GenericDAO&lt;ReturnT&gt;.Find(int, int, string, ICriteria)', validate parameter 'c' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Find(System.Int32,System.Int32,System.String,System.Collections.Generic.ICollection`1&lt;NHibernate.Criterion.ICriterion&gt;)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="362">In method 'GenericDAO&lt;ReturnT&gt;.Find(int, int, string, ICollection&lt;ICriterion&gt;)', correct the spelling of 'crit' in parameter name 'crit' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#FindByExample(!0,System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="524">In externally visible method 'GenericDAO&lt;ReturnT&gt;.FindByExample(ReturnT, params string[])', validate parameter 'propertiesToExclude' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#PaginatedQuery(NHibernate.IQuery,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="q" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="q" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="207">In method 'GenericDAO&lt;ReturnT&gt;.PaginatedQuery(IQuery, int, int)', consider providing a more meaningful name than parameter name 'q'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DAOBases" File="GenericDAO.cs" Line="207">In externally visible method 'GenericDAO&lt;ReturnT&gt;.PaginatedQuery(IQuery, int, int)', validate parameter 'q' before using it.</Issue>
             </Message>
            </Messages>
@@ -178,45 +178,45 @@
         </Type>
         <Type Name="IGenericDAO`1" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'DAO' in type name 'IGenericDAO&lt;ReturnT&gt;' by changing it to 'Dao'.</Issue>
           </Message>
-          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
            <Issue Name="TypeTypeParameter" Certainty="95" Level="Error">On type 'IGenericDAO&lt;ReturnT&gt;', prefix generic type parameter name 'ReturnT' with 'T'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Delete(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGenericDAO&lt;ReturnT&gt;.Delete(ReturnT)', consider providing a more meaningful name than parameter name 't'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Get(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Get" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="Get" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Rename virtual/interface member 'IGenericDAO&lt;ReturnT&gt;.Get(object)' so that it no longer conflicts with the reserved language keyword 'Get'. Using a reserved keyword as the name of a virtual/interface member makes it harder for consumers in other languages to override/implement the member.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Refresh(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGenericDAO&lt;ReturnT&gt;.Refresh(ReturnT)', consider providing a more meaningful name than parameter name 't'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Save(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGenericDAO&lt;ReturnT&gt;.Save(ReturnT)', consider providing a more meaningful name than parameter name 't'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SaveOrUpdate(!0)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="t" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In method 'IGenericDAO&lt;ReturnT&gt;.SaveOrUpdate(ReturnT)', consider providing a more meaningful name than parameter name 't'.</Issue>
             </Message>
            </Messages>
@@ -229,21 +229,21 @@
        <Types>
         <Type Name="DetachedDynQuery" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dyn' in type name 'DetachedDynQuery'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GetExecutableQuery(NHibernate.ISession)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Name="Reassigned" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="DetachedDynQuery.cs" Line="43">In externally visible method 'DetachedDynQuery.GetExecutableQuery(ISession)', validate local variable '...', which was reassigned from parameter 'session', before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Hql" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Hql" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="Hql" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="DetachedDynQuery.cs" Line="35">Correct the spelling of 'Hql' in member name 'DetachedDynQuery.Hql' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -256,7 +256,7 @@
            <Accessors>
             <Accessor Name="#get_Expression()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+              <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
                <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="From.cs" Line="60">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'From.Expression.get()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
               </Message>
              </Messages>
@@ -265,14 +265,14 @@
           </Member>
           <Member Name="#Where(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="From.cs" Line="86">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'From.Where(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#WhereNot()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="From.cs" Line="97">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'From.WhereNot()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -281,7 +281,7 @@
         </Type>
         <Type Name="IDynClause" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dyn' in type name 'IDynClause'.</Issue>
           </Message>
          </Messages>
@@ -292,7 +292,7 @@
            <Accessors>
             <Accessor Name="#get_Expression()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+              <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
                <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="LogicalExpression.cs" Line="63">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'LogicalExpression.Expression.get()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
               </Message>
              </Messages>
@@ -307,7 +307,7 @@
            <Accessors>
             <Accessor Name="#get_Clause()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+              <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
                <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="OrderBy.cs" Line="26">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'OrderBy.Clause.get()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
               </Message>
              </Messages>
@@ -316,7 +316,7 @@
           </Member>
           <Member Name="#GetExpression()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="OrderBy.cs" Line="90">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'OrderBy.GetExpression()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="OrderBy.cs" Line="93">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'OrderBy.GetExpression()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
@@ -326,20 +326,20 @@
         </Type>
         <Type Name="PaginableDynQuery`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+          <Message TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="CriticalWarning">Change the accessibility of all public constructors in 'PaginableDynQuery&lt;T&gt;' to protected.</Issue>
           </Message>
-          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dyn' in type name 'PaginableDynQuery&lt;T&gt;'.</Issue>
           </Message>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'PaginableDynQuery&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="Select" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Select" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Select" TypeName="IdentifiersShouldNotMatchKeywords" Category="Microsoft.Naming" CheckId="CA1716" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">Rename type 'Select' so that it no longer conflicts with the reserved language keyword 'Select'. Using a reserved keyword as the name of a type makes it harder for consumers in other languages to use the type.</Issue>
           </Message>
          </Messages>
@@ -348,7 +348,7 @@
            <Accessors>
             <Accessor Name="#get_Clause()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message Id="System.String.Format(System.String,System.Object,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+              <Message Id="System.String.Format(System.String,System.Object,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
                <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="Select.cs" Line="50">Because the behavior of 'string.Format(string, object, object, object)' could vary based on the current user's locale settings, replace this call in 'Select.Clause.get()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
               </Message>
              </Messages>
@@ -357,17 +357,17 @@
           </Member>
           <Member Name="#From(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="Select.cs" Line="96">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'Select.From(string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="partialClause" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="partialClause" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="Select.cs" Line="94">'partialClause', a parameter declared in 'Select.From(string)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Where(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="partialClause" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="partialClause" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="Select.cs" Line="124">'partialClause', a parameter declared in 'Select.Where(string)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
             </Message>
            </Messages>
@@ -380,7 +380,7 @@
            <Accessors>
             <Accessor Name="#get_Clause()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
              <Messages>
-              <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+              <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
                <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\DynQuery" File="Where.cs" Line="34">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'Where.Clause.get()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
               </Message>
              </Messages>
@@ -395,24 +395,24 @@
        <Types>
         <Type Name="BizTransactionEntityDAOBase`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'DAO' in type name 'BizTransactionEntityDAOBase&lt;ReturnT&gt;' by changing it to 'Dao'.</Issue>
           </Message>
-          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+          <Message Id="T" TypeName="IdentifiersShouldHaveCorrectPrefix" Category="Microsoft.Naming" CheckId="CA1715" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
            <Issue Name="TypeTypeParameter" Certainty="95" Level="Error">On type 'BizTransactionEntityDAOBase&lt;ReturnT&gt;', prefix generic type parameter name 'ReturnT' with 'T'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#FinishedTransactionProperyName" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="Propery" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="Propery" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="BizTransactionEntityDAOBase.cs" Line="22">Correct the spelling of 'Propery' in member name 'BizTransactionEntityDAOBase&lt;ReturnT&gt;.FinishedTransactionProperyName' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#LastActivityInTransactionProperyName" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="Propery" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="Propery" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="BizTransactionEntityDAOBase.cs" Line="26">Correct the spelling of 'Propery' in member name 'BizTransactionEntityDAOBase&lt;ReturnT&gt;.LastActivityInTransactionProperyName' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -421,69 +421,69 @@
         </Type>
         <Type Name="IEntity" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message TypeName="AvoidEmptyInterfaces" Category="Microsoft.Design" CheckId="CA1040" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Warning">Define a custom attribute to replace 'IEntity'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="IntegerIdNBizKeyBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
            <Issue Certainty="90" Level="Error">'IntegerIdNBizKeyBase' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'ObjWithIdNBizKeyBase&lt;int&gt;'</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="ObjectDAOHelper`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ProvideObsoleteAttributeMessage" Category="Microsoft.Design" CheckId="CA1041" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+          <Message TypeName="ProvideObsoleteAttributeMessage" Category="Microsoft.Design" CheckId="CA1041" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Provide a message for the ObsoleteAttribute that marks 'ObjectDAOHelper&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Delete()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Reserved" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="43">'ObjectDAOHelper&lt;T&gt;.Delete()' creates an exception of type 'NullReferenceException', an exception type that is reserved by the runtime and should never be raised by managed code. If this exception instance might be thrown, use a different exception type.</Issue>
             </Message>
-            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="43">Correct the spelling of the unrecognized token 'GenericDAO' in the literal '"GenericDAO property is Null"'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Refresh()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Reserved" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="76">'ObjectDAOHelper&lt;T&gt;.Refresh()' creates an exception of type 'NullReferenceException', an exception type that is reserved by the runtime and should never be raised by managed code. If this exception instance might be thrown, use a different exception type.</Issue>
             </Message>
-            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="76">Correct the spelling of the unrecognized token 'GenericDAO' in the literal '"GenericDAO property is Null"'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Save()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Reserved" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="66">'ObjectDAOHelper&lt;T&gt;.Save()' creates an exception of type 'NullReferenceException', an exception type that is reserved by the runtime and should never be raised by managed code. If this exception instance might be thrown, use a different exception type.</Issue>
              <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="63">'ObjectDAOHelper&lt;T&gt;.Save()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
             </Message>
-            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="66">Correct the spelling of the unrecognized token 'GenericDAO' in the literal '"GenericDAO property is Null"'.</Issue>
             </Message>
-            <Message Id="saveorUpdate" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="saveorUpdate" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="63">Correct the spelling of the unrecognized token 'saveorUpdate' in the literal '"Can not saveorUpdate once deleted"'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SaveOrUpdate()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Reserved" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="55">'ObjectDAOHelper&lt;T&gt;.SaveOrUpdate()' creates an exception of type 'NullReferenceException', an exception type that is reserved by the runtime and should never be raised by managed code. If this exception instance might be thrown, use a different exception type.</Issue>
              <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="52">'ObjectDAOHelper&lt;T&gt;.SaveOrUpdate()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
             </Message>
-            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="GenericDAO" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="55">Correct the spelling of the unrecognized token 'GenericDAO' in the literal '"GenericDAO property is Null"'.</Issue>
             </Message>
-            <Message Id="saveorUpdate" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="saveorUpdate" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectDAOHelper.cs" Line="52">Correct the spelling of the unrecognized token 'saveorUpdate' in the literal '"Can not saveorUpdate once deleted"'.</Issue>
             </Message>
            </Messages>
@@ -492,14 +492,14 @@
         </Type>
         <Type Name="ObjectWHashIdBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
            <Issue Certainty="90" Level="Error">'ObjectWHashIdBase' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'ObjWithIdNBizKeyBase&lt;int&gt;'</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjectWHashIdBase.cs" Line="13">'ObjectWHashIdBase.ObjectWHashIdBase()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;ObjectWHashIdBase..ctor()&#xD;&#xA;ObjectWHashIdBase.set_HashId(Int64):Void</Issue>
             </Message>
            </Messages>
@@ -510,27 +510,27 @@
          <Members>
           <Member Name="#BIZKEYSEP" Kind="Field" Static="True" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="BIZKEYSEP" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="BIZKEYSEP" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'BIZKEYSEP' in member name 'ObjWithIdNBizKeyBase&lt;T&gt;.BIZKEYSEP' by changing it to 'Bizkeysep'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CompareTo(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjWithIdNBizKeyBase.cs" Line="69">'obj', a parameter, is cast to type 'IBusinessKey' multiple times in method 'ObjWithIdNBizKeyBase&lt;T&gt;.CompareTo(object)'. Cache the result of the 'as' operator or direct cast in order to eliminate the redundant castclass instruction.</Issue>
             </Message>
-            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjWithIdNBizKeyBase.cs" Line="65">In member 'ObjWithIdNBizKeyBase&lt;T&gt;.CompareTo(object)', consider replacing the data type identifier 'obj' in parameter name 'obj' with a more generic term, such as 'value'.</Issue>
             </Message>
-            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="InstantiateArgumentExceptionsCorrectly" Category="Microsoft.Usage" CheckId="CA2208" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="NoArguments" Certainty="95" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjWithIdNBizKeyBase.cs" Line="66">Call the 'ArgumentNullException' constructor that contains a message and/or paramName parameter.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Equals(NHibernate.Burrow.AppBlock.EntityBases.IBusinessKey)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="ObjWithIdNBizKeyBase.cs" Line="27">In member 'ObjWithIdNBizKeyBase&lt;T&gt;.Equals(IBusinessKey)', change parameter name 'objWithBizKey' to 'other' in order to match the identifier as it has been declared in 'IEquatable&lt;IBusinessKey&gt;.Equals(IBusinessKey)'.</Issue>
             </Message>
            </Messages>
@@ -539,24 +539,24 @@
         </Type>
         <Type Name="PersistantObj`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+          <Message TypeName="AbstractTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1012" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="CriticalWarning">Change the accessibility of all public constructors in 'PersistantObj&lt;T&gt;' to protected.</Issue>
           </Message>
-          <Message Id="Persistant" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Persistant" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Persistant' in type name 'PersistantObj&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#dao" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="ProvideObsoleteAttributeMessage" Category="Microsoft.Design" CheckId="CA1041" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="ProvideObsoleteAttributeMessage" Category="Microsoft.Design" CheckId="CA1041" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error">Provide a message for the ObsoleteAttribute that marks 'PersistantObj&lt;T&gt;.dao'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnPreDeleted(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="ProvideObsoleteAttributeMessage" Category="Microsoft.Design" CheckId="CA1041" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="ProvideObsoleteAttributeMessage" Category="Microsoft.Design" CheckId="CA1041" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\EntityBases" File="PersistantObj.cs" Line="35">Provide a message for the ObsoleteAttribute that marks 'PersistantObj&lt;T&gt;.OnPreDeleted(object, EventArgs)'.</Issue>
             </Message>
            </Messages>
@@ -569,14 +569,14 @@
        <Types>
         <Type Name="PaginableCriteria`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'PaginableCriteria&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GetRowsCount(NHibernate.ISession)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="session" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="session" TypeName="VariableNamesShouldNotMatchFieldNames" Category="Microsoft.Maintainability" CheckId="CA1500" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\GenericImpl" File="PaginableCriteria.cs" Line="50">'session', a parameter declared in 'PaginableCriteria&lt;T&gt;.GetRowsCount(ISession)', has the same name as an instance field on the type. Change the name of one of these items.</Issue>
             </Message>
            </Messages>
@@ -585,27 +585,27 @@
         </Type>
         <Type Name="PaginableQuery`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'PaginableQuery&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="PaginableRowsCounterQuery`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'PaginableRowsCounterQuery&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GetRowCountQuery()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="trasform" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="trasform" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\GenericImpl" File="PaginableRowsCounterQuery.cs" Line="48">Correct the spelling of the unrecognized token 'trasform' in the literal '"Can\'t trasform the HQL to it\'s counter, the query must start with \'from\' cla..."'.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\GenericImpl" File="PaginableRowsCounterQuery.cs" Line="48">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'PaginableRowsCounterQuery&lt;T&gt;.GetRowCountQuery()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="System.String.StartsWith(System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.StartsWith(System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="StringComparison" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\GenericImpl" File="PaginableRowsCounterQuery.cs" Line="46">'PaginableRowsCounterQuery&lt;T&gt;.GetRowCountQuery()' passes 'StringComparison.InvariantCultureIgnoreCase' as the 'StringComparison' parameter to 'string.StartsWith(string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
             </Message>
            </Messages>
@@ -618,28 +618,28 @@
        <Types>
         <Type Name="AbstractPaginableCriteria`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'AbstractPaginableCriteria&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="AbstractPaginableQuery`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'AbstractPaginableQuery&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="AbstractPaginableRowsCounterQuery`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'AbstractPaginableRowsCounterQuery&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GetRowCountQuery()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'AbstractPaginableRowsCounterQuery&lt;T&gt;.GetRowCountQuery()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
@@ -650,40 +650,40 @@
          <Members>
           <Member Name="#CopyParametersFrom(NHibernate.Impl.DetachedNamedQuery)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="ConsiderPassingBaseTypesAsParameters" Category="Microsoft.Design" CheckId="CA1011" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="ConsiderPassingBaseTypesAsParameters" Category="Microsoft.Design" CheckId="CA1011" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="AbstractRowsCounter.cs" Line="53">Consider changing the type of parameter 'origin' in 'AbstractRowsCounter.CopyParametersFrom(DetachedNamedQuery)' from 'DetachedNamedQuery' to its base type 'AbstractDetachedQuery'. This method appears to only require base class members in its implementation. Suppress this violation if there is a compelling reason to require the more derived type in the method signature.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="AbstractRowsCounter.cs" Line="53">In externally visible method 'AbstractRowsCounter.CopyParametersFrom(DetachedNamedQuery)', validate parameter 'origin' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CopyParametersFrom(NHibernate.Impl.DetachedQuery)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="ConsiderPassingBaseTypesAsParameters" Category="Microsoft.Design" CheckId="CA1011" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="ConsiderPassingBaseTypesAsParameters" Category="Microsoft.Design" CheckId="CA1011" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="AbstractRowsCounter.cs" Line="42">Consider changing the type of parameter 'origin' in 'AbstractRowsCounter.CopyParametersFrom(DetachedQuery)' from 'DetachedQuery' to its base type 'AbstractDetachedQuery'. This method appears to only require base class members in its implementation. Suppress this violation if there is a compelling reason to require the more derived type in the method signature.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="AbstractRowsCounter.cs" Line="42">In externally visible method 'AbstractRowsCounter.CopyParametersFrom(DetachedQuery)', validate parameter 'origin' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#dq" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'AbstractRowsCounter.dq' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
-            <Message Id="dq" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="dq" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'dq' in member name 'AbstractRowsCounter.dq' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetRowsCount(NHibernate.ISession)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="RowsCounter" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="RowsCounter" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="AbstractRowsCounter.cs" Line="29">Correct the spelling of the unrecognized token 'RowsCounter' in the literal '"Invalid RowsCounter query:"'.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="AbstractRowsCounter.cs" Line="29">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'AbstractRowsCounter.GetRowsCount(ISession)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -692,18 +692,18 @@
         </Type>
         <Type Name="BasePaginator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginator' in type name 'BasePaginator'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="BasePaginator.cs" Line="27">'BasePaginator.BasePaginator(int)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;BasePaginator..ctor(Int32)&#xD;&#xA;BasePaginator.set_LastPageNumber(Nullable&lt;Int32&gt;):Void</Issue>
              <Issue Certainty="95" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="BasePaginator.cs" Line="27">'BasePaginator.BasePaginator(int)' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;BasePaginator..ctor(Int32)&#xD;&#xA;BasePaginator.set_LastPageNumber(Nullable&lt;Int32&gt;):Void&#xD;&#xA;BasePaginator.get_NextPageNumber():Int32&#xD;&#xA;BasePaginator.get_LastPageNumber():Nullable&lt;Int32&gt;</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="BasePaginator.cs" Line="31">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'BasePaginator.BasePaginator(int)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -714,35 +714,35 @@
          <Members>
           <Member Name="#GetCurrentPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'IPageProvider&lt;T&gt;.GetCurrentPage()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetFirstPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'IPageProvider&lt;T&gt;.GetFirstPage()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetLastPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'IPageProvider&lt;T&gt;.GetLastPage()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetNextPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'IPageProvider&lt;T&gt;.GetNextPage()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetPreviousPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'IPageProvider&lt;T&gt;.GetPreviousPage()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
@@ -751,14 +751,14 @@
         </Type>
         <Type Name="IPaginable`1" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'IPaginable&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GetSession()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message TypeName="UsePropertiesWhereAppropriate" Category="Microsoft.Design" CheckId="CA1024" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Certainty="50" Level="Warning">Change 'IPaginable&lt;T&gt;.GetSession()' to a property if appropriate.</Issue>
             </Message>
            </Messages>
@@ -767,48 +767,48 @@
         </Type>
         <Type Name="IPaginator" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginator' in type name 'IPaginator'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="Paginator`1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginator' in type name 'Paginator&lt;T&gt;'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(System.Int32,NHibernate.Burrow.AppBlock.Pagination.IPaginable`1&lt;!0&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="Paginator.cs" Line="32">In method 'Paginator&lt;T&gt;.Paginator(int, IPaginable&lt;T&gt;)', correct the spelling of 'paginable' in parameter name 'paginable' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="Paginator.cs" Line="40">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'Paginator&lt;T&gt;.Paginator(int, IPaginable&lt;T&gt;)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#.ctor(System.Int32,NHibernate.Burrow.AppBlock.Pagination.IPaginable`1&lt;!0&gt;,NHibernate.Burrow.AppBlock.Pagination.IRowsCounter)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="Paginator.cs" Line="81">In method 'Paginator&lt;T&gt;.Paginator(int, IPaginable&lt;T&gt;, IRowsCounter)', correct the spelling of 'paginable' in parameter name 'paginable' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#.ctor(System.Int32,NHibernate.Burrow.AppBlock.Pagination.IPaginable`1&lt;!0&gt;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="Paginator.cs" Line="58">In method 'Paginator&lt;T&gt;.Paginator(int, IPaginable&lt;T&gt;, bool)', correct the spelling of 'paginable' in parameter name 'paginable' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetLastPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="AutoCalcPages" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="AutoCalcPages" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="Paginator.cs" Line="194">Correct the spelling of the unrecognized token 'AutoCalcPages' in the literal '"GetLastPage() is not supported when AutoCalcPages is false."'.</Issue>
             </Message>
-            <Message Id="GetLastPage" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="GetLastPage" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="Paginator.cs" Line="194">Correct the spelling of the unrecognized token 'GetLastPage' in the literal '"GetLastPage() is not supported when AutoCalcPages is false."'.</Issue>
             </Message>
            </Messages>
@@ -819,23 +819,23 @@
          <Members>
           <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="hql" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="hql" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="QueryRowsCounter.cs" Line="20">In method 'QueryRowsCounter.QueryRowsCounter(string)', correct the spelling of 'hql' in parameter name 'hqlRowsCount' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Transforming(NHibernate.Impl.DetachedQuery)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="trasform" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="trasform" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="QueryRowsCounter.cs" Line="65">Correct the spelling of the unrecognized token 'trasform' in the literal '"Can\'t trasform the HQL to it\'s counter, the query must start with \'from\' cla..."'.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="QueryRowsCounter.cs" Line="65">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'QueryRowsCounter.Transforming(DetachedQuery)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="System.String.StartsWith(System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message Id="System.String.StartsWith(System.String,System.StringComparison)" TypeName="UseOrdinalStringComparison" Category="Microsoft.Globalization" CheckId="CA1309" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="StringComparison" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="QueryRowsCounter.cs" Line="63">'QueryRowsCounter.Transforming(DetachedQuery)' passes 'StringComparison.InvariantCultureIgnoreCase' as the 'StringComparison' parameter to 'string.StartsWith(string, StringComparison)'. To perform a non-linguistic comparison, specify 'StringComparison.Ordinal' or 'StringComparison.OrdinalIgnoreCase' instead.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Pagination" File="QueryRowsCounter.cs" Line="63">In externally visible method 'QueryRowsCounter.Transforming(DetachedQuery)', validate parameter 'query' before using it.</Issue>
             </Message>
            </Messages>
@@ -848,24 +848,24 @@
        <Types>
         <Type Name="Cloner" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">Because type 'Cloner' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Clone(System.Object)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Serialization" File="Cloner.cs" Line="36">In member 'Cloner.Clone(object)', consider replacing the data type identifier 'obj' in parameter name 'obj' with a more generic term, such as 'value'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Clone(System.Object,System.Runtime.Serialization.IFormatter)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="Breaking">
+            <Message Id="obj" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="Breaking">
              <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Serialization" File="Cloner.cs" Line="49">In member 'Cloner.Clone(object, IFormatter)', consider replacing the data type identifier 'obj' in parameter name 'obj' with a more generic term, such as 'value'.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Serialization" File="Cloner.cs" Line="51">In externally visible method 'Cloner.Clone(object, IFormatter)', validate parameter 'formatter' before using it.</Issue>
             </Message>
            </Messages>
@@ -880,13 +880,13 @@
          <Members>
           <Member Name="#DeleteEntity(NHibernate.Event.IEventSource,System.Object,NHibernate.Engine.EntityEntry,System.Boolean,NHibernate.Persister.Entity.IEntityPersister,Iesi.Collections.ISet)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="NonBreaking">
              <Issue Name="Parameter" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\SoftDelete" File="SoftDeleteEventListener.cs" Line="35">'entity', a parameter, is cast to type 'ISoftDelete' multiple times in method 'SoftDeleteEventListener.DeleteEntity(IEventSource, object, EntityEntry, bool, IEntityPersister, ISet)'. Cache the result of the 'as' operator or direct cast in order to eliminate the redundant castclass instruction.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\SoftDelete" File="SoftDeleteEventListener.cs" Line="41">In externally visible method 'SoftDeleteEventListener.DeleteEntity(IEventSource, object, EntityEntry, bool, IEntityPersister, ISet)', validate parameter 'session' before using it.</Issue>
             </Message>
-            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="2" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\SoftDelete" File="SoftDeleteEventListener.cs" Line="41">In externally visible method 'SoftDeleteEventListener.DeleteEntity(IEventSource, object, EntityEntry, bool, IEntityPersister, ISet)', validate parameter 'entityEntry' before using it.</Issue>
             </Message>
            </Messages>
@@ -901,10 +901,10 @@
          <Members>
           <Member Name="#TransformTuple(System.Object[],System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="trasformer" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="trasformer" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Transform" File="PositionalToBeanResultTransformer.cs" Line="94">Correct the spelling of the unrecognized token 'trasformer' in the literal '"Tuple have less scalars then trasformer class: "'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\Transform" File="PositionalToBeanResultTransformer.cs" Line="80">In externally visible method 'PositionalToBeanResultTransformer.TransformTuple(object[], string[])', validate parameter 'tuple' before using it.</Issue>
             </Message>
            </Messages>
@@ -919,24 +919,24 @@
          <Members>
           <Member Name="#GetHashCode(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\UserTypes" File="UpperString.cs" Line="167">In externally visible method 'UpperString.GetHashCode(object)', validate parameter 'x' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#NullSafeGet(System.Data.IDataReader,System.String[],System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\UserTypes" File="UpperString.cs" Line="30">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'UpperString.NullSafeGet(IDataReader, string[], object)' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\UserTypes" File="UpperString.cs" Line="27">In externally visible method 'UpperString.NullSafeGet(IDataReader, string[], object)', validate parameter 'names' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#NullSafeSet(System.Data.IDbCommand,System.Object,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2013-04-30 06:10:51Z" FixCategory="DependsOnFix">
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-08-27 12:42:06Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock\UserTypes" File="UpperString.cs" Line="51">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'UpperString.NullSafeSet(IDbCommand, object, int)' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
