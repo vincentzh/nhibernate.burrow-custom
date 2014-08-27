@@ -12,6 +12,7 @@ using System.Security;
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using NUnit.Framework;
 
 [assembly: CLSCompliantAttribute(false)]
 [assembly: AssemblyTitleAttribute("NHibernate.Burrow.TestWeb.UnitTest")]
@@ -23,4 +24,5 @@ using System.Security;
 [assembly: AssemblyInformationalVersionAttribute("4.0.0.1001")]
 [assembly: AssemblyFileVersionAttribute("4.0.0.1001")]
 [assembly: AssemblyDelaySignAttribute(false)]
+[assembly: RequiresSTA]
 
