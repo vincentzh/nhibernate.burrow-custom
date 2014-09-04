@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Iesi.Collections;
 using log4net;
 using NHibernate.Burrow.AppBlock.SoftDelete;
@@ -24,7 +25,7 @@ namespace NHibernate.Burrow.AppBlock.SoftDelete
         private static readonly ILog log = LogManager.GetLogger(typeof(SoftDeleteEventListener));
 
         protected override void DeleteEntity(IEventSource session, object entity, EntityEntry entityEntry, bool isCascadeDeleteEnabled,
-                                             IEntityPersister persister, ISet transientEntities)
+                                             IEntityPersister persister, ISet<object> transientEntities)
         {
             if (!(entity is ISoftDelete))
             {

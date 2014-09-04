@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using System.Data;
 using Iesi.Collections;
 using NHibernate.Connection;
@@ -12,7 +13,7 @@ namespace NHibernate.Burrow.AppBlock.Test
     /// </summary>
     public class DebugConnectionProvider : DriverConnectionProvider
     {
-        private readonly ISet connections = new ListSet();
+        private readonly ISet<object> connections = new HashSet<object>();
 
         public bool HasOpenConnections
         {
@@ -21,7 +22,7 @@ namespace NHibernate.Burrow.AppBlock.Test
                 // check to see if all connections that were at one point opened
                 // have been closed through the CloseConnection
                 // method
-                if (connections.IsEmpty)
+                if (connections.Count==0)
                 {
                     // there are no connections, either none were opened or
                     // all of the closings went through CloseConnection.
@@ -62,7 +63,7 @@ namespace NHibernate.Burrow.AppBlock.Test
 
         public void CloseAllConnections()
         {
-            while (!connections.IsEmpty)
+            while (connections.Count>0)
             {
                 IEnumerator en = connections.GetEnumerator();
                 en.MoveNext();

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using Iesi.Collections.Generic;
 using NUnit.Framework;
@@ -8,7 +9,7 @@ namespace NHibernate.Burrow.Test.Concurrency
     [TestFixture]
     public class SessionConcurency
     {
-        public static ISet<int> sesss = new HashedSet<int>();
+        public static ISet<int> sesss = new HashSet<int>();
         public static int error = 0;
         public static int threadPerformed = 0;
     	private static bool loudly = true;

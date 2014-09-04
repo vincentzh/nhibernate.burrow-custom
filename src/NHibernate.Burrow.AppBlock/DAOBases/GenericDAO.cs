@@ -136,7 +136,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
         {
             return default(T);
         }
-        if (results.Count > 1 && new HashedSet<T>(results).Count > 1)
+        if (results.Count > 1 && new HashSet<T>(results).Count > 1)
         {
             throw new HibernateException("More than one results return");
         }

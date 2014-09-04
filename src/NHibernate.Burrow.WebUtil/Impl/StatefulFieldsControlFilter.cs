@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Web.UI;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
-using Iesi.Collections.Generic;
 using NHibernate.Burrow.WebUtil.Attributes;
 
 namespace NHibernate.Burrow.WebUtil.Impl {
@@ -12,7 +11,7 @@ namespace NHibernate.Burrow.WebUtil.Impl {
 	internal class StatefulFieldsControlFilter {
 		private static readonly StatefulFieldsControlFilter instance = new StatefulFieldsControlFilter();
 
-		private readonly HashedSet<Type> allowedTypes = new HashedSet<Type>( new Type[] {
+		private readonly HashSet<Type> allowedTypes = new HashSet<Type>( new Type[] {
 		                                                                               	typeof (HtmlForm),
 		                                                                               	typeof (HtmlTable),
 		                                                                               	typeof (HtmlTableCell),
@@ -21,7 +20,7 @@ namespace NHibernate.Burrow.WebUtil.Impl {
 
 		private readonly Type[] filteredBaseTypes = new Type[] {typeof (BaseValidator)};
 
-		private readonly HashedSet<Type> filteredTypes = new HashedSet<Type>(new Type[] {
+		private readonly HashSet<Type> filteredTypes = new HashSet<Type>(new Type[] {
 		                                                                                	typeof (FileUpload),
 		                                                                                	typeof (Label),
 		                                                                                	typeof (Button),
@@ -43,11 +42,11 @@ namespace NHibernate.Burrow.WebUtil.Impl {
 			get { return instance; }
 		}
 
-		private Iesi.Collections.Generic.ISet<Type> FilteredTypes {
+		private ISet<Type> FilteredTypes {
 			get { return filteredTypes; }
 		}
 
-		private Iesi.Collections.Generic.ISet<Type> AllowedTypes {
+		private ISet<Type> AllowedTypes {
 			get { return allowedTypes; }
 		}
 
