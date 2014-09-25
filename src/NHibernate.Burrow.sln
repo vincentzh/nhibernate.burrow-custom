@@ -20,6 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate.Burrow.TestWeb.U
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localhost:2612", "{6155B3FE-C382-4EB8-AF52-7841D5BA0226}"
 	ProjectSection(WebsiteProperties) = preProject
+		Frontpage = "false"
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		ProjectReferences = "{3DBB9568-5688-4442-8ECA-BD216E807C8D}|NHibernate.Burrow.WebUtil.dll;{D2954D0B-C830-417B-A0D4-70AD81043B71}|NHibernate.Burrow.Test.dll;{3ED19982-3C23-4B7D-BE81-D40846A6CB16}|NHibernate.Burrow.dll;{EBD9BE3A-D540-4705-B3C7-BA577D1691AE}|NHibernate.Burrow.AppBlock.dll;{32112377-D3FC-4A1C-8C90-BBDFF166ED3B}|NHibernate.Burrow.TestUtil.dll;"
@@ -39,6 +40,13 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "localhost", "http://localho
 		Release.AspNetCompiler.Debug = "False"
 		SlnRelativePath = "NHibernate.Burrow.TestWeb\"
 		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D1C1CC58-170E-45DC-9DE3-91F41F8184D9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
 Global
