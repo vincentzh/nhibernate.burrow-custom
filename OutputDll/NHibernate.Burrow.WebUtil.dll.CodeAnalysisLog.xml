@@ -4,50 +4,50 @@
  <Namespaces>
   <Namespace Name="NHibernate.Burrow.WebUtil">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.WebUtil' with another namespace.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.WebUtil'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.WebUtil.Attributes">
    <Messages>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.WebUtil.Attributes'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.WebUtil.Controls">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.WebUtil.Controls' with another namespace.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.WebUtil.Controls'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.WebUtil.Exceptions">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.WebUtil.Exceptions' with another namespace.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.WebUtil.Exceptions'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.WebUtil.Impl">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.WebUtil.Impl' with another namespace.</Issue>
     </Message>
-    <Message Id="Impl" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message Id="Impl" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Impl' in namespace name 'NHibernate.Burrow.WebUtil.Impl'.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.WebUtil.Impl'.</Issue>
     </Message>
    </Messages>
@@ -58,13 +58,13 @@
    <Modules>
     <Module Name="nhibernate.burrow.webutil.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.WebUtil.dll' with a strong name key.</Issue>
       </Message>
-      <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+      <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in assembly name 'NHibernate.Burrow.WebUtil.dll'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.WebUtil.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -73,24 +73,24 @@
        <Types>
         <Type Name="IStatefulFieldInterceptor" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'IStatefulFieldInterceptor'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#OnLoad(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="object" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="object" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error">In member 'IStatefulFieldInterceptor.OnLoad(object)', consider replacing the data type identifier 'object' in parameter name 'objectOriginallyLoaded' with a more generic term, such as 'value'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnSave(System.Object,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="InState" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="InState" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error">In member 'IStatefulFieldInterceptor.OnSave(object, object)', the compound word 'InState' in parameter name 'objectInStateContainer' exists as a discrete term. If your usage is intended to be single word, case it as 'Instate' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="object" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="object" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="LanguageIndependentMemberParameter" Certainty="75" Level="Error">In member 'IStatefulFieldInterceptor.OnSave(object, object)', consider replacing the data type identifier 'object' in parameter name 'objectInStateContainer' with a more generic term, such as 'value'.</Issue>
             </Message>
            </Messages>
@@ -99,14 +99,14 @@
         </Type>
         <Type Name="IStatefulFieldsControl" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'IStatefulFieldsControl'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#IgnoreStatefulFields" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in member name 'IStatefulFieldsControl.IgnoreStatefulFields' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -115,64 +115,64 @@
         </Type>
         <Type Name="IWorkSpaceNameSniffer" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in type name 'IWorkSpaceNameSniffer' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="WebUtilHTTPModule" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="HTTP" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="HTTP" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'HTTP' in type name 'WebUtilHTTPModule' by changing it to 'Http'.</Issue>
           </Message>
-          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in type name 'WebUtilHTTPModule'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#BeginContext(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCastUnnecessarily" Category="Microsoft.Performance" CheckId="CA1800" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Name="Local" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="79">'handler', a variable, is cast to type 'Page' multiple times in method 'WebUtilHTTPModule.BeginContext(object, EventArgs)'. Cache the result of the 'as' operator or direct cast in order to eliminate the redundant castclass instruction.</Issue>
             </Message>
-            <Message Id="NHibernate.Burrow.WebUtil.Impl.ConversationStatePageModule" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message Id="NHibernate.Burrow.WebUtil.Impl.ConversationStatePageModule" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="83">'WebUtilHTTPModule.BeginContext(object, EventArgs)' creates a new instance of 'ConversationStatePageModule' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
             </Message>
-            <Message Id="NHibernate.Burrow.WebUtil.Impl.StatefulFieldPageModule" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message Id="NHibernate.Burrow.WebUtil.Impl.StatefulFieldPageModule" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="82">'WebUtilHTTPModule.BeginContext(object, EventArgs)' creates a new instance of 'StatefulFieldPageModule' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetParams(System.Web.HttpRequest)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="94">The 'this' parameter (or 'Me' in Visual Basic) of 'WebUtilHTTPModule.GetParams(HttpRequest)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
-            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message Id="System.String.ToUpper" TypeName="SpecifyCultureInfo" Category="Microsoft.Globalization" CheckId="CA1304" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="99">Because the behavior of 'string.ToUpper()' could vary based on the current user's locale settings, replace this call in 'WebUtilHTTPModule.GetParams(HttpRequest)' with a call to 'string.ToUpper(CultureInfo)'. If the result of 'string.ToUpper(CultureInfo)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'CultureInfo' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Init(System.Web.HttpApplication)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="25">In member 'WebUtilHTTPModule.Init(HttpApplication)', change parameter name 'ctx' to 'context' in order to match the identifier as it has been declared in 'IHttpModule.Init(HttpApplication)'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="25">In externally visible method 'WebUtilHTTPModule.Init(HttpApplication)', validate parameter 'ctx' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnError(System.Object,System.EventArgs)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="55">Modify 'WebUtilHTTPModule.OnError(object, EventArgs)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Sniffer()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil" File="WebUtilHTTPModule.cs" Line="107">The 'this' parameter (or 'Me' in Visual Basic) of 'WebUtilHTTPModule.Sniffer()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -185,99 +185,99 @@
        <Types>
         <Type Name="ConversationalField" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'ConversationalField', if possible.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'ConversationalField' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="EntityField" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'EntityField', if possible.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'EntityField' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="EntityFieldDeletionSafe" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'EntityFieldDeletionSafe', if possible.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'EntityFieldDeletionSafe' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="HasStatefulField" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'HasStatefulField', if possible.</Issue>
           </Message>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'HasStatefulField'.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'HasStatefulField' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="IgnoreStatefulFields" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'IgnoreStatefulFields', if possible.</Issue>
           </Message>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'IgnoreStatefulFields'.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'IgnoreStatefulFields' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="StatefulField" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'StatefulField', if possible.</Issue>
           </Message>
-          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'interceptor' of Attribute 'StatefulField'.</Issue>
           </Message>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'StatefulField'.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'StatefulField' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="WorkSpaceInfo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'WorkSpaceInfo', if possible.</Issue>
           </Message>
-          <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in type name 'WorkSpaceInfo' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace'.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'WorkSpaceInfo' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="workSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="workSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberParameterShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Attributes" File="IgnoreStatefulFields.cs" Line="10">In member 'WorkSpaceInfo.WorkSpaceInfo(string)', the compound word 'workSpace' in parameter name 'workSpaceName' exists as a discrete term. If your usage is intended to be single word, case it as 'workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#WorkSpaceName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Attributes" File="IgnoreStatefulFields.cs" Line="17">The compound word 'WorkSpace' in member name 'WorkSpaceInfo.WorkSpaceName' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -290,7 +290,7 @@
        <Types>
         <Type Name="BurrowLink" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
            <Issue Certainty="90" Level="Error">'BurrowLink' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'HyperLink', 'WebControl', 'Control'</Issue>
           </Message>
          </Messages>
@@ -301,21 +301,21 @@
        <Types>
         <Type Name="BurrowWebUtilException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in type name 'BurrowWebUtilException'.</Issue>
           </Message>
-          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'BurrowWebUtilException': protected BurrowWebUtilException(SerializationInfo, StreamingContext).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'BurrowWebUtilException': public BurrowWebUtilException(String, Exception).</Issue>
           </Message>
-          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Add [Serializable] to 'BurrowWebUtilException' as this type implements ISerializable.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="DuplicatedGlobalHolderException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'DuplicatedGlobalHolderException': protected DuplicatedGlobalHolderException(SerializationInfo, StreamingContext).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'DuplicatedGlobalHolderException': public DuplicatedGlobalHolderException(String, Exception).</Issue>
           </Message>
@@ -327,49 +327,49 @@
        <Types>
         <Type Name="GlobalPlaceHolder" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="PlaceHolder" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+          <Message Id="PlaceHolder" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
            <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'PlaceHolder' in type name 'GlobalPlaceHolder' exists as a discrete term. If your usage is intended to be single word, case it as 'Placeholder'.</Issue>
           </Message>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'GlobalPlaceHolder' because it creates members of the following IDisposable types: 'PlaceHolder', 'UpdatePanel'. If 'GlobalPlaceHolder' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(System.Web.UI.Page)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="p" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="p" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="18">In method 'GlobalPlaceHolder.GlobalPlaceHolder(Page)', consider providing a more meaningful name than parameter name 'p'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="23">In externally visible method 'GlobalPlaceHolder.GlobalPlaceHolder(Page)', validate parameter 'p' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#AddPostBackField(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="BackField" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="BackField" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="71">The compound word 'BackField' in member name 'GlobalPlaceHolder.AddPostBackField(string, string)' exists as a discrete term. If your usage is intended to be single word, case it as 'Backfield' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="73">In method 'GlobalPlaceHolder.AddPostBackField(string, string)', object 'l' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'l' before all references to it are out of scope.</Issue>
             </Message>
-            <Message Id="System.Web.UI.WebControls.Literal.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message Id="System.Web.UI.WebControls.Literal.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="74">Method 'GlobalPlaceHolder.AddPostBackField(string, string)' passes a literal string as parameter 'value' of a call to 'Literal.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "&lt;input type=\'hidden\' Name=\', \' ID=\', \' value=\', \' /&gt;".</Issue>
             </Message>
-            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="71">In method 'GlobalPlaceHolder.AddPostBackField(string, string)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="74">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'GlobalPlaceHolder.AddPostBackField(string, string)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#AddPostBackFields(System.Collections.Generic.IDictionary`2&lt;System.String,System.String&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="BackFields" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="Breaking">
+            <Message Id="BackFields" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="63">The compound word 'BackFields' in member name 'GlobalPlaceHolder.AddPostBackFields(IDictionary&lt;string, string&gt;)' exists as a discrete term. If your usage is intended to be single word, case it as 'Backfields' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="GlobalPlaceHolder.cs" Line="63">In externally visible method 'GlobalPlaceHolder.AddPostBackFields(IDictionary&lt;string, string&gt;)', validate parameter 'fields' before using it.</Issue>
             </Message>
            </Messages>
@@ -380,20 +380,20 @@
          <Members>
           <Member Name="#Deserialize(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="StatefulFieldPageModule.cs" Line="149">The 'this' parameter (or 'Me' in Visual Basic) of 'StatefulFieldPageModule.Deserialize(string)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Serialize(System.Object)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="DependsOnFix">
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="DependsOnFix">
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="StatefulFieldPageModule.cs" Line="156">In method 'StatefulFieldPageModule.Serialize(object)', call System.IDisposable.Dispose on object 'tw' before all references to it are out of scope.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="StatefulFieldPageModule.cs" Line="155">The 'this' parameter (or 'Me' in Visual Basic) of 'StatefulFieldPageModule.Serialize(object)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
-            <Message Id="System.IO.StringWriter.#ctor" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+            <Message Id="System.IO.StringWriter.#ctor" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="StatefulFieldPageModule.cs" Line="156">Because the behavior of 'StringWriter.StringWriter()' could vary based on the current user's locale settings, replace this call in 'StatefulFieldPageModule.Serialize(object)' with a call to 'StringWriter.StringWriter(IFormatProvider)'. If the result of 'StringWriter.StringWriter(IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -402,7 +402,7 @@
            <Accessors>
             <Accessor Name="#get_States()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
              <Messages>
-              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-08-27 12:42:03Z" FixCategory="NonBreaking">
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-04 03:29:35Z" FixCategory="NonBreaking">
                <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.WebUtil\Impl" File="StatefulFieldPageModule.cs" Line="24">'StatefulFieldPageModule.States.get()' appears to have no upstream public or protected callers.</Issue>
               </Message>
              </Messages>
