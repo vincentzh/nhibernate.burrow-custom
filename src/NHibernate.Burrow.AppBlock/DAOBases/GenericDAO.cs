@@ -290,7 +290,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
     /// Find according the criterion
     /// </summary>
     /// <returns></returns>
-    protected IList<ReturnT> Find(params ICriterion[] crit)
+    public IList<ReturnT> Find(params ICriterion[] crit)
     {
         return CreateCriteria(crit).List<ReturnT>();
     }
@@ -302,7 +302,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
     /// <param name="pageSize"></param>
     /// <param name="startRow"></param>
     /// <returns></returns>
-    protected IList<ReturnT> Find(int pageSize, int startRow, ICriteria c)
+    public IList<ReturnT> Find(int pageSize, int startRow, ICriteria c)
     {
         c.SetFirstResult(startRow);
         if (pageSize > 0)
@@ -319,7 +319,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
     /// <remarks>
     /// This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
     /// </remarks>
-    protected IList<ReturnT> Find(int startRow, int pageSize, string sortExpression, ICriteria c)
+    public IList<ReturnT> Find(int startRow, int pageSize, string sortExpression, ICriteria c)
     {
         Order o = ParseOrder(sortExpression);
         if (o != null)
@@ -341,7 +341,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
     /// <remarks>
     /// This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
     /// </remarks>
-    protected IList<ReturnT> Find(int startRow, int pageSize, string sortExpression, params ICriterion[] crit)
+    public IList<ReturnT> Find(int startRow, int pageSize, string sortExpression, params ICriterion[] crit)
     {
         return Find(startRow, pageSize, sortExpression, CreateCriteria(crit));
     }
@@ -357,7 +357,7 @@ namespace NHibernate.Burrow.AppBlock.DAOBases
     /// <remarks>
     /// This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
     /// </remarks>
-    protected IList<ReturnT> Find(int startRow, int pageSize, string sortExpression, ICollection<ICriterion> crit)
+    public IList<ReturnT> Find(int startRow, int pageSize, string sortExpression, ICollection<ICriterion> crit)
     {
         return Find(startRow, pageSize, sortExpression, CreateCriteria(crit));
     }
