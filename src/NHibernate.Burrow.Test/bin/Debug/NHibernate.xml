@@ -7306,7 +7306,7 @@
         <member name="P:NHibernate.Collection.AbstractPersistentCollection.QueuedAdditionIterator">
             <summary></summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "F:NHibernate.Collection.Generic.PersistentGenericBag`1._gbag" -->
+        <!-- Некорректный комментарий в формате XML для члена "F:NHibernate.Collection.Generic.PersistentGenericBag`1._gbag" проигнорирован -->
         <member name="M:NHibernate.Collection.Generic.PersistentGenericBag`1.InitializeFromCache(NHibernate.Persister.Collection.ICollectionPersister,System.Object,System.Object)">
             <summary>
             Initializes this PersistentBag from the cached values.
@@ -21414,7 +21414,7 @@
             Returns to the previous 'FROM' context.
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "T:NHibernate.Hql.Ast.ANTLR.SqlGenerator" -->
+        <!-- Некорректный комментарий в формате XML для члена "T:NHibernate.Hql.Ast.ANTLR.SqlGenerator" проигнорирован -->
         <member name="T:NHibernate.Hql.Ast.ANTLR.IErrorReporter">
             <summary>
             Implementations will report or handle errors invoked by an ANTLR base parser.
@@ -26624,6 +26624,14 @@
             <param name="id">The id</param>
             <returns>A descriptive <see cref="T:System.String"/> in the form <c>[collectionrole#id]</c></returns>
         </member>
+        <member name="M:NHibernate.Impl.MessageHelper.CollectionInfoString(NHibernate.Persister.Collection.ICollectionPersister,System.Object)">
+            <summary>
+            Generate small message that can be used in traces and exception messages.
+            </summary>
+            <param name="persister">The <see cref="T:NHibernate.Persister.Collection.ICollectionPersister"/> for the class in question</param>
+            <param name="id">The id</param>
+            <returns>A descriptive <see cref="T:System.String"/> in the form <c>[collectionrole#id]</c></returns>
+        </member>
         <member name="M:NHibernate.Impl.MessageHelper.InfoString(System.String,System.String,System.Object)">
             <summary> 
             Generate an info message string relating to a given property value
@@ -26634,10 +26642,31 @@
             <param name="key">The property value. </param>
             <returns> An info string, in the form [Foo.bars#1] </returns>
         </member>
+        <member name="M:NHibernate.Impl.MessageHelper.CollectionInfoString(NHibernate.Persister.Collection.ICollectionPersister,NHibernate.Collection.IPersistentCollection,System.Object,NHibernate.Engine.ISessionImplementor)">
+            <summary>
+            Generate an info message string relating to a particular managed
+            collection.  Attempts to intelligently handle property-refs issues
+            where the collection key is not the same as the owner key.
+            </summary>
+            <param name="persister">The persister for the collection</param>
+            <param name="collection">The collection itself</param>
+            <param name="collectionKey">The collection key</param>
+            <param name="session">The session</param>
+            <returns>An info string, in the form [Foo.bars#1]</returns>
+        </member>
         <member name="M:NHibernate.Impl.MessageHelper.InfoString(NHibernate.Persister.Collection.ICollectionPersister,System.Object,NHibernate.Engine.ISessionFactoryImplementor)">
             <summary> 
             Generate an info message string relating to a particular managed
             collection.
+            </summary>
+            <param name="persister">The persister for the collection </param>
+            <param name="id">The id value of the owner </param>
+            <param name="factory">The session factory </param>
+            <returns> An info string, in the form [Foo.bars#1] </returns>
+        </member>
+        <member name="M:NHibernate.Impl.MessageHelper.CollectionInfoString(NHibernate.Persister.Collection.ICollectionPersister,System.Object,NHibernate.Engine.ISessionFactoryImplementor)">
+            <summary> 
+            Generate an info message string relating to a particular managed collection.
             </summary>
             <param name="persister">The persister for the collection </param>
             <param name="id">The id value of the owner </param>
@@ -28414,7 +28443,7 @@
             Some conditional expressions can be redured to just their IfTrue or IfFalse part.
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "T:NHibernate.Linq.Visitors.WhereJoinDetector" -->
+        <!-- Некорректный комментарий в формате XML для члена "T:NHibernate.Linq.Visitors.WhereJoinDetector" проигнорирован -->
         <member name="P:NHibernate.Linq.Visitors.WhereJoinDetector.ExpressionValues.Values">
             <summary>
             Possible values of expression if there's set of values for the requested member expression.
@@ -32285,7 +32314,7 @@
             </summary>
         </member>
         <member name="M:NHibernate.Type.IType.Replace(System.Object,System.Object,NHibernate.Engine.ISessionImplementor,System.Object,System.Collections.IDictionary)">
-            <!-- No matching elements were found for the following include tag --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;M:IType.Copy&quot;]/*"/> 
+            <!-- Не обнаружено элементов, соответствующих тегу include --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;M:IType.Copy&quot;]/*"/> 
         </member>
         <member name="M:NHibernate.Type.IType.Replace(System.Object,System.Object,NHibernate.Engine.ISessionImplementor,System.Object,System.Collections.IDictionary,NHibernate.Type.ForeignKeyDirection)">
             <summary> 
@@ -32425,7 +32454,7 @@
 		</summary><value>true if this is an <see cref="T:NHibernate.Type.EntityType"/></value> 
         </member>
         <member name="P:NHibernate.Type.IType.IsAnyType">
-            <!-- No matching elements were found for the following include tag --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;P:IType.IsAnyType&quot;]/*"/> 
+            <!-- Не обнаружено элементов, соответствующих тегу include --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;P:IType.IsAnyType&quot;]/*"/> 
         </member>
         <member name="T:NHibernate.Param.NamedParameterSpecification">
             <summary>
@@ -38321,10 +38350,10 @@
 		</summary><param name="mapping">The <see cref="T:NHibernate.Engine.IMapping"/> that uses this IType.</param><returns>The number of columns this IType spans.</returns><exception cref="T:NHibernate.MappingException">MappingException</exception> 
         </member>
         <member name="M:NHibernate.Type.AbstractType.NullSafeGet(System.Data.IDataReader,System.String[],NHibernate.Engine.ISessionImplementor,System.Object)">
-            <!-- No matching elements were found for the following include tag --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;M:IType.NullSafeGet(IDataReader, string[], ISessionImplementor, object)&quot;]/*"/> 
+            <!-- Не обнаружено элементов, соответствующих тегу include --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;M:IType.NullSafeGet(IDataReader, string[], ISessionImplementor, object)&quot;]/*"/> 
         </member>
         <member name="M:NHibernate.Type.AbstractType.NullSafeGet(System.Data.IDataReader,System.String,NHibernate.Engine.ISessionImplementor,System.Object)">
-            <!-- No matching elements were found for the following include tag --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;M:IType.NullSafeGet(IDataReader, string, ISessionImplementor, object)&quot;]/*"/> 
+            <!-- Не обнаружено элементов, соответствующих тегу include --><include file="IType.cs.xmldoc" path="//members[@type=&quot;IType&quot;]/member[@name=&quot;M:IType.NullSafeGet(IDataReader, string, ISessionImplementor, object)&quot;]/*"/> 
         </member>
         <member name="M:NHibernate.Type.AbstractType.NullSafeSet(System.Data.IDbCommand,System.Object,System.Int32,System.Boolean[],NHibernate.Engine.ISessionImplementor)">
             <summary>
@@ -41253,7 +41282,7 @@
             <see cref="T:NHibernate.Impl.Printer"/>.
             </remarks>
         </member>
-        <!-- Badly formed XML comment ignored for member "T:NHibernate.Util.EnumeratorAdapter`1" -->
+        <!-- Некорректный комментарий в формате XML для члена "T:NHibernate.Util.EnumeratorAdapter`1" проигнорирован -->
         <member name="T:NHibernate.Util.FilterHelper">
             <summary></summary>
         </member>
@@ -41971,6 +42000,11 @@
         <member name="F:NHibernate.Util.StringHelper.SqlParameter">
             <summary></summary>
         </member>
+        <member name="F:NHibernate.Util.StringHelper.LineSeparators">
+            <summary>
+            This allows for both CRLF and lone LF line separators.
+            </summary>
+        </member>
         <member name="M:NHibernate.Util.StringHelper.Repeat(System.String,System.Int32)">
             <summary>
             
@@ -41990,7 +42024,7 @@
         </member>
         <member name="M:NHibernate.Util.StringHelper.Split(System.String,System.String)">
             <summary>
-            Just a façade for calling string.Split()
+            Just a faзade for calling string.Split()
             We don't use our StringTokenizer because string.Split() is
             more efficient (but it only works when we don't want to retrieve the delimiters)
             </summary>
@@ -42146,6 +42180,22 @@
             </summary>
             <param name="str">A <see cref="T:System.String"/></param>
             <returns>A <see cref="T:System.String"/></returns>
+        </member>
+        <member name="M:NHibernate.Util.StringHelper.IndexOfAnyNewLine(System.String,System.Int32,System.Int32@)">
+            <summary>
+            Return the index of the next line separator, starting at startIndex. If will match
+            the first CRLF or LF line separator. If there is no match, -1 will be returned. When
+            returning, newLineLength will be set to the number of characters in the matched line
+            separator (1 if LF was found, 2 if CRLF was found).
+            </summary>
+        </member>
+        <member name="M:NHibernate.Util.StringHelper.IsAnyNewLine(System.String,System.Int32,System.Int32@)">
+            <summary>
+            Check if the given index points to a line separator in the string. Both CRLF and LF
+            line separators are handled. When returning, newLineLength will be set to the number
+            of characters matched in the line separator. It will be 2 if a CRLF matched, 1 if LF
+            matched, and 0 if the index doesn't indicate (the start of) a line separator.
+            </summary>
         </member>
         <member name="T:NHibernate.Util.StringTokenizer">
             <summary>
