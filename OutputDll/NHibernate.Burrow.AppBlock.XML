@@ -6,12 +6,12 @@
     <members>
         <member name="T:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1">
             <summary>
-            A DAO that includes a set of shotcut methods. 
+                A DAO that includes a set of shotcut methods.
             </summary>
             <typeparam name="ReturnT">Type as which GenericDAO returns entities</typeparam>
             <remarks>
-            This DAO can be inherited to add/override functions.
-            It's totally optional to client to use it or not, as other classes in the  NHibernate.Burrow.Util namespace 
+                This DAO can be inherited to add/override functions.
+                It's totally optional to client to use it or not, as other classes in the  NHibernate.Burrow.Util namespace
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.IGenericDAO`1.Get(System.Object)">
@@ -71,82 +71,83 @@
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.#ctor(System.Type)">
             <summary>
-            Constructs a GenericDAO whose <typeparamref name="ReturnT"/> is different from the mapped entity type in NHibernate
+                Constructs a GenericDAO whose <typeparamref name="ReturnT" /> is different from the mapped entity type in
+                NHibernate
             </summary>
             <param name="entityTypeMapped"></param>
             <remarks>
-            for example, you can use an unmapped interface as <typeparamref name="ReturnT"/> and a mapped implementation type as the entityTypeMapped 
+                for example, you can use an unmapped interface as <typeparamref name="ReturnT" /> and a mapped implementation type
+                as the entityTypeMapped
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.#ctor">
             <summary>
-            Constructs a GenericDAO whose <typeparamref name="ReturnT"/> is mapped in NHibernate
+                Constructs a GenericDAO whose <typeparamref name="ReturnT" /> is mapped in NHibernate
             </summary>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.ParseOrder(System.String)">
             <summary>
-            Parse the NHibernate.Expression.Order from the string sortExpression
+                Parse the NHibernate.Expression.Order from the string sortExpression
             </summary>
             <param name="sortExpression"></param>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.UniqueResult``1(System.Collections.Generic.IList{``0})">
-             <summary>
-             Gets the unique result from results
-             </summary>
-             <typeparam name="T"></typeparam>
-             <param name="results"></param>
-             <returns></returns>
-             <remarks>
-             you can use this together with other helper methods to do unqiue search
-             <example>
-             <code>
+            <summary>
+                Gets the unique result from results
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="results"></param>
+            <returns></returns>
+            <remarks>
+                you can use this together with other helper methods to do unqiue search
+                <example>
+                    <code>
              public class CustomerDAO : GenericDAO{Customer}  {
                   public Customer FindbyName(string name){
                       return UniqueResult(Find(Expression.Eq( "Name", name)); 
                   }
              }
              </code>
-             </example>
-            
-             </remarks>
+                </example>
+            </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.CreateQuery(System.String)">
             <summary>
-            Create a Hibernate query
+                Create a Hibernate query
             </summary>
             <param name="queryString"></param>
             <returns></returns>
             <remarks>
-            <example>
-            In most case, the query must start with "select " or "from " like the following
-            <code>
+                <example>
+                    In most case, the query must start with "select " or "from " like the following
+                    <code>
             dao.CreateQuery("select tm from Team tm WHERE tm.TeamType = :tt");	
             </code>
-            or 
-            <code>
+                    or
+                    <code>
             dao.CreateQuery("from Team tm where tm.TeamType = :tt");	
             </code>
-            For convenience, as the DAO already know the entity name, if you are query the entity, 
-             you can skip the "from XXXX" part of the HQL, the following code is also valide.
-            <code>
+                    For convenience, as the DAO already know the entity name, if you are query the entity,
+                    you can skip the "from XXXX" part of the HQL, the following code is also valide.
+                    <code>
              dao.CreateQuery("tm where tm.TeamType = :tt");	
             </code>
-            this method will automatically add "from Team " before the above query.
-            </example>
-            <example>
-            you can even skip the alias "tm" if you use "this" as the alias for the current entity
-            <code>
+                    this method will automatically add "from Team " before the above query.
+                </example>
+                <example>
+                    you can even skip the alias "tm" if you use "this" as the alias for the current entity
+                    <code>
              dao.CreateQuery("where this.TeamType = :tt");	
              dao.CreateQuery("order by this.CreationTime");	
             </code>
-            this method will automatically add "from Team this " before the above query.
-            </example>
+                    this method will automatically add "from Team this " before the above query.
+                </example>
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.PaginatedQuery(NHibernate.IQuery,System.Int32,System.Int32)">
             <summary>
-            Query by page
+                Query by page
             </summary>
             <param name="q"></param>
             <param name="startRow"></param>
@@ -155,14 +156,14 @@
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.CreateCriteria(System.Collections.Generic.IEnumerable{NHibernate.Criterion.ICriterion})">
             <summary>
-            Create a criteria using defaultOrder
+                Create a criteria using defaultOrder
             </summary>
             <param name="criterions"></param>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.CreateCriteria(NHibernate.Criterion.Order,System.Collections.Generic.IEnumerable{NHibernate.Criterion.ICriterion})">
             <summary>
-            Create Criteria using <paramref name="odr"/>
+                Create Criteria using <paramref name="odr" />
             </summary>
             <param name="odr">can pass null</param>
             <param name="criterion"></param>
@@ -170,31 +171,31 @@
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.CreateCriteria">
             <summary>
-            Create a Criteria without order
+                Create a Criteria without order
             </summary>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.StatelessCreateCriteria">
             <summary>
-            Create a Criteria with StatelessSession and without order
+                Create a Criteria with StatelessSession and without order
             </summary>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.CreateCriteria(System.String)">
             <summary>
-            Create a Criteria instance of the Type
+                Create a Criteria instance of the Type
             </summary>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Find(NHibernate.Criterion.ICriterion[])">
             <summary>
-            Find according the criterion
+                Find according the criterion
             </summary>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Find(System.Int32,System.Int32,NHibernate.ICriteria)">
             <summary>
-            Query by creteria with paging surport. 
+                Query by creteria with paging surport.
             </summary>
             <param name="c"></param>
             <param name="pageSize"></param>
@@ -203,16 +204,16 @@
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Find(System.Int32,System.Int32,System.String,NHibernate.ICriteria)">
             <summary>
-            Find by ICriteria created by client with Pagination and Sorting
+                Find by ICriteria created by client with Pagination and Sorting
             </summary>
             <returns></returns>
             <remarks>
-            This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
+                This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please
+                consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Find(System.Int32,System.Int32,System.String,NHibernate.Criterion.ICriterion[])">
             <summary>
-            
             </summary>
             <param name="startRow"></param>
             <param name="pageSize"></param>
@@ -220,12 +221,12 @@
             <param name="crit"></param>
             <returns></returns>
             <remarks>
-            This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
+                This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please
+                consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Find(System.Int32,System.Int32,System.String,System.Collections.Generic.ICollection{NHibernate.Criterion.ICriterion})">
             <summary>
-            
             </summary>
             <param name="startRow"></param>
             <param name="pageSize"></param>
@@ -233,129 +234,137 @@
             <param name="crit"></param>
             <returns></returns>
             <remarks>
-            This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
+                This pagination signature is designed to work with ASP.NET ObjectDataSource, for more advanced pagination, please
+                consider NHiberante.Burrow.Util.Pagination.IPaginator, NHiberante.Burrow.Util
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Count(System.Collections.Generic.ICollection{NHibernate.Criterion.ICriterion})">
             <summary>
-            Count by a collection of Criterion
+                Count by a collection of Criterion
             </summary>
             <param name="criterions"></param>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Count(NHibernate.ICriteria)">
             <summary>
-            Counts the result of <paramref name="c"/>
+                Counts the result of <paramref name="c" />
             </summary>
             <param name="c"></param>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Get(System.Object)">
             <summary>
-            Return the persistent instance of the given entity class with the given identifier, or null if there is no such persistent instance. (If the instance, or a proxy for the instance, is already associated with the session, return that instance or proxy.)
+                Return the persistent instance of the given entity class with the given identifier, or null if there is no such
+                persistent instance. (If the instance, or a proxy for the instance, is already associated with the session, return
+                that instance or proxy.)
             </summary>
             <param name="id"></param>
             <returns>a persistent instance or null</returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Load(System.Object)">
             <summary>
-            Return the persistent instance of the given entity class with the given identifier, assuming that the instance exists.
+                Return the persistent instance of the given entity class with the given identifier, assuming that the instance
+                exists.
             </summary>
             <param name="id"></param>
             <returns>The persistent instance or proxy</returns>
             <remarks>
-            You should not use this method to determine if an instance exists (use a query or NHibernate.ISession.Get(System.Type,System.Object) instead). Use this only to retrieve an instance that you assume exists, where non-existence would be an actual error.
+                You should not use this method to determine if an instance exists (use a query or
+                NHibernate.ISession.Get(System.Type,System.Object) instead). Use this only to retrieve an instance that you assume
+                exists, where non-existence would be an actual error.
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Delete(`0)">
             <summary>
-            Delete the record of an entity from Database and thus the entity becomes transient
+                Delete the record of an entity from Database and thus the entity becomes transient
             </summary>
             <param name="t"></param>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Refresh(`0)">
             <summary>
-            Re-read the state of the entity from the database
+                Re-read the state of the entity from the database
             </summary>
             <param name="t"></param>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.SaveOrUpdate(`0)">
             <summary>
-            Persist the entity <paramref name="t"/> to DB if it has not been persisted before 
+                Persist the entity <paramref name="t" /> to DB if it has not been persisted before
             </summary>
             <param name="t"></param>
             <remarks>
-            By default the instance is always saved. 
-            This behaviour may be adjusted by specifying an unsaved-value attribute of the identifier property mapping 
+                By default the instance is always saved.
+                This behaviour may be adjusted by specifying an unsaved-value attribute of the identifier property mapping
             </remarks>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Save(`0)">
             <summary>
-            Persist the given transient instance, first assigning a generated identifier.  
+                Persist the given transient instance, first assigning a generated identifier.
             </summary>
             <param name="t">the given transient instance</param>
-            <returns>The generated identifier
+            <returns>
+                The generated identifier
             </returns>
             <remarks>
-            Save will use the current value of the identifier property if the Assigned generator is used.
+                Save will use the current value of the identifier property if the Assigned generator is used.
             </remarks>
+        </member>
+        <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Flush">
+            <summary>
+                This will fire a NHibernate Session Flush
+            </summary>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.FindAll">
             <summary>
-            Finds all entities of the type
+                Finds all entities of the type
             </summary>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.FindAll(System.Int32,System.Int32,System.String)">
             <summary>
-            Find all entities of the type with paging and sorting
+                Find all entities of the type with paging and sorting
             </summary>
             <param name="startRow">the index of the first record to return</param>
             <param name="pageSize">the number of the records to return</param>
-            <param name="sortExpression">the expression for sorting
-            <example> Name DESC </example>
-            <example> Year ASC </example>
-            this parameter can be IsEmptyOrNull when sorting is not needed
+            <param name="sortExpression">
+                the expression for sorting
+                <example> Name DESC </example>
+                <example> Year ASC </example>
+                this parameter can be IsEmptyOrNull when sorting is not needed
             </param>
             <returns></returns>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.CountAll">
             <summary>
-            Counts all entities of the type
+                Counts all entities of the type
             </summary>
             <returns></returns>
         </member>
-        <member name="M:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Flush">
-            <summary>
-             This will fire a NHibernate Session Flush
-            </summary>
-        </member>
         <member name="P:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.DefaultOrder">
             <summary>
-            Default Order when query entities
+                Default Order when query entities
             </summary>
             <remarks>
-            if not override, it will use id Desc, 
-            As "id" is reserved in HQL to represent identifier, this should be always safe 
+                if not override, it will use id Desc,
+                As "id" is reserved in HQL to represent identifier, this should be always safe
             </remarks>
         </member>
         <member name="P:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.DefaultCacheable">
             <summary>
-            Gets if the DAO use cacheable query/criteria by default
+                Gets if the DAO use cacheable query/criteria by default
             </summary>
             <remarks>
-            default value is false;
-            override to return the value you want
+                default value is false;
+                override to return the value you want
             </remarks>
         </member>
         <member name="P:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.DefaultCacheRegion">
             <summary>
-            Gets the default cache region 
+                Gets the default cache region
             </summary>
         </member>
         <member name="P:NHibernate.Burrow.AppBlock.DAOBases.GenericDAO`1.Session">
             <summary>
-            Gets the Nhibernate Session 
+                Gets the Nhibernate Session
             </summary>
         </member>
         <member name="M:NHibernate.Burrow.AppBlock.DynQuery.DetachedDynQuery.GetExecutableQuery(NHibernate.ISession)">

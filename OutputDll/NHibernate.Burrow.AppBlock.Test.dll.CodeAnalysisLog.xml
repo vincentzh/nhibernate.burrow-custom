@@ -4,55 +4,55 @@
  <Namespaces>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test.aReposEmul">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test.aReposEmul' with another namespace.</Issue>
     </Message>
-    <Message Id="a" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message Id="a" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'a' in namespace name 'NHibernate.Burrow.AppBlock.Test.aReposEmul' by changing it to 'A'.</Issue>
     </Message>
-    <Message Id="Emul" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message Id="Emul" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Emul' in namespace name 'NHibernate.Burrow.AppBlock.Test.aReposEmul'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test.DynamicQuery">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test.DynamicQuery' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test.Serialization">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test.Serialization' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test.SoftDelete">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test.SoftDelete' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test.Transform">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test.Transform' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.AppBlock.Test.UserTypes">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.AppBlock.Test.UserTypes' with another namespace.</Issue>
     </Message>
    </Messages>
@@ -63,10 +63,10 @@
    <Modules>
     <Module Name="nhibernate.burrow.appblock.test.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.AppBlock.Test.dll' with a strong name key.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.AppBlock.Test.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -77,76 +77,76 @@
          <Members>
           <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
              <Issue Certainty="90" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="19">Initialize all static fields in 'TestCase' when those fields are declared and remove the explicit static constructor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#cfg" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'TestCase.cfg' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
-            <Message Id="cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'cfg' in member name 'TestCase.cfg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Configure(NHibernate.Cfg.Configuration)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="215">In externally visible method 'TestCase.Configure(Configuration)', validate parameter 'configuration' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnSetUp()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="84">The compound word 'SetUp' in member name 'TestCase.OnSetUp()' exists as a discrete term. If your usage is intended to be single word, case it as 'Setup' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnTearDown()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="96">The compound word 'TearDown' in member name 'TestCase.OnTearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#sessions" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'TestCase.sessions' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SetUp()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="93">The compound word 'SetUp' in member name 'TestCase.SetUp()' exists as a discrete term. If your usage is intended to be single word, case it as 'Setup' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="105">The compound word 'TearDown' in member name 'TestCase.TearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="114">Method 'TestCase.TearDown()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "Test didn\'t clean up after itself".</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TestFixtureSetUp()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="57">The compound word 'SetUp' in member name 'TestCase.TestFixtureSetUp()' exists as a discrete term. If your usage is intended to be single word, case it as 'Setup' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TestFixtureTearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test" File="TestCase.cs" Line="80">The compound word 'TearDown' in member name 'TestCase.TestFixtureTearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -159,49 +159,49 @@
        <Types>
         <Type Name="GenericNHibernateDAO`2" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'DAO' in type name 'GenericNHibernateDAO&lt;T, TId&gt;' by changing it to 'Dao'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Find(NHibernate.Criterion.DetachedCriteria)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\aReposEmul" File="GenericNHibernateDAO.cs" Line="68">In externally visible method 'GenericNHibernateDAO&lt;T, TId&gt;.Find(DetachedCriteria)', validate parameter 'criteria' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Find(NHibernate.IDetachedQuery)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\aReposEmul" File="GenericNHibernateDAO.cs" Line="73">In externally visible method 'GenericNHibernateDAO&lt;T, TId&gt;.Find(IDetachedQuery)', validate parameter 'query' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#FindUnique(NHibernate.Criterion.DetachedCriteria)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\aReposEmul" File="GenericNHibernateDAO.cs" Line="78">In externally visible method 'GenericNHibernateDAO&lt;T, TId&gt;.FindUnique(DetachedCriteria)', validate parameter 'criteria' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#FindUnique(NHibernate.IDetachedQuery)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\aReposEmul" File="GenericNHibernateDAO.cs" Line="83">In externally visible method 'GenericNHibernateDAO&lt;T, TId&gt;.FindUnique(IDetachedQuery)', validate parameter 'query' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetPaginable(NHibernate.Criterion.DetachedCriteria)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\aReposEmul" File="GenericNHibernateDAO.cs" Line="90">Correct the spelling of 'Paginable' in member name 'GenericNHibernateDAO&lt;T, TId&gt;.GetPaginable(DetachedCriteria)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GetPaginable(NHibernate.IDetachedQuery)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\aReposEmul" File="GenericNHibernateDAO.cs" Line="100">Correct the spelling of 'Paginable' in member name 'GenericNHibernateDAO&lt;T, TId&gt;.GetPaginable(IDetachedQuery)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -214,14 +214,14 @@
        <Types>
         <Type Name="DetachedDynQueryFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dyn' in type name 'DetachedDynQueryFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#ToRowCount()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DetachedDynQueryFixture.cs" Line="16">The 'this' parameter (or 'Me' in Visual Basic) of 'DetachedDynQueryFixture.ToRowCount()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -230,73 +230,73 @@
         </Type>
         <Type Name="DynQueryFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Dyn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dyn' in type name 'DynQueryFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#CommonUse()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="13">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.CommonUse()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#DirtyWhereCostruction()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Costruction" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Costruction" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="47">Correct the spelling of 'Costruction' in member name 'DynQueryFixture.DirtyWhereCostruction()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="47">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.DirtyWhereCostruction()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#LogicalExpressionTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="59">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.LogicalExpressionTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OrderByInjection()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="68">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.OrderByInjection()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OrderByTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="78">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.OrderByTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SelectTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="86">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.SelectTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SelectWhereTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="94">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.SelectWhereTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SimpleQuery()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="105">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.SimpleQuery()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#WhereInjection()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\DynamicQuery" File="DynQueryFixture.cs" Line="115">The 'this' parameter (or 'Me' in Visual Basic) of 'DynQueryFixture.WhereInjection()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -309,38 +309,38 @@
        <Types>
         <Type Name="BasePaginatorFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginator' in type name 'BasePaginatorFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GotoOutOfPages()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="BasePaginatorFixture.cs" Line="25">The 'this' parameter (or 'Me' in Visual Basic) of 'BasePaginatorFixture.GotoOutOfPages()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#KnowLastPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="BasePaginatorFixture.cs" Line="32">The 'this' parameter (or 'Me' in Visual Basic) of 'BasePaginatorFixture.KnowLastPage()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#NoPageAvailable()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="BasePaginatorFixture.cs" Line="57">The 'this' parameter (or 'Me' in Visual Basic) of 'BasePaginatorFixture.NoPageAvailable()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#UnknowLastPage()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Unknow" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Unknow" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="BasePaginatorFixture.cs" Line="70">Correct the spelling of 'Unknow' in member name 'BasePaginatorFixture.UnknowLastPage()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="BasePaginatorFixture.cs" Line="70">The 'this' parameter (or 'Me' in Visual Basic) of 'BasePaginatorFixture.UnknowLastPage()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -349,7 +349,7 @@
         </Type>
         <Type Name="Foo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in type name 'Foo'.</Issue>
           </Message>
          </Messages>
@@ -358,10 +358,10 @@
          <Members>
           <Member Name="#totalFoo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'total' in member name 'NamedQueryRowsCounterFixture.totalFoo' by changing it to 'Total'.</Issue>
             </Message>
-            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in member name 'NamedQueryRowsCounterFixture.totalFoo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -370,27 +370,27 @@
         </Type>
         <Type Name="NoFoo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in type name 'NoFoo'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="NoFooPaginable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
            <Issue Certainty="90" Level="Error">'NoFooPaginable' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'PaginableQuery&lt;NoFoo&gt;', 'AbstractPaginableQuery&lt;NoFoo&gt;'</Issue>
           </Message>
-          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in type name 'NoFooPaginable'.</Issue>
           </Message>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'NoFooPaginable'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(NHibernate.ISession,NHibernate.IDetachedQuery)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="NoFooPaginable.cs" Line="13">In externally visible method 'NoFooPaginable.NoFooPaginable(ISession, IDetachedQuery)', validate parameter 'detachedQuery' before using it.</Issue>
             </Message>
            </Messages>
@@ -399,18 +399,18 @@
         </Type>
         <Type Name="PaginableCriteriaFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'PaginableCriteriaFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#NullArgumentNotAllowed()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableCriteriaFixture.cs" Line="112">Method 'PaginableCriteriaFixture.NullArgumentNotAllowed()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "No exception for null argument.".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableCriteriaFixture.cs" Line="120">Method 'PaginableCriteriaFixture.NullArgumentNotAllowed()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "No exception for null argument.".</Issue>
             </Message>
-            <Message Id="NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1&lt;NHibernate.Burrow.AppBlock.Test.Pagination.Foo&gt;" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+            <Message Id="NHibernate.Burrow.AppBlock.GenericImpl.PaginableCriteria`1&lt;NHibernate.Burrow.AppBlock.Test.Pagination.Foo&gt;" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableCriteriaFixture.cs" Line="111">'PaginableCriteriaFixture.NullArgumentNotAllowed()' creates a new instance of 'PaginableCriteria&lt;Foo&gt;' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableCriteriaFixture.cs" Line="119">'PaginableCriteriaFixture.NullArgumentNotAllowed()' creates a new instance of 'PaginableCriteria&lt;Foo&gt;' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
             </Message>
@@ -418,17 +418,17 @@
           </Member>
           <Member Name="#PaginableRowsCount()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableCriteriaFixture.cs" Line="129">Correct the spelling of 'Paginable' in member name 'PaginableCriteriaFixture.PaginableRowsCount()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#totalFoo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'total' in member name 'PaginableCriteriaFixture.totalFoo' by changing it to 'Total'.</Issue>
             </Message>
-            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in member name 'PaginableCriteriaFixture.totalFoo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -437,18 +437,18 @@
         </Type>
         <Type Name="PaginableQueryFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginable' in type name 'PaginableQueryFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#NullArgumentNotAllowed()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableQueryFixture.cs" Line="116">Method 'PaginableQueryFixture.NullArgumentNotAllowed()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "No exception for null argument.".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableQueryFixture.cs" Line="124">Method 'PaginableQueryFixture.NullArgumentNotAllowed()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "No exception for null argument.".</Issue>
             </Message>
-            <Message Id="NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1&lt;NHibernate.Burrow.AppBlock.Test.Pagination.Foo&gt;" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+            <Message Id="NHibernate.Burrow.AppBlock.GenericImpl.PaginableQuery`1&lt;NHibernate.Burrow.AppBlock.Test.Pagination.Foo&gt;" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableQueryFixture.cs" Line="115">'PaginableQueryFixture.NullArgumentNotAllowed()' creates a new instance of 'PaginableQuery&lt;Foo&gt;' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableQueryFixture.cs" Line="123">'PaginableQueryFixture.NullArgumentNotAllowed()' creates a new instance of 'PaginableQuery&lt;Foo&gt;' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
             </Message>
@@ -456,17 +456,17 @@
           </Member>
           <Member Name="#PaginableRowsCount()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Paginable" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginableQueryFixture.cs" Line="133">Correct the spelling of 'Paginable' in member name 'PaginableQueryFixture.PaginableRowsCount()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#totalFoo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'total' in member name 'PaginableQueryFixture.totalFoo' by changing it to 'Total'.</Issue>
             </Message>
-            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in member name 'PaginableQueryFixture.totalFoo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -475,24 +475,24 @@
         </Type>
         <Type Name="PaginatorFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Paginator' in type name 'PaginatorFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#SimplePaginator()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Paginator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Pagination" File="PaginatorFixture.cs" Line="133">Correct the spelling of 'Paginator' in member name 'PaginatorFixture.SimplePaginator()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#totalFoo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'total' in member name 'PaginatorFixture.totalFoo' by changing it to 'Total'.</Issue>
             </Message>
-            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in member name 'PaginatorFixture.totalFoo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -503,10 +503,10 @@
          <Members>
           <Member Name="#totalFoo" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="total" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'total' in member name 'QueryRowsCounterFixture.totalFoo' by changing it to 'Total'.</Issue>
             </Message>
-            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in member name 'QueryRowsCounterFixture.totalFoo' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -519,24 +519,24 @@
        <Types>
         <Type Name="Foo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in type name 'Foo'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Children" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Serialization" File="Foo.cs" Line="61">Change 'Foo.Children' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#nonSerializablefield" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'Foo.nonSerializablefield' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
-            <Message Id="Serializablefield" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+            <Message Id="Serializablefield" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Serializablefield' in member name 'Foo.nonSerializablefield' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -545,7 +545,7 @@
         </Type>
         <Type Name="FooChild" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in type name 'FooChild'.</Issue>
           </Message>
          </Messages>
@@ -554,7 +554,7 @@
          <Members>
           <Member Name="#Clone()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Serialization" File="ClonerFixture.cs" Line="12">The 'this' parameter (or 'Me' in Visual Basic) of 'SerializeFixture.Clone()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -569,7 +569,7 @@
          <Members>
           <Member Name="#DeletedSoftDeleteEntitiesAreNotReallyDeleted()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.DateTime.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+            <Message Id="System.DateTime.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\SoftDelete" File="SoftDeleteFixture.cs" Line="64">Because the behavior of 'DateTime.Parse(string)' could vary based on the current user's locale settings, replace this call in 'SoftDeleteFixture.DeletedSoftDeleteEntitiesAreNotReallyDeleted()' with a call to 'DateTime.Parse(string, IFormatProvider)'. If the result of 'DateTime.Parse(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
              <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\SoftDelete" File="SoftDeleteFixture.cs" Line="82">Because the behavior of 'DateTime.Parse(string)' could vary based on the current user's locale settings, replace this call in 'SoftDeleteFixture.DeletedSoftDeleteEntitiesAreNotReallyDeleted()' with a call to 'DateTime.Parse(string, IFormatProvider)'. If the result of 'DateTime.Parse(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
@@ -579,7 +579,7 @@
         </Type>
         <Type Name="SoftDeleter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Deleter" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Deleter" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Deleter' in type name 'SoftDeleter'.</Issue>
           </Message>
          </Messages>
@@ -592,34 +592,34 @@
          <Members>
           <Member Name="#ConstructorInvalidAliases()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+            <Message Id="NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Transform" File="PosToBeanResultTransformer.cs" Line="37">'PosToBeanResultTransformer.ConstructorInvalidAliases()' creates a new instance of 'PositionalToBeanResultTransformer' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Transform" File="PosToBeanResultTransformer.cs" Line="37">The 'this' parameter (or 'Me' in Visual Basic) of 'PosToBeanResultTransformer.ConstructorInvalidAliases()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ConstructorInvalidType()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="NonBreaking">
+            <Message Id="NHibernate.Burrow.AppBlock.Transform.PositionalToBeanResultTransformer" TypeName="DoNotIgnoreMethodResults" Category="Microsoft.Usage" CheckId="CA1806" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="NonBreaking">
              <Issue Name="ObjectCreation" Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Transform" File="PosToBeanResultTransformer.cs" Line="44">'PosToBeanResultTransformer.ConstructorInvalidType()' creates a new instance of 'PositionalToBeanResultTransformer' which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Transform" File="PosToBeanResultTransformer.cs" Line="44">The 'this' parameter (or 'Me' in Visual Basic) of 'PosToBeanResultTransformer.ConstructorInvalidType()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Setters()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Transform" File="PosToBeanResultTransformer.cs" Line="50">The 'this' parameter (or 'Me' in Visual Basic) of 'PosToBeanResultTransformer.Setters()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TupleDifferentScalars()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.AppBlock.Test\Transform" File="PosToBeanResultTransformer.cs" Line="69">The 'this' parameter (or 'Me' in Visual Basic) of 'PosToBeanResultTransformer.TupleDifferentScalars()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -632,7 +632,7 @@
        <Types>
         <Type Name="Foo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:44Z" FixCategory="Breaking">
+          <Message Id="Foo" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:14Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Foo' in type name 'Foo'.</Issue>
           </Message>
          </Messages>

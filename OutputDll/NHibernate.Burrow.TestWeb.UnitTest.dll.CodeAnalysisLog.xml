@@ -6,10 +6,10 @@
    <Modules>
     <Module Name="nhibernate.burrow.testweb.unittest.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.TestWeb.UnitTest.dll' with a strong name key.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.TestWeb.UnitTest.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -20,7 +20,7 @@
          <Members>
           <Member Name="#CommitInNonAtmoicTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Atmoic" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+            <Message Id="Atmoic" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="ConversationStatesFixture.cs" Line="45">Correct the spelling of 'Atmoic' in member name 'ConversationStatesFixture.CommitInNonAtmoicTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -29,61 +29,61 @@
         </Type>
         <Type Name="IgnoreStatefulFieldTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'IgnoreStatefulFieldTest'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="StatefulFieldInDynamicallyLoadControlsTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+          <Message Id="Stateful" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Stateful' in type name 'StatefulFieldInDynamicallyLoadControlsTest'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="TestBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="DependsOnFix">
            <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'TestBase' because it creates members of the following IDisposable types: 'IE'. If 'TestBase' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#AssertText(System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="91">In method 'TestBase.AssertText(string)', consider providing a more meaningful name than parameter name 's'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#dis" Kind="Field" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="Warning">It appears that field 'TestBase.dis' is never used or is only ever assigned to. Use this field or remove it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#GoTo(System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="PassSystemUriObjectsInsteadOfStrings" Category="Microsoft.Usage" CheckId="CA2234" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message TypeName="PassSystemUriObjectsInsteadOfStrings" Category="Microsoft.Usage" CheckId="CA2234" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="80">Modify 'TestBase.GoTo(string)' to call 'Browser.GoTo(Uri)' instead of 'Browser.GoTo(string)'.</Issue>
             </Message>
-            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="80">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'TestBase.GoTo(string)' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="80">In externally visible method 'TestBase.GoTo(string)', validate parameter 'path' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SetUp()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">The compound word 'SetUp' in member name 'TestBase.SetUp()' exists as a discrete term. If your usage is intended to be single word, case it as 'Setup' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="WatiN.Core.Document.ContainsText(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="DependsOnFix">
+            <Message Id="WatiN.Core.Document.ContainsText(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="41">Method 'TestBase.SetUp()' passes a literal string as parameter 'text' of a call to 'Document.ContainsText(string)'. Retrieve the following string(s) from a resource table instead: "Started".</Issue>
             </Message>
-            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotIndirectlyExposeMethodsWithLinkDemands" Category="Microsoft.Security" CheckId="CA2122" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="33" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">'TestBase.SetUp()' calls into 'Process.Start()' which has a LinkDemand. By making this call, 'Process.Start()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'TestBase.SetUp()'&#xD;&#xA;   -&gt;'TestBase.SetUp()'</Issue>
              <Issue Certainty="33" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">'TestBase.SetUp()' calls into 'Process.StartInfo.get()' which has a LinkDemand. By making this call, 'Process.StartInfo.get()' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'TestBase.SetUp()'&#xD;&#xA;   -&gt;'TestBase.SetUp()'</Issue>
              <Issue Certainty="33" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">'TestBase.SetUp()' calls into 'ProcessStartInfo.Arguments.set(string)' which has a LinkDemand. By making this call, 'ProcessStartInfo.Arguments.set(string)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'TestBase.SetUp()'&#xD;&#xA;   -&gt;'TestBase.SetUp()'</Issue>
@@ -92,30 +92,30 @@
              <Issue Certainty="33" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">'TestBase.SetUp()' calls into 'ProcessStartInfo.UseShellExecute.set(bool)' which has a LinkDemand. By making this call, 'ProcessStartInfo.UseShellExecute.set(bool)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'TestBase.SetUp()'&#xD;&#xA;   -&gt;'TestBase.SetUp()'</Issue>
              <Issue Certainty="33" Level="CriticalError" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">'TestBase.SetUp()' calls into 'ProcessStartInfo.WorkingDirectory.set(string)' which has a LinkDemand. By making this call, 'ProcessStartInfo.WorkingDirectory.set(string)' is indirectly exposed to user code. Review the following call stack that might expose a way to circumvent security protection: &#xD;&#xA;   -&gt;'TestBase.SetUp()'&#xD;&#xA;   -&gt;'TestBase.SetUp()'</Issue>
             </Message>
-            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
              <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="61">'TestBase.SetUp()' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
             </Message>
-            <Message Id="webserver" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="DependsOnFix">
+            <Message Id="webserver" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="61">Correct the spelling of the unrecognized token 'webserver' in the literal '"Cannot start webserver"'.</Issue>
             </Message>
-            <Message TypeName="PassSystemUriObjectsInsteadOfStrings" Category="Microsoft.Usage" CheckId="CA2234" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message TypeName="PassSystemUriObjectsInsteadOfStrings" Category="Microsoft.Usage" CheckId="CA2234" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">Modify 'TestBase.SetUp()' to call 'Browser.GoTo(Uri)' instead of 'Browser.GoTo(string)'.</Issue>
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">Modify 'TestBase.SetUp()' to call 'IE.IE(Uri, bool)' instead of 'IE.IE(string, bool)'.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="36">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'TestBase.SetUp()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="52">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'TestBase.SetUp()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="NonBreaking">
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="49">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'TestBase.SetUp()' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:47Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:18Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestWeb.UnitTest" File="TestBase.cs" Line="75">The compound word 'TearDown' in member name 'TestBase.TearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>

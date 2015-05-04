@@ -4,30 +4,30 @@
  <Namespaces>
   <Namespace Name="NHibernate.Burrow.TestUtil">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.TestUtil' with another namespace.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.TestUtil'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.TestUtil.Attributes">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.TestUtil.Attributes' with another namespace.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.TestUtil.Attributes'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.TestUtil.Exceptions">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.TestUtil.Exceptions' with another namespace.</Issue>
     </Message>
-    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+    <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in namespace name 'NHibernate.Burrow.TestUtil.Exceptions'.</Issue>
     </Message>
    </Messages>
@@ -38,13 +38,13 @@
    <Modules>
     <Module Name="nhibernate.burrow.testutil.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.TestUtil.dll' with a strong name key.</Issue>
       </Message>
-      <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+      <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in assembly name 'NHibernate.Burrow.TestUtil.dll'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.TestUtil.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -55,41 +55,41 @@
          <Members>
           <Member Name="#AddCreatedData(System.Object)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="DataProviderBase.cs" Line="37">In method 'DataProviderBase.AddCreatedData(object)', consider providing a more meaningful name than parameter name 'o'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#DeleteEntity(System.Object)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="DataProviderBase.cs" Line="57">In method 'DataProviderBase.DeleteEntity(object)', consider providing a more meaningful name than parameter name 'o'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#DeletePersistenceObject(System.Object)" Kind="Method" Static="True" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="DataProviderBase.cs" Line="73">In method 'DataProviderBase.DeletePersistenceObject(object)', consider providing a more meaningful name than parameter name 'o'.</Issue>
             </Message>
-            <Message Id="o" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message Id="o" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="DataProviderBase.cs" Line="73">Parameter 'o' of 'DataProviderBase.DeletePersistenceObject(object)' is never used. Remove the parameter or use it in the method body.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Random" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotDeclareReadOnlyMutableReferenceTypes" Category="Microsoft.Security" CheckId="CA2104" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="NonBreaking">
              <Issue Certainty="25" Level="Error">Remove the read-only designation from 'DataProviderBase.Random' or change the field to one that is an immutable reference type. If the reference type 'Random' is, in fact, immutable, exclude this message.</Issue>
             </Message>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'DataProviderBase.Random' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RandomInt()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="int" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="int" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="LanguageSpecificMember" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="DataProviderBase.cs" Line="32">Consider replacing the language-specific data type identifier 'Int' in member name 'DataProviderBase.RandomInt()' with either a language-independent equivalent or a more generic term, such as 'value'.</Issue>
             </Message>
            </Messages>
@@ -100,24 +100,24 @@
          <Members>
           <Member Name="#Generate(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="RandomStringGenerator.cs" Line="198">In method 'RandomStringGenerator.Generate(int, int)', call System.IDisposable.Dispose on object 'rng' before all references to it are out of scope.</Issue>
             </Message>
-            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="RandomStringGenerator.cs" Line="145">'RandomStringGenerator.Generate(int, int)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#IsUsingUpperCase" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="UpperCase" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="UpperCase" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="RandomStringGenerator.cs" Line="44">The compound word 'UpperCase' in member name 'RandomStringGenerator.IsUsingUpperCase' exists as a discrete term. If your usage is intended to be single word, case it as 'Uppercase' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RandomInt()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="int" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="int" TypeName="IdentifiersShouldNotContainTypeNames" Category="Microsoft.Naming" CheckId="CA1720" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="LanguageSpecificMember" Certainty="75" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="RandomStringGenerator.cs" Line="83">Consider replacing the language-specific data type identifier 'Int' in member name 'RandomStringGenerator.RandomInt()' with either a language-independent equivalent or a more generic term, such as 'value'.</Issue>
             </Message>
            </Messages>
@@ -128,73 +128,73 @@
          <Members>
           <Member Name="#BeginLog()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="95">The 'this' parameter (or 'Me' in Visual Basic) of 'TestBase.BeginLog()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CommitAndStartnNewPersistentContext()" Kind="Method" Static="True" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="Startn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="Startn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="69">Correct the spelling of 'Startn' in member name 'TestBase.CommitAndStartnNewPersistentContext()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CreateSchema()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="100">The 'this' parameter (or 'Me' in Visual Basic) of 'TestBase.CreateSchema()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#DropSchema()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="105">The 'this' parameter (or 'Me' in Visual Basic) of 'TestBase.DropSchema()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SetUp()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="60">The compound word 'SetUp' in member name 'TestBase.SetUp()' exists as a discrete term. If your usage is intended to be single word, case it as 'Setup' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#tdp" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'TestBase.tdp' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
-            <Message Id="tdp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="tdp" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'tdp' in member name 'TestBase.tdp' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TearDown()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="55">The compound word 'TearDown' in member name 'TestBase.TearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TestFixtureSetUp()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="SetUp" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="76">The compound word 'SetUp' in member name 'TestBase.TestFixtureSetUp()' exists as a discrete term. If your usage is intended to be single word, case it as 'Setup' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TestFixtureTearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="TestBase.cs" Line="87">The compound word 'TearDown' in member name 'TestBase.TestFixtureTearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#testYear" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'TestBase.testYear' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
            </Messages>
@@ -203,25 +203,25 @@
         </Type>
         <Type Name="Util" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in type name 'Util'.</Issue>
           </Message>
-          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+          <Message TypeName="TypeNamesShouldNotMatchNamespaces" Category="Microsoft.Naming" CheckId="CA1724" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
            <Issue Name="System" Certainty="95" Level="Error">The type name 'Util' conflicts in whole or in part with the namespace name 'System.Web.Util' defined in the .NET Framework. Rename the type to eliminate the conflict.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#PrintObject(System.Object)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.Console.WriteLine(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message Id="System.Console.WriteLine(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="Util.cs" Line="19">Method 'Util.PrintObject(object)' passes a literal string as parameter 'value' of a call to 'Console.WriteLine(string)'. Retrieve the following string(s) from a resource table instead: "========== EOF , ===========".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="Util.cs" Line="11">Method 'Util.PrintObject(object)' passes a literal string as parameter 'value' of a call to 'Console.WriteLine(string)'. Retrieve the following string(s) from a resource table instead: "==========, ===========".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="Util.cs" Line="16">Method 'Util.PrintObject(object)' passes a literal string as parameter 'value' of a call to 'Console.WriteLine(string)'. Retrieve the following string(s) from a resource table instead: "Property - , : ".</Issue>
             </Message>
-            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="Util.cs" Line="11">In method 'Util.PrintObject(object)', consider providing a more meaningful name than parameter name 'o'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.TestUtil" File="Util.cs" Line="12">In externally visible method 'Util.PrintObject(object)', validate parameter 'o' before using it.</Issue>
             </Message>
            </Messages>
@@ -234,20 +234,20 @@
        <Types>
         <Type Name="DataProvider" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+          <Message TypeName="AvoidUnsealedAttributes" Category="Microsoft.Performance" CheckId="CA1813" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
            <Issue Certainty="75" Level="Warning">Seal 'DataProvider', if possible.</Issue>
           </Message>
-          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="NonBreaking">
+          <Message TypeName="DefineAccessorsForAttributeArguments" Category="Microsoft.Design" CheckId="CA1019" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Add a public read-only property accessor for positional argument 'dataProviderName' of Attribute 'DataProvider'.</Issue>
           </Message>
-          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+          <Message TypeName="IdentifiersShouldHaveCorrectSuffix" Category="Microsoft.Naming" CheckId="CA1710" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
            <Issue Certainty="95" Level="Error">Rename 'DataProvider' to end in 'Attribute'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#dataProviderName" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Error">Because field 'DataProvider.dataProviderName' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
             </Message>
            </Messages>
@@ -260,14 +260,14 @@
        <Types>
         <Type Name="TestUtilException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="Breaking">
+          <Message Id="Util" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Util' in type name 'TestUtilException'.</Issue>
           </Message>
-          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="NonBreaking">
+          <Message TypeName="ImplementStandardExceptionConstructors" Category="Microsoft.Design" CheckId="CA1032" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="NonBreaking">
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'TestUtilException': protected TestUtilException(SerializationInfo, StreamingContext).</Issue>
            <Issue Name="MissingConstructor" Certainty="95" Level="Error">Add the following constructor to 'TestUtilException': public TestUtilException(String, Exception).</Issue>
           </Message>
-          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2014-09-04 03:29:41Z" FixCategory="NonBreaking">
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2014-12-04 14:21:11Z" FixCategory="NonBreaking">
            <Issue Certainty="95" Level="Error">Add [Serializable] to 'TestUtilException' as this type implements ISerializable.</Issue>
           </Message>
          </Messages>

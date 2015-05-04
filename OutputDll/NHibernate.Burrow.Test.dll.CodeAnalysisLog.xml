@@ -4,79 +4,79 @@
  <Namespaces>
   <Namespace Name="NHibernate.Burrow.Test.AdvNHFunctionTests">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.AdvNHFunctionTests' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.Concurrency">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.Concurrency' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.ConfigurationTests">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.ConfigurationTests' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.ConverstationTests">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.ConverstationTests' with another namespace.</Issue>
     </Message>
-    <Message Id="Converstation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message Id="Converstation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Converstation' in namespace name 'NHibernate.Burrow.Test.ConverstationTests'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.DataContainerTests">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.DataContainerTests' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.FrameworkEnvironment">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.FrameworkEnvironment' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.ManualTransaction">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.ManualTransaction' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.MockEntities">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.MockEntities' with another namespace.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.MultiDB">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.MultiDB' with another namespace.</Issue>
     </Message>
-    <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Multi' in namespace name 'NHibernate.Burrow.Test.MultiDB'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="NHibernate.Burrow.Test.WorkSpace">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'NHibernate.Burrow.Test.WorkSpace' with another namespace.</Issue>
     </Message>
-    <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+    <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
      <Issue Name="NamespaceShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in namespace name 'NHibernate.Burrow.Test.WorkSpace' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace'.</Issue>
     </Message>
    </Messages>
@@ -87,10 +87,10 @@
    <Modules>
     <Module Name="nhibernate.burrow.test.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'NHibernate.Burrow.Test.dll' with a strong name key.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithComVisible" Category="Microsoft.Design" CheckId="CA1017" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
        <Issue Name="NoAttribute" Certainty="95" Level="CriticalError">Because 'NHibernate.Burrow.Test.dll' exposes externally visible types, mark it with ComVisible(false) at the assembly level and then mark all types within the assembly that should be exposed to COM clients with ComVisible(true).</Issue>
       </Message>
      </Messages>
@@ -101,7 +101,7 @@
          <Members>
           <Member Name="#GetSessionFactoryTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\AdvNHFunctionTests" File="ManualSessionFeature.cs" Line="11">The 'this' parameter (or 'Me' in Visual Basic) of 'ManualSessionFeature.GetSessionFactoryTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -114,55 +114,55 @@
        <Types>
         <Type Name="SessionConcurency" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Concurency" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="Concurency" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Concurency' in type name 'SessionConcurency'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#error" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Warning">Consider making 'SessionConcurency.error' non-public or a constant.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#MultiTreadTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.AreEqual(System.Int32,System.Int32,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.AreEqual(System.Int32,System.Int32,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="81">Method 'SessionConcurency.MultiTreadTest()' passes a literal string as parameter 'message' of a call to 'Assert.AreEqual(int, int, string)'. Retrieve the following string(s) from a resource table instead: " Errors occured".</Issue>
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="80">Method 'SessionConcurency.MultiTreadTest()' passes a literal string as parameter 'message' of a call to 'Assert.AreEqual(int, int, string)'. Retrieve the following string(s) from a resource table instead: "not all thread are performed".</Issue>
             </Message>
-            <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="56">Correct the spelling of 'Multi' in member name 'SessionConcurency.MultiTreadTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="occured" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="occured" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="81">Correct the spelling of the unrecognized token 'occured' in the literal '" Errors occured"'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="56">The 'this' parameter (or 'Me' in Visual Basic) of 'SessionConcurency.MultiTreadTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#sesss" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="sesss" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="sesss" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'sesss' in member name 'SessionConcurency.sesss' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Warning">Consider making 'SessionConcurency.sesss' non-public or a constant.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SingleTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="87">The 'this' parameter (or 'Me' in Visual Basic) of 'SessionConcurency.SingleTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#threadPerformed" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message TypeName="NonConstantFieldsShouldNotBeVisible" Category="Microsoft.Usage" CheckId="CA2211" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Certainty="90" Level="Warning">Consider making 'SessionConcurency.threadPerformed' non-public or a constant.</Issue>
             </Message>
            </Messages>
@@ -171,14 +171,14 @@
         </Type>
         <Type Name="SessionConcurency+ThreadTestProcessor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">Do not nest type 'SessionConcurency.ThreadTestProcessor'. Alternatively, change its accessibility so that it is not externally visible.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="num" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="num" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\Concurrency" File="SessionConcurency.cs" Line="21">In method 'SessionConcurency.ThreadTestProcessor.ThreadTestProcessor(int)', correct the spelling of 'num' in parameter name 'num' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -193,46 +193,46 @@
          <Members>
           <Member Name="#ConnectionStringTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="15">The 'this' parameter (or 'Me' in Visual Basic) of 'ConfigReadWriteFixture.ConnectionStringTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
-            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="17">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'ConfigReadWriteFixture.ConnectionStringTest()' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ModifyBurrowConfigruationTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="49">Method 'ConfigReadWriteFixture.ModifyBurrowConfigruationTest()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "Failed to throw ChangeConfigWhenRunningException".</Issue>
             </Message>
-            <Message Id="Configruation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Configruation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="37">Correct the spelling of 'Configruation' in member name 'ConfigReadWriteFixture.ModifyBurrowConfigruationTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="ChangeConfigWhenRunningException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="ChangeConfigWhenRunningException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="49">Correct the spelling of the unrecognized token 'ChangeConfigWhenRunningException' in the literal '"Failed to throw ChangeConfigWhenRunningException"'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="37">The 'this' parameter (or 'Me' in Visual Basic) of 'ConfigReadWriteFixture.ModifyBurrowConfigruationTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ModifyNHConfigruationTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Configruation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Configruation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="68">Correct the spelling of 'Configruation' in member name 'ConfigReadWriteFixture.ModifyNHConfigruationTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="68">The 'this' parameter (or 'Me' in Visual Basic) of 'ConfigReadWriteFixture.ModifyNHConfigruationTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ReadNHConfigFileTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="24">The 'this' parameter (or 'Me' in Visual Basic) of 'ConfigReadWriteFixture.ReadNHConfigFileTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
-            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.String.IndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfigReadWriteFixture.cs" Line="30">Because the behavior of 'string.IndexOf(string)' could vary based on the current user's locale settings, replace this call in 'ConfigReadWriteFixture.ReadNHConfigFileTest()' with a call to 'string.IndexOf(string, StringComparison)'. If the result of 'string.IndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
             </Message>
            </Messages>
@@ -241,27 +241,27 @@
         </Type>
         <Type Name="ConfiguratorFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Configurator' in type name 'ConfiguratorFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#CheckResults()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="37">The 'this' parameter (or 'Me' in Visual Basic) of 'ConfiguratorFixture.CheckResults()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ConfiguratorSetFromConfigFileTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.IsNotNull(System.Object,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.IsNotNull(System.Object,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="30">Method 'ConfiguratorFixture.ConfiguratorSetFromConfigFileTest()' passes a literal string as parameter 'message' of a call to 'Assert.IsNotNull(object, string)'. Retrieve the following string(s) from a resource table instead: "configurator not set".</Issue>
             </Message>
-            <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="27">Correct the spelling of 'Configurator' in member name 'ConfiguratorFixture.ConfiguratorSetFromConfigFileTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="configurator" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="configurator" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="30">Correct the spelling of the unrecognized token 'configurator' in the literal '"configurator not set"'.</Issue>
             </Message>
            </Messages>
@@ -270,40 +270,40 @@
         </Type>
         <Type Name="TestConfigurator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="Configurator" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Configurator' in type name 'TestConfigurator'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Config(NHibernate.Burrow.IBurrowConfig)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="64">In externally visible method 'TestConfigurator.Config(IBurrowConfig)', validate parameter 'val' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Config(NHibernate.Burrow.IPersistenceUnitCfg,NHibernate.Cfg.Configuration)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="1#" TypeName="ParameterNamesShouldMatchBaseDeclaration" Category="Microsoft.Naming" CheckId="CA1725" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="69">In member 'TestConfigurator.Config(IPersistenceUnitCfg, Configuration)', change parameter name 'configuration' to 'nhCfg' in order to match the identifier as it has been declared in 'IConfigurator.Config(IPersistenceUnitCfg, Configuration)'.</Issue>
             </Message>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="76">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'TestConfigurator.Config(IPersistenceUnitCfg, Configuration)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="69">In externally visible method 'TestConfigurator.Config(IPersistenceUnitCfg, Configuration)', validate parameter 'puCfg' before using it.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="71">In externally visible method 'TestConfigurator.Config(IPersistenceUnitCfg, Configuration)', validate parameter 'configuration' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TestConverstationTimeOut" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TimeOut" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="TimeOut" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="52">The compound word 'TimeOut' in member name 'TestConfigurator.TestConverstationTimeOut' exists as a discrete term. If your usage is intended to be single word, case it as 'Timeout' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="Converstation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Converstation" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConfigurationTests" File="ConfiguratorFixture.cs" Line="52">Correct the spelling of 'Converstation' in member name 'TestConfigurator.TestConverstationTimeOut' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -318,36 +318,36 @@
          <Members>
           <Member Name="#ConversationalDataSpanBahaviorTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Bahavior" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Bahavior" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="49">Correct the spelling of 'Bahavior' in member name 'ConversationalDataFixture.ConversationalDataSpanBahaviorTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ExpectConversationUnavailableException(NHibernate.Burrow.ConversationalData`1&lt;System.Int32&gt;)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="17">Method 'ConversationalDataFixture.ExpectConversationUnavailableException(ConversationalData&lt;int&gt;)' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "Failed to throw a ConversationUnavailableException.".</Issue>
             </Message>
-            <Message Id="ConversationUnavailableException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="ConversationUnavailableException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="17">Correct the spelling of the unrecognized token 'ConversationUnavailableException' in the literal '"Failed to throw a ConversationUnavailableException."'.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="16">The 'this' parameter (or 'Me' in Visual Basic) of 'ConversationalDataFixture.ExpectConversationUnavailableException(ConversationalData&lt;int&gt;)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="16">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'ConversationalDataFixture.ExpectConversationUnavailableException(ConversationalData&lt;int&gt;)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SpanOverMultipleDomainContextTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="96">Method 'ConversationalDataFixture.SpanOverMultipleDomainContextTest()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "Failed to throw a ConversationUnavailableException.".</Issue>
             </Message>
-            <Message Id="ConversationUnavailableException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="ConversationUnavailableException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="96">Correct the spelling of the unrecognized token 'ConversationUnavailableException' in the literal '"Failed to throw a ConversationUnavailableException."'.</Issue>
             </Message>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationalDataFixture.cs" Line="95">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'ConversationalDataFixture.SpanOverMultipleDomainContextTest()' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -358,7 +358,7 @@
          <Members>
           <Member Name="#ManualRollbackTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="ConversationManagementFixture.cs" Line="47">The 'this' parameter (or 'Me' in Visual Basic) of 'ConversationManagementFixture.ManualRollbackTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -369,7 +369,7 @@
          <Members>
           <Member Name="#WrapTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ConverstationTests" File="WrapUrlFixture.cs" Line="14">The 'this' parameter (or 'Me' in Visual Basic) of 'WrapUrlFixture.WrapTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -384,7 +384,7 @@
          <Members>
           <Member Name="#NullTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\DataContainerTests" File="GuidDataContainerFixture.cs" Line="40">The 'this' parameter (or 'Me' in Visual Basic) of 'GuidDataContainerFixture.NullTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -397,14 +397,14 @@
        <Types>
         <Type Name="FuctionFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Fuction" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="Fuction" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Fuction' in type name 'FuctionFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#GetNHibernateCfgTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Cfg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\FrameworkEnvironment" File="FuctionFixture.cs" Line="9">Correct the spelling of 'Cfg' in member name 'FuctionFixture.GetNHibernateCfgTest()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -413,24 +413,24 @@
         </Type>
         <Type Name="ShutDownFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="ShutDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="ShutDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'ShutDown' in type name 'ShutDownFixture' exists as a discrete term. If your usage is intended to be single word, case it as 'Shutdown'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#CannotInitializeDomainTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.Fail(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\FrameworkEnvironment" File="ShutDownFixture.cs" Line="31">Method 'ShutDownFixture.CannotInitializeDomainTest()' passes a literal string as parameter 'message' of a call to 'Assert.Fail(string)'. Retrieve the following string(s) from a resource table instead: "Failed to throw FrameworkAlreadyShutDownException".</Issue>
             </Message>
-            <Message Id="FrameworkAlreadyShutDownException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="FrameworkAlreadyShutDownException" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\FrameworkEnvironment" File="ShutDownFixture.cs" Line="31">Correct the spelling of the unrecognized token 'FrameworkAlreadyShutDownException' in the literal '"Failed to throw FrameworkAlreadyShutDownException"'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\FrameworkEnvironment" File="ShutDownFixture.cs" Line="14">The compound word 'TearDown' in member name 'ShutDownFixture.TearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -443,27 +443,27 @@
        <Types>
         <Type Name="ManualTransactionFexture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Fexture" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="Fexture" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Fexture' in type name 'ManualTransactionFexture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#RollBackShouldCloseWorkSpaceTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="RollBack" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="RollBack" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ManualTransaction" File="ManualTransactionFexture.cs" Line="63">The compound word 'RollBack' in member name 'ManualTransactionFexture.RollBackShouldCloseWorkSpaceTest()' exists as a discrete term. If your usage is intended to be single word, case it as 'Rollback' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ManualTransaction" File="ManualTransactionFexture.cs" Line="63">The compound word 'WorkSpace' in member name 'ManualTransactionFexture.RollBackShouldCloseWorkSpaceTest()' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message Id="NUnit.Framework.Assert.IsNull(System.Object,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message Id="NUnit.Framework.Assert.IsNull(System.Object,System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ManualTransaction" File="ManualTransactionFexture.cs" Line="71">Method 'ManualTransactionFexture.RollBackShouldCloseWorkSpaceTest()' passes a literal string as parameter 'message' of a call to 'Assert.IsNull(object, string)'. Retrieve the following string(s) from a resource table instead: "Rolled back transaction did get commit".</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\ManualTransaction" File="ManualTransactionFexture.cs" Line="15">The compound word 'TearDown' in member name 'ManualTransactionFexture.TearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -478,14 +478,14 @@
          <Members>
           <Member Name="#StringList" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MockEntities" File="MockEntity.cs" Line="29">Change 'MockEntity.StringList' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MockEntities" File="MockEntity.cs" Line="90">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'MockEntity.ToString()' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -494,14 +494,14 @@
         </Type>
         <Type Name="MockEntityDAO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'DAO' in type name 'MockEntityDAO' by changing it to 'Dao'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Crit()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="Crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MockEntities" File="MockEntityDAO.cs" Line="28">Correct the spelling of 'Crit' in member name 'MockEntityDAO.Crit()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -516,14 +516,14 @@
          <Members>
           <Member Name="#StringList" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MultiDB" File="MockEntity2.cs" Line="29">Change 'MockEntity2.StringList' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ToString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="NonBreaking">
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="NonBreaking">
              <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MultiDB" File="MockEntity2.cs" Line="90">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'MockEntity2.ToString()' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
@@ -532,14 +532,14 @@
         </Type>
         <Type Name="MockEntity2DAO" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="DAO" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'DAO' in type name 'MockEntity2DAO' by changing it to 'Dao'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Crit()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message Id="Crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="Crit" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MultiDB" File="MockEntity2DAO.cs" Line="28">Correct the spelling of 'Crit' in member name 'MockEntity2DAO.Crit()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
@@ -548,24 +548,24 @@
         </Type>
         <Type Name="MultiDBFixture" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Multi' in type name 'MultiDBFixture'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#TearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MultiDB" File="MultiDBFixture.cs" Line="44">The compound word 'TearDown' in member name 'MultiDBFixture.TearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#TestFixtureTearDown()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+            <Message Id="TearDown" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
              <Issue Name="MemberShouldBeDiscreteTerm" Certainty="80" Level="Error" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MultiDB" File="MultiDBFixture.cs" Line="32">The compound word 'TearDown' in member name 'MultiDBFixture.TestFixtureTearDown()' exists as a discrete term. If your usage is intended to be single word, case it as 'Teardown' or strip the first token entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\MultiDB" File="MultiDBFixture.cs" Line="32">The 'this' parameter (or 'Me' in Visual Basic) of 'MultiDBFixture.TestFixtureTearDown()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -578,14 +578,14 @@
        <Types>
         <Type Name="MultipleWorkSpaceTest" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="Breaking">
+          <Message Id="WorkSpace" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="Breaking">
            <Issue Name="TypeShouldBeDiscreteTerm" Certainty="80" Level="Error">The compound word 'WorkSpace' in type name 'MultipleWorkSpaceTest' exists as a discrete term. If your usage is intended to be single word, case it as 'Workspace'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#StartOneAfterAnotherTest()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-09-04 03:29:50Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2014-12-04 14:21:22Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="d:\SourceCode\OpenSource\GitStuff\nhibernate.burrow-custom\src\NHibernate.Burrow.Test\WorkSpace" File="MultipleWorkSpaceTest.cs" Line="11">The 'this' parameter (or 'Me' in Visual Basic) of 'MultipleWorkSpaceTest.StartOneAfterAnotherTest()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
